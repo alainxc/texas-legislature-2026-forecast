@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2E62DHSW0J"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2E62DHSW0J');
+        </script>
+
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="9uDPdt9xXLyZbpAZNufvUZAkIL5qDhA1Tv8xhJUc" />
+
+        <link rel="preload" as="style" href="https://texaspolitics.utexas.edu/build/assets/app-DW9vTlcy.css" /><link rel="stylesheet" href="https://texaspolitics.utexas.edu/build/assets/app-DW9vTlcy.css" data-navigate-track="reload" />
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.bunny.net" />
+        <link href="https://fonts.bunny.net/css?family=dm-sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet" />
+
+        <script async src="https://cse.google.com/cse.js?cx=002688418440466237416:0congcgeqn4"></script>
+
+        <link rel="canonical" href="https://texaspolitics.utexas.edu/blog/texas-2026-u-s-senate-poll-tracker" />
+<link rel="shortlink" href="https://texaspolitics.utexas.edu/blog/texas-2026-u-s-senate-poll-tracker" />
+<meta property="og:site_name" content="The Texas Politics Project" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://texaspolitics.utexas.edu/blog/texas-2026-u-s-senate-poll-tracker" />
+<meta property="og:title" content="Texas 2026 U.S. Senate Poll Tracker" />
+<meta property="og:updated_time" content="2026-11-01 11:56:21" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://texaspolitics.utexas.edu/blog/texas-2026-u-s-senate-poll-tracker" />
+<meta name="twitter:title" content="Texas 2026 U.S. Senate Poll Tracker" />
+<meta property="article:published_time" content="2026-08-05 08:44:17" />
+<meta property="article:modified_time" content="2026-11-01 11:56:21" />
+<title>Texas 2026 U.S. Senate Poll Tracker | The Texas Politics Project</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.11.0/proj4.js"></script>
+<script type="text/javascript" src="https://texaspolitics.utexas.edu/build/highcharts/highmaps.js"></script>
+<script type="text/javascript" src="https://texaspolitics.utexas.edu/build/highcharts/modules/data.js"></script>
+<script type="text/javascript" src="https://texaspolitics.utexas.edu/build/highcharts/modules/exporting.js"></script>
+<script type="text/javascript" src="https://texaspolitics.utexas.edu/build/highcharts/modules/export-data.js"></script>
+<script type="text/javascript" src="https://texaspolitics.utexas.edu/build/highcharts/modules/accessibility.js"></script>
+<script>
+    function excludeSeries(chart, ex) {
+        var s = chart.series.map(sr => sr.name);
+        var idx = []
+        s.forEach((nm, id) => {
+            if (ex.includes(nm)) {
+                idx.push(id);
+            }
+        });
+        idx.forEach((i) => {
+            chart.series[i].hide();
+        });
+    }
+</script>
+    </head>
+    <body>
+                <a href="#main-content" title="main content" class="sr-only sr-only-focusable">Skip to main content</a>
+        <header class="header-desktop">
+    <div class="header-desktop-content">
+        <a class="logo" href="/">
+            <img alt="return to homepage of The Texas Politics Project" src="https://minio.la.utexas.edu/texas-politics/Images/Site/TexasPoliticsLogo.svg" class="h-[100px]">
+        </a>
+        <div class="header-links text-right">
+            <a href="/about">About</a> | <a href="/subscribe">Subscribe</a>
+        </div>
+        <search>
+            <form method="GET" action="/search">
+                <input name="q" aria-label="Search" placeholder="Search for..."><i class="las la-search" aria-hidden="true"></i>
+            </form>
+        </search>
+        <nav class="menu-desktop" aria-label="desktop header menu">
+            <ul>
+                <li class="nav-polling">
+                    <a href="/polling">Polling<i class="las la-angle-down"></i></a>
+                    <div class="nav-submenu nav-polling__dropdown">
+                        <div>
+                            <a href="/polling">
+                                <p>Polling</p>
+                                <p>The Texas Politics Project conducts regular, non-partisan, statewide polls of registered voters in Texas, and makes the results and data available for public use.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/blog">
+                                <p>Blog</p>
+                                <p>Find interpretation and analysis of Texas politics and government from the Texas Politics Project.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/latest-poll">
+                                <p>Latest Poll</p>
+                                <p>Browse and download graphics for all the findings from the most recent University of Texas/Texas Politics Project Poll.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/polling-data-archive">
+                                <p>Data Archive</p>
+                                <p>Find data, documentation, and links to tens of thousands of graphics from more than 15 years of Texas Politics Project polling.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/polling/search">
+                                <p>Polling Search</p>
+                                <p>Search results from Texas Politics Project polling by name, subject, and/or key groups, and download the results in multiple formats.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-education">
+                    <a href="/education">Education<i class="las la-angle-down"></i></a>
+                    <div class="nav-submenu nav-education__dropdown">
+                        <div>
+                            <a href="/education">
+                                <p>Education</p>
+                                <p>Texas Politics Project educational efforts include the <em>Texas Politics</em> Project webtext, courses taught through the University of Texas and University Extension, and an archive of open-source resources for teachers, students, and the public.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.soomolearning.com/courses/texas-politics">
+                                <p>Textbook</p>
+                                <p>The <em>Texas Politics</em> webtext is affordable, engaging, and informed by Texas Politics Project public opinion polling and expertise.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/classes">
+                                <p>Classes</p>
+                                <p>The Texas Politics Project produces courses for students enrolled at UT Austin and for the public via University extension.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/educational-resources">
+                                <p>Educational Resources</p>
+                                <p>Explore our archive of data visualization and other open source educational content.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-resources">
+                    <a href="/resources">Resources<i class="las la-angle-down"></i></a>
+                    <div class="nav-submenu nav-resources__dropdown">
+                        <div>
+                            <a href="/resources">
+                                <p>Resources</p>
+                                <p>Find resources for learning and teaching about Texas politics and government from UT Austin and other public sources.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/publications">
+                                <p>Publications</p>
+                                <p>Browse work by researchers who have used Texas Politics Project data and analysis.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/polling-data-archive">
+                                <p>Data Archive</p>
+                                <p>Find data, documentation, and links to tens of thousands of graphics from more than 15 years of Texas Politics Project polling.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/polling/search">
+                                <p>Polling Search</p>
+                                <p>Search for Texas Politics Project polling results by date, subject, electoral group, and/or free text.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/research/data-visualization/search">
+                                <p>Data Visualization</p>
+                                <p>View visualizations of public opinion and other Texas data.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-internships">
+                    <a href="/internship">Internships<i class="las la-angle-down"></i></a>
+                    <div class="nav-submenu nav-internships__dropdown">
+                        <div>
+                            <a href="/internship">
+                                <p>View recent internships</p>
+                                <p>Latest internship listings.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="/post-internship">
+                                <p>Post an internship</p>
+                                <p>Submit your internship for consideration.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                            <a href="/find-internship">
+                                <p>Find an internship</p>
+                                <p>Search all available interships.</p>
+                                <span class="read-more">Read more <i class="las la-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<header class="header-mobile">
+    <button class="menu-toggle" popovertarget="mobile-menu" popovertargetaction="toggle">Menu</button>
+    <nav id="mobile-menu" class="menu-mobile" aria-label="mobile header menu" popover>
+        <ul>
+            <li>Polling
+                <ul class="mobile-submenu">
+                    <li><a href="/polling">Polling</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/latest-poll">Latest Poll</a></li>
+                    <li><a href="/polling-data-archive">Data Archive</a></li>
+                    <li><a href="/polling/search">Polling Search</a></li>
+                </ul>
+            </li>
+            <li>Education
+                <ul class="mobile-submenu">
+                    <li><a href="/education">Education</a></li>
+                    <li><a href="https://www.soomolearning.com/courses/texas-politics">Textbook</a></li>
+                    <li><a href="/classes">Classes</a></li>
+                    <li><a href="/educational-resources">Educational Resources</a></li>
+                </ul>
+            </li>
+            <li>Resources
+                <ul class="mobile-submenu">
+                    <li><a href="/resources">Texas Resources</a></li>
+                    <li><a href="/publications">Publications</a></li>
+                    <li><a href="/polling-data-archive">Data Archive</a></li>
+                    <li><a href="/research/data-visualization/search">Data Visualization</a></li>
+                </ul>
+            </li>
+            <li>Internships
+                <ul class="mobile-submenu">
+                    <li><a href="/internship">View Recent Internships</a></li>
+                    <li><a href="/post-internship">Post an Internship</a></li>
+                    <li><a href="/find-internship">Find an Internship</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <a href="/">
+        <img alt="return to homepage of The Texas Politics Project" src="https://minio.la.utexas.edu/texas-politics/Images/Site/TexasPoliticsLogo.svg" />
+    </a>
+    <button class="responsive-search" popovertarget="responsive-search" aria-label="open search input"><i class= "las la-search" aria-hidden="true"></i></button>
+    <div popover id="responsive-search">
+        <search>
+            <form method="GET" action="/search">
+                <input name="q" aria-label="Search" placeholder="Search..."><i class="las la-search" aria-hidden="true"></i>
+            </form>
+        </search>
+    </div>
+</header>        <main id="main-content">
+            <article>
+    <header>
+        <h1 class="unstyled-title">Texas 2026 U.S. Senate Poll Tracker</h1>
+        <div class="blog-meta">
+            <time datetime="2026-08-05 08:44:17">August 05, 2026</time> · By:
+                                    <a href="/authors/texas-politics-project">Texas Politics Project</a>
+                                </div>
+    </header>
+    <div class="blog-article"><p>The table compiles non-partisan public polling in the U.S. Senate race in Texas being contested by Republican Ken Paxton, Democrat Jame Talarico, and Libertarian Ted Brown since the conclusion of the Republican primary in late May. Brown has not been included in all polls.</p>
+<p><strong>Updated 11/1/2026: </strong>Added YouGov Poll</p>
+<p style="text-align: center;"><strong style="text-align: center; font-size: 24px;">Texas 2026 U.S. Senate Election Polling&nbsp;</strong></p>
+<table style="width: 984px; height: 1244.83px; border-collapse: collapse; border-width: 3px; border-spacing: 1px;" border="1" cellspacing="1" cellpadding="1" align="center">
+<thead>
+<tr style="height: 49.7754px;">
+<th style="width: 200.906px; border-width: 3px;" scope="col"><strong>Poll</strong></th>
+<th style="width: 98.1667px; border-width: 3px;" scope="col"><strong>Field Dates</strong></th>
+<th style="width: 65.0208px; border-width: 3px;" scope="col"><strong>Sample Size</strong></th>
+<th style="width: 64.7292px; border-width: 3px;" scope="col"><strong>Sample Type</strong></th>
+<th style="width: 85.625px; border-width: 3px;" scope="col"><strong>MOE</strong></th>
+<th style="width: 75.0625px; border-width: 3px;" scope="col"><strong>Paxton</strong></th>
+<th style="width: 91.5417px; border-width: 3px;" scope="col"><strong>Talarico</strong></th>
+<th style="width: 162.198px; border-width: 3px;" scope="col"><strong>Other</strong></th>
+<th style="width: 96.0833px; border-width: 3px;" scope="col"><strong>Spread</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 200.906px; border-width: 3px;"><a href="https://t.co/E9NntxQaQf" target="_blank" rel="noopener">YouGov</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/26 - 10/29</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">2141</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 2.9%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">51</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Someone else 1, not sure 1</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico + 4</td>
+</tr>
+<tr style="height: 26.8848px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.jordanresearchcenter.org/s/TSUStatewideOct2026.pdf" target="_blank" rel="noopener">TSU</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/21 - 10/25</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">2000</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 2.19</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Brown 3, Undecided 1</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +2</td>
+</tr>
+<tr>
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.documentcloud.org/documents/28856724-cnn-poll-conducted-by-ssrs-texas-october/" target="_blank" rel="noopener">CNN/SSRS</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/20 - 10/27</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">923</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 4.2</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">43</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Neither 5%, Other 3%</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +6</td>
+</tr>
+<tr style="height: 26.8848px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://emersoncollegepolling.com/texas-2026-poll-toss-up/" target="_blank" rel="noopener">Emerson College</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/17 - 10/19</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1000</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-3.1%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">46</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">48</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Brown 1, Undecided 5</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +2</td>
+</tr>
+<tr style="height: 26.8848px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.foxnews.com/politics/fox-news-poll-texas-senate-race-galloping-toward-photo-finish" target="_blank" rel="noopener">Fox News</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/15 - 10/19</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1398</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 2.5%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Don't know 1</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Even</td>
+</tr>
+<tr style="height: 26.8848px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.univision.com/noticias/politica/poll-univision-texas-latinos" target="_blank" rel="noopener">N+ Univision (YouGov)</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/13&ndash;10/21</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1000</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">RV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-3.8%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">45</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">50</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Other 1, undecided 5</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +5</td>
+</tr>
+<tr style="height: 26.8848px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.uh.edu/hobby/texas2026/statewide26.pdf" target="_blank" rel="noopener">U of H / Hobby School</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/10 - 10/15</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">2000</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-2.19%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">46</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">48</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Brown 3, undecided 3</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +2</td>
+</tr>
+<tr style="height: 26.8848px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.cbsnews.com/news/texas-senate-talarico-paxton-poll/" target="_blank" rel="noopener">CBS/YouGov</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/8 - 10/16</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1343</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-3.5%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">51</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">N/A</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +2</td>
+</tr>
+<tr style="height: 49.2773px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://maristpoll.marist.edu/polls/2026-midterm-elections-in-texas-october-2026/" target="_blank" rel="noopener">Marist</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/8 - 10/11</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">?</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-4.9%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">45</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Other 2, undecided 4, no response 2</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +2</td>
+</tr>
+<tr style="height: 49.2773px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://reconmr.com/wp-content/uploads/2026/10/TXP004-October-Press-Release.pdf" target="_blank" rel="noopener">Recon MR/Siena</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">10/5 - 10/8</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">617</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 4.4</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">44</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">48</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Someone else 3, refused 5</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +4</td>
+</tr>
+<tr style="height: 71.6699px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://t.co/R9FoN2wOMM" target="_blank" rel="noopener">YouGov (in house)</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/28 - 10/5</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">3625</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 3%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">44</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">50</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Other 3, not sure 2, will not vote in this race 1</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +6</td>
+</tr>
+<tr style="height: 49.2773px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="../../../blog/latest-ut-texas-politics-poll-finds-historic-levels-of-competition-in-texas-midterm-elections" target="_blank" rel="noopener">UT/Texas Politics Project</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/25 - 10/5</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">861</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 3.34</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">50</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Ted Brown 1, someone else 2</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +3</td>
+</tr>
+<tr style="height: 26.8848px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.foxnews.com/politics/fox-news-poll-its-lone-star-senate-showdown-between-talarico-paxton" target="_blank" rel="noopener">Fox News</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/24 - 9/28</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">881</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-3%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">51</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">n/a</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +2</td>
+</tr>
+<tr style="height: 26.8848px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.nytimes.com/interactive/2026/10/03/polls/times-siena-texas-poll-toplines.html" target="_blank" rel="noopener">New York Times/Sienna</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/21 - 9/30</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">615</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-4%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">43</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Other&nbsp; &lt;.5, Unsure %</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +6</td>
+</tr>
+<tr style="height: 27.3633px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://data.ddhq.io/polls/2026/09/23/Marist-College-Texas" target="_blank" rel="noopener">NPR/Marist</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/17 - 9/20</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1139</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">RV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-4.4%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">44</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">50</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Other 2; Undecided 4</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +6</td>
+</tr>
+<tr style="height: 27.3633px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6ab15cb39e4cc420b9ef07f5/1790008500236/TSUSept2026_TXStatewideRaces.pdf?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=newsletter_axioslocal_houston&amp;stream=top" target="_blank" rel="noopener">TSU/YouGov</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/15 - 9/19</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1800</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-2.31%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">46</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Brown 3; Unsure 4</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +1</td>
+</tr>
+<tr style="height: 27.3633px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://emersoncollegepolling.com/texas-2026-poll-talarico-and-paxton-in-dead-heat-abbott-maintains-edge/" target="_blank" rel="noopener">Emerson College/Nexstar</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/12 - 9/14</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1000</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-3.0%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">46</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Brown 2; Undecided 4.</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +1</td>
+</tr>
+<tr style="height: 49.7754px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://reconmr.com/wp-content/uploads/2026/09/ReconMR-Texas-Poll-September-Crosstabs.pdf" target="_blank" rel="noopener">Recon MR</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/8 - 9/11</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">614</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-4.3%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">43</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Someone else 3; Wouldn't vote 1; DK 4</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +6</td>
+</tr>
+<tr style="height: 27.3633px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.nbcnews.com/politics/2026-election/texas-poll-james-talarico-holds-narrow-advantage-senate-greg-abbott-le-rcna598432" target="_blank" rel="noopener">NBC News/Mason-Dixon</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">9/8-9/10</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">625</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 4.0</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">43</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">46</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">other/undecided 11</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico + 3</td>
+</tr>
+<tr style="height: 49.4336px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://data.ddhq.io/polls/2026/09/10/Fabrizio-Ward/Impact-Research/AARP-Texas-2026-08-30-2026-09-01" target="_blank" rel="noopener">AARP Texas Voter Survey</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">8/30 - 9/1</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">895</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-3.0%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">44</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">49</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Other 0; Undecided 8</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +4</td>
+</tr>
+<tr style="height: 27.3633px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://st1.uvnimg.com/3f/4b/1bfa5e5a4df9b60581e66d97973b/univision-texas-poll-crosstabs-base.pdf" target="_blank" rel="noopener">Televisa/Univision</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">8/27 - 9/4</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1000</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">RV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/- 3.6%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">43</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">48</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Other 1; DK 7</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +5</td>
+</tr>
+<tr style="height: 71.8262px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="../../../blog/new-ut-texas-politics-project-poll-finds-talarico-leading-paxton-abbott-leading-hinojosa-continued-resistance-to-data-centers-2" target="_blank" rel="noopener">UT/Texas Politics Project</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">8/5 - 8/13</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1200</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">RV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-2.8%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">39</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">42</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Brown 3; someone else/dk 15</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +3</td>
+</tr>
+<tr style="height: 49.7754px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://emersoncollegepolling.com/texas-2026-poll-paxton-and-talarico/" target="_blank" rel="noopener">Emerson College</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">8/9 - 8/10</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1000</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-3.0%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">46</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Someone else 2; Unsure 5.</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Paxton +1</td>
+</tr>
+<tr style="height: 49.7754px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://reconmr.com/wp-content/uploads/2026/08/TXP002-Texas-Pulse-Texas-AM-Bush-School-Crosstabs.pdf" target="_blank" rel="noopener">Bush School/Recon MR</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">7/27 - 7/30</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">619</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-4.7%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">43</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">&nbsp;Unsure/someone else 10</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +4</td>
+</tr>
+<tr style="height: 72.1875px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://static1.squarespace.com/static/67aa7aa3e284b002cd6a420e/t/6a713767d4ed824b91ea090d/1785804647961/Texas+Statewide+August2026.pdf" target="_blank" rel="noopener">TSU/YouGov</a></td>
+<td class="rtecenter" style="width: 98.1667px; text-align: center; border-width: 3px;">7/27 - 7/30</td>
+<td class="rtecenter" style="width: 65.0208px; text-align: center; border-width: 3px;">1200</td>
+<td class="rtecenter" style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td class="rtecenter" style="width: 85.625px; text-align: center; border-width: 3px;">+/-2.8%</td>
+<td class="rtecenter" style="width: 75.0625px; text-align: center; border-width: 3px;">45</td>
+<td class="rtecenter" style="width: 91.5417px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Brown 2, unsure/someone else 6</td>
+<td class="rtecenter" style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +2</td>
+</tr>
+<tr style="height: 49.7754px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.foxnews.com/politics/fox-news-poll-gop-divisions-shape-texas-senate-race" target="_blank" rel="noopener">FOX News</a></td>
+<td class="rtecenter" style="width: 98.1667px; text-align: center; border-width: 3px;">7/23 - 7/27</td>
+<td class="rtecenter" style="width: 65.0208px; text-align: center; border-width: 3px;">1006</td>
+<td class="rtecenter" style="width: 64.7292px; text-align: center; border-width: 3px;">RV</td>
+<td class="rtecenter" style="width: 85.625px; text-align: center; border-width: 3px;">+/-3.0%</td>
+<td class="rtecenter" style="width: 75.0625px; text-align: center; border-width: 3px;">48</td>
+<td class="rtecenter" style="width: 91.5417px; text-align: center; border-width: 3px;">51</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Unsure/someone else 1</td>
+<td class="rtecenter" style="width: 96.0833px; text-align: center; border-width: 3px;">Talarico +3</td>
+</tr>
+<tr style="height: 49.7754px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://www.nytimes.com/interactive/2026/07/01/polls/times-siena-texas-poll-crosstabs.html" target="_blank" rel="noopener">NY Times/Siena</a></td>
+<td class="rtecenter" style="width: 98.1667px; text-align: center; border-width: 3px;">6/19 - 6/27</td>
+<td class="rtecenter" style="width: 65.0208px; text-align: center; border-width: 3px;">656</td>
+<td class="rtecenter" style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td class="rtecenter" style="width: 85.625px; text-align: center; border-width: 3px;">+/-4.5%</td>
+<td class="rtecenter" style="width: 75.0625px; text-align: center; border-width: 3px;">47</td>
+<td class="rtecenter" style="width: 91.5417px; text-align: center; border-width: 3px;">47</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Unsure/someone else 7</td>
+<td class="rtecenter" style="width: 96.0833px; text-align: center; border-width: 3px;">Even</td>
+</tr>
+<tr style="height: 72.1875px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="../../../blog/june-poll-finds-a-competitive-u-s-senate-race-in-texas-amid-continuing-economic-concerns-data-center-backlash" target="_blank" rel="noopener">UT/Texas Politics Project</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">6/5 - 6/12</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">1200</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">RV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-2.8%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">43</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">42</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Brown 3, Unsure/someone else 7</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Paxton +1</td>
+</tr>
+<tr style="height: 49.7754px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://quantusinsights.org/f/texas-republicans-lead-statewide-senate-race-starts-close" target="_blank" rel="noopener">Quantus Insights</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">6/3 - 6/4</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">800</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-3.5%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">45</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">43</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Someone else 4, unsure 7</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Paxton +2</td>
+</tr>
+<tr style="height: 59.375px;">
+<td style="width: 200.906px; border-width: 3px;"><a href="https://reconmr.com/wp-content/uploads/2026/06/TXPLV-Crosstabs-1.pdf" target="_blank" rel="noopener"> Bush School/Recon MR</a></td>
+<td style="width: 98.1667px; text-align: center; border-width: 3px;">6/1 - 6/4</td>
+<td style="width: 65.0208px; text-align: center; border-width: 3px;">807</td>
+<td style="width: 64.7292px; text-align: center; border-width: 3px;">LV</td>
+<td style="width: 85.625px; text-align: center; border-width: 3px;">+/-4.0%</td>
+<td style="width: 75.0625px; text-align: center; border-width: 3px;">46</td>
+<td style="width: 91.5417px; text-align: center; border-width: 3px;">46</td>
+<td style="width: 162.198px; text-align: left; border-width: 3px;">Someone else/unsure 9</td>
+<td style="width: 96.0833px; text-align: center; border-width: 3px;">Even</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3>Previous Updates</h3>
+<ul>
+<li>October 29, 2026: Added Texas Southern University / Barbara Jordan Public Policy Research and Survey Center poll, CNN polls.</li>
+<li>October 27, 2026: Added N+ Univision Poll</li>
+<li>October 26, 2026<strong>:</strong> Added Emerson College Poll.October 18, 2026: Added Fox News Poll released October 21.</li>
+<li>October 18, 2026: Added CBS/YouGover poll released October 18</li>
+<li>October 14, 2026: Added UT/Texas Politics Project, ReconMR/Siena, Marist results.</li>
+<li>October 6, 2026: Added YouGov in house poll relesed October 6</li>
+<li>October 3, 2026:<strong>&nbsp;</strong>Added New York Times/Sienna Poll released October 3.Updated October 1, 2026<strong>:&nbsp;</strong>Added NPR/Marist Poll released September 23.</li>
+<li>September 23, 2026<strong>: </strong>Added NPR/Marist Poll released September 23.</li>
+<li>September 22, 2026: Added TSU/YouGov poll released September 22.</li>
+<li>September 21, 2026: &nbsp;Added NBC News/Mason-Dixon poll released September 21.</li>
+<li>September 17, 2026: &nbsp;Added Emerson College Polling/Nexstar Media and Recon MR poll released September 17</li>
+<li>September 10, 2026: &nbsp;Added Televisa/Univision Polling survey released September 9 and AARP Texas Voter Survey released September 10.</li>
+<li>August 13, 2026: &nbsp;Added Emerson College Polling survey released August 13.</li>
+<li>August 7, 2026: &nbsp;Added Bush School/Recon MR&nbsp; Pulse Poll<sup>TM </sup>released August 7.</li>
+<li>August 5, 2026: &nbsp;First compilation of public polling in the U.S. Senate election for the seat currently occupied by John Cornyn. Check back for updates as new statewide polling is released.</li>
+</ul></div>
+    <div style="clear: both;"></div>
+        <div class="blog-meta"><strong>Keywords:</strong>
+                    <a href="/blog/keyword/2026-election">2026 election</a>
+                            <a href="/people/james-talarico">James Talarico</a>
+                    <a href="/people/ken-paxton">Ken Paxton</a>
+            </div>
+        <footer id="blog-footer">
+        <div>
+    <h2>Sign up for the Texas Politics Newsletter</h2>
+    <p>Stay up to date on the latest polling results, analysis, events, and more from the Texas Politics Project.</p>
+    <div id="mc_embed_signup">
+        <form action="https://utexas.us4.list-manage.com/subscribe/post?u=743c19c8799aea8f9ffafabe2&amp;id=ade42ae6be" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+        <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group"><label for="mce-EMAIL" class="signup-space">Email Address <span class="asterisk">*</span> </label> <input class="required email" id="mce-EMAIL" name="EMAIL" type="email" value="" /></div>
+            <div class="mc-field-group"><label for="mce-FNAME" class="signup-space">First Name </label> <input id="mce-FNAME" name="FNAME" type="text" value="" /></div>
+            <div class="mc-field-group"><label for="mce-LNAME" class="signup-space">Last Name </label> <input id="mce-LNAME" name="LNAME" type="text" value="" /></div>
+            <div class="clear" id="mce-responses">
+                <div class="response" id="mce-error-response" style="display:none">&nbsp;</div>
+                <div class="response" id="mce-success-response" style="display:none">&nbsp;</div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div aria-hidden="true" style="position: absolute; left: -5000px;"><input name="b_743c19c8799aea8f9ffafabe2_ade42ae6be" tabindex="-1" type="text" value="" /></div>
+            <div class="clear"><input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" /></div>
+        </div>
+        </form>
+    </div>
+</div>        <h2>Republishing Guidelines</h2>
+        <p>We encourage you to republish our content, but ask that you follow these guidelines.</p>
+        <ol>
+            <li>Publish the author or authors' name(s) and the title as written on the original column, and give credit to the Texas Politics Project at the University of Texas at Austin (and, if possible,&nbsp;a link back to&nbsp;texaspolitics.utexas.edu, or to the specific subpage where the content resides).</li>
+            <li>Don't change the column in any way.</li>
+            <li>You can republish any multimedia (including, photos, videos, audio, or graphics) as long as you give proper attribution (either to the Texas Politics Project, if not already included in the media, and to the media's author).</li>
+            <li>Don't resell the column</li>
+            <li>Feel free to publish it on a page surrounded by ads you've already sold, but don't sell ads against the column.</li>
+            <li>If we send you a request to change or remove our content from your site, you must agree to do so immediately.</li>
+        </ol>
+        <p>If you have any questions, feel free to email us at&nbsp;<a href="mailto:texaspolitics@laits.utexas.edu">texaspolitics@laits.utexas.edu</a></p>
+    </footer>
+</article>
+        </main>
+        <footer>
+    <div class="footer-content">
+        <a href="https://www.utexas.edu/" class="utexas-logo" title="The University of Texas at Austin">&nbsp</a>
+        <a href="https://liberalarts.utexas.edu/" class="cola-logo" title="College of Liberal Arts">&nbsp</a>
+        <a href="https://laits.utexas.edu/services/" class="laits-logo" title="Liberal Arts Instructional Technology Services">&nbsp</a>
+    </div>
+</footer>    </body>
+</html>

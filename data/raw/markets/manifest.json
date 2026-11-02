@@ -1,0 +1,119 @@
+[
+ {
+  "file": "raw/kalshi_series.json",
+  "url": "https://api.elections.kalshi.com/trade-api/v2/series?limit=1000",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Kalshi: all series (scan titles for Texas legislature)"
+ },
+ {
+  "file": "raw/kalshi_markets_KXDEMSTATESUPERMAJ.json",
+  "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXDEMSTATESUPERMAJ&limit=1000",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Kalshi markets for series KXDEMSTATESUPERMAJ"
+ },
+ {
+  "file": "raw/kalshi_markets_KXGOPSTATESUPERMAJ.json",
+  "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXGOPSTATESUPERMAJ&limit=1000",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Kalshi markets for series KXGOPSTATESUPERMAJ"
+ },
+ {
+  "file": "raw/kalshi_markets_KXSTATELEGTX.json",
+  "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXSTATELEGTX&limit=1000",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Kalshi markets for series KXSTATELEGTX"
+ },
+ {
+  "file": "raw/kalshi_markets_KXTXHOUSE.json",
+  "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXTXHOUSE&limit=1000",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Kalshi markets for series KXTXHOUSE"
+ },
+ {
+  "file": "raw/kalshi_markets_KXTXHOUSEDEM.json",
+  "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXTXHOUSEDEM&limit=1000",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Kalshi markets for series KXTXHOUSEDEM"
+ },
+ {
+  "file": "raw/kalshi_markets_KXTXHOUSEDEMSEATS.json",
+  "url": "https://api.elections.kalshi.com/trade-api/v2/markets?series_ticker=KXTXHOUSEDEMSEATS&limit=1000",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Kalshi markets for series KXTXHOUSEDEMSEATS"
+ },
+ {
+  "file": "raw/polymarket_search_Texas_State_Senate.json",
+  "url": "https://gamma-api.polymarket.com/public-search?q=Texas+State+Senate&limit_per_type=30",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Polymarket public-search q='Texas State Senate'"
+ },
+ {
+  "file": "raw/polymarket_search_Texas_State_House.json",
+  "url": "https://gamma-api.polymarket.com/public-search?q=Texas+State+House&limit_per_type=30",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Polymarket public-search q='Texas State House'"
+ },
+ {
+  "file": "raw/polymarket_search_Texas_House_of_Representatives.json",
+  "url": "https://gamma-api.polymarket.com/public-search?q=Texas+House+of+Representatives&limit_per_type=30",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Polymarket public-search q='Texas House of Representatives'"
+ },
+ {
+  "file": "raw/polymarket_search_Texas_legislature.json",
+  "url": "https://gamma-api.polymarket.com/public-search?q=Texas+legislature&limit_per_type=30",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Polymarket public-search q='Texas legislature'"
+ },
+ {
+  "file": "raw/polymarket_search_which_party_will_win_the_texas.json",
+  "url": "https://gamma-api.polymarket.com/public-search?q=which+party+will+win+the+texas&limit_per_type=30",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Polymarket public-search q='which party will win the texas'"
+ },
+ {
+  "file": "raw/polymarket_event_which-party-will-win-the-texas-state-house-in-2026.json",
+  "url": "https://gamma-api.polymarket.com/events?slug=which-party-will-win-the-texas-state-house-in-2026",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Polymarket event lookup slug=which-party-will-win-the-texas-state-house-in-2026 (probe)"
+ },
+ {
+  "file": "raw/polymarket_event_which-party-will-win-the-texas-house-in-2026.json",
+  "url": "https://gamma-api.polymarket.com/events?slug=which-party-will-win-the-texas-house-in-2026",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Polymarket event lookup slug=which-party-will-win-the-texas-house-in-2026 (probe)"
+ },
+ {
+  "file": "raw/polymarket_event_which-party-will-win-the-texas-state-senate-in-2026.json",
+  "url": "https://gamma-api.polymarket.com/events?slug=which-party-will-win-the-texas-state-senate-in-2026",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Polymarket event which-party-will-win-the-texas-state-senate-in-2026"
+ },
+ {
+  "file": "markets.csv",
+  "url": "",
+  "retrieved_at": "2026-11-01T21:23",
+  "description": "Parsed prediction-market prices for 2026 Texas legislature control"
+ },
+ {
+  "file": "run_notes.txt",
+  "url": "",
+  "retrieved_at": "2026-11-01T21:23",
+  "description": "Machine-written notes on markets that were searched for but do not exist"
+ }
+]

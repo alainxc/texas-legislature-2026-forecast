@@ -1,0 +1,290 @@
+district,candidate_name,party,party_raw,incumbent,withdrew,ballotpedia_url
+1,Sean Huffman,D,Democratic,false,false,https://ballotpedia.org/Sean_Huffman
+1,Chris Spencer,R,Republican,false,false,https://ballotpedia.org/Chris_Spencer_(Texas)
+2,Fatima Muse,D,Democratic,false,false,https://ballotpedia.org/Fatima_Muse
+2,Brent Money,R,Republican,true,false,https://ballotpedia.org/Brent_Money
+3,Nicole King,D,Democratic,false,false,https://ballotpedia.org/Nicole_King_(Texas)
+3,Kristen Plaisance,R,Republican,false,false,https://ballotpedia.org/Kristen_Plaisance
+4,Mark Moseley,D,Democratic,false,false,https://ballotpedia.org/Mark_Moseley_(Texas)
+4,Keith Bell,R,Republican,true,false,https://ballotpedia.org/Keith_Bell
+5,Hector Garza,D,Democratic,false,false,https://ballotpedia.org/Hector_Garza_(Texas_state_legislative_candidate)
+5,Cole Hefner,R,Republican,true,false,https://ballotpedia.org/Cole_Hefner
+6,Lorenzo Johnson,D,Democratic,false,false,https://ballotpedia.org/Lorenzo_Johnson_(Texas)
+6,Daniel Alders,R,Republican,true,false,https://ballotpedia.org/Daniel_Alders
+7,Fantasha Allen,D,Democratic,false,false,https://ballotpedia.org/Fantasha_Allen
+7,Jay Dean,R,Republican,true,false,https://ballotpedia.org/Jay_Dean
+8,Jeff Chavez,D,Democratic,false,false,https://ballotpedia.org/Jeff_Chavez
+8,Cody Harris,R,Republican,true,false,https://ballotpedia.org/Cody_Harris
+9,Shelley Tatum,D,Democratic,false,false,https://ballotpedia.org/Shelley_Tatum
+9,Rocky Thigpen,R,Republican,false,false,https://ballotpedia.org/Rocky_Thigpen
+10,Michael Myers,D,Democratic,false,false,https://ballotpedia.org/Michael_Myers_(Texas)
+10,Brian E. Harrison,R,Republican,true,false,https://ballotpedia.org/Brian_E._Harrison_(Texas)
+11,Roxanne Lathan,D,Democratic,false,false,https://ballotpedia.org/Roxanne_Lathan
+11,Joanne Shofner,R,Republican,true,false,https://ballotpedia.org/Joanne_Shofner
+12,Andie Ho,D,Democratic,false,false,https://ballotpedia.org/Andie_Ho
+12,Trey Wharton,R,Republican,true,false,https://ballotpedia.org/Trey_Wharton
+13,Albert Hunter,D,Democratic,false,false,https://ballotpedia.org/Albert_Hunter
+13,Angelia Orr,R,Republican,true,false,https://ballotpedia.org/Angelia_Orr
+14,Janet Dudding,D,Democratic,false,false,https://ballotpedia.org/Janet_Dudding
+14,Paul Dyson,R,Republican,true,false,https://ballotpedia.org/Paul_Dyson
+14,Jeff Miller,L,Libertarian Party,false,false,https://ballotpedia.org/Jeff_Miller_(Texas_State_House_candidate)
+15,Moniqua' Scott,D,Democratic,false,false,https://ballotpedia.org/Moniqua'_Scott
+15,Brad Bailey,R,Republican,false,false,https://ballotpedia.org/Brad_Bailey_(Texas)
+15,Jessi Cowart,L,Libertarian Party,false,false,https://ballotpedia.org/Jessi_Cowart
+16,Bobbie Clayton,D,Democratic,false,false,https://ballotpedia.org/Bobbie_Clayton
+16,Will Metcalf,R,Republican,true,false,https://ballotpedia.org/Will_Metcalf
+17,Mary Klenz,D,Democratic,false,false,https://ballotpedia.org/Mary_Klenz
+17,Stan Gerdes,R,Republican,true,false,https://ballotpedia.org/Stan_Gerdes
+18,Valorie Barton,D,Democratic,false,false,https://ballotpedia.org/Valorie_Barton
+18,Janis Holt,R,Republican,true,false,https://ballotpedia.org/Janis_Holt
+19,Tom Luck,D,Democratic,false,false,https://ballotpedia.org/Tom_Luck
+19,Ellen Troxclair,R,Republican,true,false,https://ballotpedia.org/Ellen_Troxclair
+20,Matthias-Jonah Early,D,Democratic,false,false,https://ballotpedia.org/Matthias-Jonah_Early
+20,Terry Wilson,R,Republican,true,false,https://ballotpedia.org/Terry_Wilson_(Texas)
+21,Jacky Hernandez,D,Democratic,false,false,https://ballotpedia.org/Jacky_Hernandez
+21,Ray Callas,R,Republican,false,false,https://ballotpedia.org/Ray_Callas
+22,Christian Manuel,D,Democratic,true,false,https://ballotpedia.org/Christian_Manuel
+23,Cheryl Clark,D,Democratic,false,false,https://ballotpedia.org/Cheryl_Clark_(Texas)
+23,Terri Leo-Wilson,R,Republican,true,false,https://ballotpedia.org/Terri_Leo-Wilson
+24,Frank Carr,D,Democratic,false,false,https://ballotpedia.org/Frank_Carr
+24,Greg Bonnen,R,Republican,true,false,https://ballotpedia.org/Greg_Bonnen
+25,Mike Meadors,D,Democratic,false,false,https://ballotpedia.org/Mike_Meadors
+25,Cody Vasut,R,Republican,true,false,https://ballotpedia.org/Cody_Vasut
+26,Elizabeth Markowitz,D,Democratic,false,false,https://ballotpedia.org/Elizabeth_Markowitz
+26,Matt Morgan,R,Republican,true,false,https://ballotpedia.org/Matt_Morgan_(Texas)
+27,Ron Reynolds,D,Democratic,true,false,https://ballotpedia.org/Ron_Reynolds_(Texas)
+27,Ibifrisolam Max-Alalibo,R,Republican,false,false,https://ballotpedia.org/Ibifrisolam_Max-Alalibo
+28,Sandy Ibanez,D,Democratic,false,false,https://ballotpedia.org/Sandy_Ibanez
+28,Gary Gates,R,Republican,true,false,https://ballotpedia.org/Gary_Gates
+29,Karen Reeder,D,Democratic,false,false,https://ballotpedia.org/Karen_Reeder
+29,Jeffrey Barry,R,Republican,true,false,https://ballotpedia.org/Jeffrey_Barry
+30,Crystal Sedillo,D,Democratic,false,false,https://ballotpedia.org/Crystal_Sedillo
+30,A.J. Louderback,R,Republican,true,false,https://ballotpedia.org/A.J._Louderback
+31,JJ Dominguez,D,Democratic,false,false,https://ballotpedia.org/JJ_Dominguez
+31,Ryan Guillen,R,Republican,true,false,https://ballotpedia.org/Ryan_Guillen
+32,Gabriel Marroquin,D,Democratic,false,false,https://ballotpedia.org/Gabriel_Marroquin
+32,Todd Hunter,R,Republican,true,false,https://ballotpedia.org/Todd_Hunter
+33,Orlando Lopez,D,Democratic,false,false,https://ballotpedia.org/Orlando_Lopez_(Texas_State_House_candidate)
+33,Katrina Pierson,R,Republican,true,false,https://ballotpedia.org/Katrina_Pierson
+34,Stephanie Saenz,D,Democratic,false,false,https://ballotpedia.org/Stephanie_Saenz
+34,Denise Villalobos,R,Republican,true,false,https://ballotpedia.org/Denise_Villalobos
+35,Oscar Longoria,D,Democratic,true,false,https://ballotpedia.org/Oscar_Longoria
+35,Oscar Rosa,R,Republican,false,false,https://ballotpedia.org/Oscar_Rosa
+36,Sergio Munoz Jr.,D,Democratic,true,false,https://ballotpedia.org/Sergio_Munoz_Jr.
+37,Oziel Ochoa Jr.,D,Democratic,false,false,https://ballotpedia.org/Oziel_Ochoa
+37,Janie Lopez,R,Republican,true,false,https://ballotpedia.org/Janie_Lopez
+38,Erin Gamez,D,Democratic,true,false,https://ballotpedia.org/Erin_Gamez
+38,Laura Cisneros,R,Republican,false,false,https://ballotpedia.org/Laura_Cisneros
+39,Armando Martinez,D,Democratic,true,false,https://ballotpedia.org/Armando_Martinez_(Texas)
+40,Terry Canales,D,Democratic,true,false,https://ballotpedia.org/Terry_Canales
+40,Celeste Cabrera-Huff,R,Republican,false,false,https://ballotpedia.org/Celeste_Cabrera-Huff
+41,Julio Salinas,D,Democratic,false,false,https://ballotpedia.org/Julio_Salinas
+41,Gary Groves,R,Republican,false,false,https://ballotpedia.org/Gary_Groves
+42,Richard Raymond,D,Democratic,true,false,https://ballotpedia.org/Richard_Raymond
+42,Teresa Johnson-Hernandez,R,Republican,false,false,https://ballotpedia.org/Teresa_Johnson-Hernandez
+43,Jeffrey Jackson,D,Democratic,false,false,https://ballotpedia.org/Jeffrey_Jackson_(Texas)
+43,J.M. Lozano,R,Republican,true,false,https://ballotpedia.org/J.M._Lozano
+44,Eric Norman,D,Democratic,false,false,https://ballotpedia.org/Eric_Norman
+44,Alan Schoolcraft,R,Republican,true,false,https://ballotpedia.org/Alan_Schoolcraft
+45,Erin Zwiener,D,Democratic,true,false,https://ballotpedia.org/Erin_Zwiener
+45,Tennyson Moreno,R,Republican,false,false,https://ballotpedia.org/Tennyson_Moreno
+46,Sheryl Cole,D,Democratic,true,false,https://ballotpedia.org/Sheryl_Cole
+47,Pooja Sethi,D,Democratic,false,false,https://ballotpedia.org/Pooja_Sethi
+47,Jennifer Mushtaler,R,Republican,false,false,https://ballotpedia.org/Jennifer_Mushtaler
+48,Donna Howard,D,Democratic,true,false,https://ballotpedia.org/Donna_Howard
+48,Anthony Gupta,R,Republican,false,false,https://ballotpedia.org/Anthony_Gupta
+49,Montserrat Garibay,D,Democratic,false,false,https://ballotpedia.org/Montserrat_Garibay
+49,Arshia Papari,G,Green Party,false,false,https://ballotpedia.org/Arshia_Papari
+50,Samantha Lopez-Resendez,D,Democratic,false,false,https://ballotpedia.org/Samantha_Lopez-Resendez
+50,Howard Olsen IV,R,Republican,false,false,https://ballotpedia.org/Howard_Olsen_IV
+51,Maria Luisa Flores,D,Democratic,true,false,https://ballotpedia.org/Lulu_Flores
+51,Jessica Martinez,R,Republican,false,false,https://ballotpedia.org/Jessica_Martinez_(Texas)
+52,Chris Jimenez,D,Democratic,false,false,https://ballotpedia.org/Chris_Jimenez
+52,Caroline Harris,R,Republican,true,false,https://ballotpedia.org/Caroline_Harris
+53,Kathryn Hartmann,D,Democratic,false,false,https://ballotpedia.org/Kathryn_Hartmann
+53,Wesley Virdell,R,Republican,true,false,https://ballotpedia.org/Wesley_Virdell
+54,Dawn Richardson,D,Democratic,false,false,https://ballotpedia.org/Dawn_Richardson
+54,Brad Buckley,R,Republican,true,false,https://ballotpedia.org/Brad_Buckley
+55,Amelia Rabroker,D,Democratic,false,false,https://ballotpedia.org/Amelia_Rabroker
+55,Hillary Hickland,R,Republican,true,false,https://ballotpedia.org/Hillary_Hickland
+56,Ashley Thornton,D,Democratic,false,false,https://ballotpedia.org/Ashley_Thornton
+56,Pat Curry,R,Republican,true,false,https://ballotpedia.org/Pat_Curry
+57,Ray Stith,D,Democratic,false,false,https://ballotpedia.org/Ray_Stith
+57,Richard Hayes,R,Republican,true,false,https://ballotpedia.org/Richard_Hayes_(Texas)
+57,Darren Hamilton,L,Libertarian Party,false,false,https://ballotpedia.org/Darren_Hamilton_(Texas)
+58,Chris Oldham,D,Democratic,false,false,https://ballotpedia.org/Chris_Oldham
+58,Helen Kerwin,R,Republican,true,false,https://ballotpedia.org/Helen_Kerwin
+59,Andrew Turner,D,Democratic,false,false,https://ballotpedia.org/Andrew_Turner
+59,Shelby Slawson,R,Republican,true,false,https://ballotpedia.org/Shelby_Slawson
+60,Krissy Guess,D,Democratic,false,false,https://ballotpedia.org/Krissy_Guess
+60,Mike Olcott,R,Republican,true,false,https://ballotpedia.org/Mike_Olcott
+61,Brittany Black,D,Democratic,false,false,https://ballotpedia.org/Brittany_Black
+61,Keresa Richardson,R,Republican,true,false,https://ballotpedia.org/Keresa_Richardson
+61,Anissa Chilmeran,G,Green Party,false,false,https://ballotpedia.org/Anissa_Chilmeran
+62,Catherine Thorne,D,Democratic,false,false,https://ballotpedia.org/Catherine_Thorne
+62,Shelley Luther,R,Republican,true,false,https://ballotpedia.org/Shelley_Luther
+63,H. Denise Wooten,D,Democratic,false,false,https://ballotpedia.org/H._Denise_Wooten
+63,Ben Bumgarner,R,Republican,true,false,https://ballotpedia.org/Ben_Bumgarner
+64,Julie Evans,D,Democratic,false,false,https://ballotpedia.org/Julie_Evans
+64,Andy Hopper,R,Republican,true,false,https://ballotpedia.org/Andy_Hopper
+65,Detrick Deburr,D,Democratic,false,false,https://ballotpedia.org/Detrick_Deburr
+65,Mitch Little,R,Republican,true,false,https://ballotpedia.org/Mitch_Little
+66,Sandeep Srivastava,D,Democratic,false,false,https://ballotpedia.org/Sandeep_Srivastava
+66,Matt Shaheen,R,Republican,true,false,https://ballotpedia.org/Matt_Shaheen
+67,Jordan Wheatley,D,Democratic,false,false,https://ballotpedia.org/Jordan_Wheatley
+67,Jeff Leach,R,Republican,true,false,https://ballotpedia.org/Jeff_Leach
+68,Jasmine Henderson,D,Democratic,false,false,https://ballotpedia.org/Jasmine_Henderson
+68,David Spiller,R,Republican,true,false,https://ballotpedia.org/David_Spiller
+69,Leilani Barnett,D,Democratic,false,false,https://ballotpedia.org/Leilani_Barnett
+69,James Frank,R,Republican,true,false,https://ballotpedia.org/James_Frank
+70,Mihaela Plesa,D,Democratic,true,false,https://ballotpedia.org/Mihaela_Plesa
+70,George Flint,R,Republican,false,false,https://ballotpedia.org/George_Flint
+71,Diana Luna,D,Democratic,false,false,https://ballotpedia.org/Diana_Luna
+71,Jay Hardaway,R,Republican,false,false,https://ballotpedia.org/Jay_Hardaway
+72,Shiloh Salazar,D,Democratic,false,false,https://ballotpedia.org/Shiloh_Salazar
+72,Drew Darby,R,Republican,true,false,https://ballotpedia.org/Drew_Darby
+73,Merrie Fox,D,Democratic,false,false,https://ballotpedia.org/Merrie_Fox
+73,Carrie Isaac,R,Republican,true,false,https://ballotpedia.org/Carrie_Isaac
+74,Eddie Morales Jr.,D,Democratic,true,false,https://ballotpedia.org/Eddie_Morales_Jr.
+74,Robert Garza,R,Republican,false,false,https://ballotpedia.org/Robert_Garza
+75,Mary Gonzalez,D,Democratic,true,false,https://ballotpedia.org/Mary_Gonzalez
+76,Suleman Lalani,D,Democratic,true,false,https://ballotpedia.org/Suleman_Lalani
+76,Linda Howell,R,Republican,false,false,https://ballotpedia.org/Linda_Howell
+77,Vincent Perez,D,Democratic,true,false,https://ballotpedia.org/Vincent_Perez_(Texas)
+77,Humberto Perez,R,Republican,false,false,https://ballotpedia.org/Humberto_Perez_(Texas_State_House_candidate)
+78,Joseph Moody,D,Democratic,true,false,https://ballotpedia.org/Joseph_Moody
+79,Claudia Ordaz,D,Democratic,true,false,https://ballotpedia.org/Claudia_Ordaz
+79,Jesse Romero,R,Republican,false,false,https://ballotpedia.org/Jesse_Romero
+80,Cecilia Castellano,D,Democratic,false,false,https://ballotpedia.org/Cecilia_Castellano
+80,Don McLaughlin,R,Republican,true,false,https://ballotpedia.org/Don_McLaughlin
+81,Ceasar Sanchez,D,Democratic,false,false,https://ballotpedia.org/Ceasar_Sanchez
+81,Brooks Landgraf,R,Republican,true,false,https://ballotpedia.org/Brooks_Landgraf
+82,Cathy Broadrick,D,Democratic,false,false,https://ballotpedia.org/Cathy_Broadrick
+82,Tom Craddick,R,Republican,true,false,https://ballotpedia.org/Tom_Craddick
+83,Malik Williams,D,Democratic,false,false,https://ballotpedia.org/Malik_Williams
+83,Dustin Burrows,R,Republican,true,false,https://ballotpedia.org/Dustin_Burrows
+84,Margaret Durham,D,Democratic,false,false,https://ballotpedia.org/Margaret_Durham
+84,Carl Tepper,R,Republican,true,false,https://ballotpedia.org/Carl_Tepper
+85,Lawrence Brandyburg,D,Democratic,false,false,https://ballotpedia.org/Lawrence_Brandyburg
+85,Dennis Geesaman,R,Republican,false,false,https://ballotpedia.org/Dennis_Geesaman
+86,Cullin Knutson,D,Democratic,false,false,https://ballotpedia.org/Cullin_Knutson
+86,Holly Jeffreys,R,Republican,false,false,https://ballotpedia.org/Holly_Jeffreys
+87,Diana Loya,D,Democratic,false,false,https://ballotpedia.org/Diana_Loya
+87,Caroline Fairly,R,Republican,true,false,https://ballotpedia.org/Caroline_Fairly
+88,Heather Wallace,D,Democratic,false,false,https://ballotpedia.org/Heather_Wallace
+88,Ken King,R,Republican,true,false,https://ballotpedia.org/Ken_King
+89,Angie Carraway,D,Democratic,false,false,https://ballotpedia.org/Angie_Carraway
+89,Candy Noble,R,Republican,true,false,https://ballotpedia.org/Candy_Noble
+90,Ramon Romero Jr.,D,Democratic,true,false,https://ballotpedia.org/Ramon_Romero_Jr.
+91,Yisak Worku,D,Democratic,false,false,https://ballotpedia.org/Yisak_Worku
+91,David Lowe,R,Republican,true,false,https://ballotpedia.org/David_Lowe_(Texas)
+92,Salman Bhojani,D,Democratic,true,false,https://ballotpedia.org/Salman_Bhojani
+92,JP Woodruff,R,Republican,false,false,https://ballotpedia.org/JP_Woodruff
+93,Ericka Lomick,D,Democratic,false,false,https://ballotpedia.org/Ericka_Lomick
+93,Alan Blaylock,R,Republican,false,false,https://ballotpedia.org/Alan_Blaylock
+94,Katie O'Brien Duzan,D,Democratic,false,false,https://ballotpedia.org/Katie_O'Brien_Duzan
+94,Cheryl Bean,R,Republican,false,false,https://ballotpedia.org/Cheryl_Bean
+95,Nicole Collier,D,Democratic,true,false,https://ballotpedia.org/Nicole_Collier
+96,Ebony Turner,D,Democratic,false,false,https://ballotpedia.org/Ebony_Turner
+96,Ellen Fleischmann,R,Republican,false,false,https://ballotpedia.org/Ellen_Fleischmann
+97,Beth Llewellyn McLaughlin,D,Democratic,false,false,https://ballotpedia.org/Beth_Llewellyn_McLaughlin
+97,John McQueeney,R,Republican,true,false,https://ballotpedia.org/John_McQueeney
+98,Cate Brennan,D,Democratic,false,false,https://ballotpedia.org/Cate_Brennan
+98,Armin Mizani,R,Republican,false,false,https://ballotpedia.org/Armin_Mizani
+99,Michelle Winder,D,Democratic,false,false,https://ballotpedia.org/Michelle_Winder
+99,Charlie Geren,R,Republican,true,false,https://ballotpedia.org/Charlie_Geren
+100,Venton Jones,D,Democratic,true,false,https://ballotpedia.org/Venton_Jones
+100,Jordan Hoffnagle,R,Republican,false,false,https://ballotpedia.org/Jordan_Hoffnagle
+101,Junior Ezeonu,D,Democratic,false,false,https://ballotpedia.org/Junior_Ezeonu
+102,Ana-Maria Ramos,D,Democratic,true,false,https://ballotpedia.org/Ana-Maria_Ramos
+102,Bonnie Abadie,R,Republican,false,false,https://ballotpedia.org/Bonnie_Abadie
+103,Rafael Anchia,D,Democratic,true,false,https://ballotpedia.org/Rafael_Anchia
+103,Melanie Medley-Thomas,R,Republican,false,false,https://ballotpedia.org/Melanie_Medley-Thomas
+104,Jessica Gonzalez,D,Democratic,true,false,https://ballotpedia.org/Jessica_Gonzalez_(Texas_House_of_Representatives)
+105,Terry Meza,D,Democratic,true,false,https://ballotpedia.org/Terry_Meza
+106,Joe Mayes,D,Democratic,false,false,https://ballotpedia.org/Joe_Mayes
+106,Jared Patterson,R,Republican,true,false,https://ballotpedia.org/Jared_Patterson
+107,Linda Garcia,D,Democratic,true,false,https://ballotpedia.org/Linda_Garcia_(Texas_state_house_representative)
+108,Allison Mitchell,D,Democratic,false,false,https://ballotpedia.org/Allison_Mitchell
+108,Morgan Meyer,R,Republican,true,false,https://ballotpedia.org/Morgan_Meyer
+109,Aicha Davis,D,Democratic,true,false,https://ballotpedia.org/Aicha_Davis
+109,Will Campbell,R,Republican,false,false,https://ballotpedia.org/Will_Campbell
+110,Toni Rose,D,Democratic,true,false,https://ballotpedia.org/Toni_Rose
+111,Yvonne Davis,D,Democratic,true,false,https://ballotpedia.org/Yvonne_Davis
+112,Zach Herbert,D,Democratic,false,false,https://ballotpedia.org/Zach_Herbert
+112,Angie Chen Button,R,Republican,true,false,https://ballotpedia.org/Angie_Chen_Button
+113,Rhetta Andrews Bowers,D,Democratic,true,false,https://ballotpedia.org/Rhetta_Andrews_Bowers
+113,Stephen Stanley,R,Republican,false,false,https://ballotpedia.org/Stephen_W._Stanley
+114,John W. Bryant,D,Democratic,true,false,https://ballotpedia.org/John_Bryant_(Texas)
+114,Tim McDonough,R,Republican,false,false,https://ballotpedia.org/Tim_McDonough
+115,Cassandra Garcia Hernandez,D,Democratic,true,false,https://ballotpedia.org/Cassandra_Garcia_Hernandez
+115,Danny Rosellini,R,Republican,false,false,https://ballotpedia.org/Danny_Rosellini
+116,Trey Martinez Fischer,D,Democratic,true,false,https://ballotpedia.org/Trey_Martinez_Fischer
+116,Rhett Rosenquest Smith,R,Republican,false,false,https://ballotpedia.org/Rhett_Rosenquest_Smith
+117,Philip Cortez,D,Democratic,true,false,https://ballotpedia.org/Philip_Cortez
+117,Ben Mostyn,R,Republican,false,false,https://ballotpedia.org/Ben_Mostyn
+118,Kristian Carranza,D,Democratic,false,false,https://ballotpedia.org/Kristian_Carranza
+118,Jorge Borrego,R,Republican,false,false,https://ballotpedia.org/Jorge_Borrego
+119,Elizabeth Campos,D,Democratic,true,false,https://ballotpedia.org/Elizabeth_Campos
+119,Melva Perez,R,Republican,false,false,https://ballotpedia.org/Melva_Perez
+120,Barbara Gervin-Hawkins,D,Democratic,true,false,https://ballotpedia.org/Barbara_Gervin-Hawkins
+121,Zack Dunn,D,Democratic,false,false,https://ballotpedia.org/Zack_Dunn
+121,Marc LaHood,R,Republican,true,false,https://ballotpedia.org/Marc_LaHood
+122,Shelly Nickels,D,Democratic,false,false,https://ballotpedia.org/Shelly_Nickels
+122,Mark Dorazio,R,Republican,true,false,https://ballotpedia.org/Mark_Dorazio
+123,Diego Bernal,D,Democratic,true,false,https://ballotpedia.org/Diego_Bernal
+124,Josey Garcia,D,Democratic,true,false,https://ballotpedia.org/Josey_Garcia
+124,Sylvia Soto,R,Republican,false,false,https://ballotpedia.org/Sylvia_Soto
+124,L.D. Howard,I,Independent; Write-in,false,false,https://ballotpedia.org/L.D._Howard
+125,Adrian Reyna,D,Democratic,false,false,https://ballotpedia.org/Adrian_Reyna
+125,Ricardo Martinez,R,Republican,false,false,https://ballotpedia.org/Ricardo_Martinez_(Texas)
+126,Stefanie Bord,D,Democratic,false,false,https://ballotpedia.org/Stefanie_Bord
+126,Stan Stanart,R,Republican,false,false,https://ballotpedia.org/Stan_Stanart
+127,Michelle Williams,D,Democratic,false,false,https://ballotpedia.org/Michelle_Williams_(Texas)
+127,Charles Cunningham,R,Republican,true,false,https://ballotpedia.org/Charles_Cunningham
+128,Desiree Klaus,D,Democratic,false,false,https://ballotpedia.org/Desiree_Klaus
+128,Tom Butler,R,Republican,false,false,https://ballotpedia.org/Tom_Butler_(Texas)
+129,Albert Wittliff,D,Democratic,false,false,https://ballotpedia.org/Albert_Wittliff
+129,Scott Bowen,R,Republican,false,false,https://ballotpedia.org/Scott_Bowen
+130,Brett Robinson,D,Democratic,false,false,https://ballotpedia.org/Brett_Robinson_(Texas)
+130,Tom Oliverson,R,Republican,true,false,https://ballotpedia.org/Tom_Oliverson
+131,Staci Childs,D,Democratic,false,false,https://ballotpedia.org/Staci_Childs
+131,Scott Whitmarsh,R,Republican,false,false,https://ballotpedia.org/Scott_Whitmarsh
+132,Sara McGee,D,Democratic,false,false,https://ballotpedia.org/Sara_McGee
+132,Mike Schofield,R,Republican,true,false,https://ballotpedia.org/Mike_Schofield
+133,Josh Wallenstein,D,Democratic,false,false,https://ballotpedia.org/Josh_Wallenstein
+133,Mano Deayala,R,Republican,true,false,https://ballotpedia.org/Mano_Deayala
+134,Ann Johnson,D,Democratic,true,false,https://ballotpedia.org/Ann_Johnson
+134,Mike Michna,R,Republican,false,false,https://ballotpedia.org/Mike_Michna
+135,Odus Evbagharu,D,Democratic,false,false,https://ballotpedia.org/Odus_Evbagharu
+135,Liz Ramos,R,Republican,false,false,https://ballotpedia.org/Liz_Ramos
+136,John Bucy III,D,Democratic,true,false,https://ballotpedia.org/John_Bucy_III
+136,Theodore Schramm,R,Republican,false,false,https://ballotpedia.org/Theodore_Schramm
+137,Gene Wu,D,Democratic,true,false,https://ballotpedia.org/Gene_Wu
+137,Helen Zhou,R,Republican,false,false,https://ballotpedia.org/Helen_Zhou
+138,Tyler Smith,D,Democratic,false,false,https://ballotpedia.org/Tyler_Smith_(Texas_State_House_candidate)
+138,Lacey Hull,R,Republican,true,false,https://ballotpedia.org/Lacey_Hull
+139,Charlene Ward Johnson,D,Democratic,true,false,https://ballotpedia.org/Charlene_Ward_Johnson
+139,Kyle Harding,R,Republican,false,false,https://ballotpedia.org/Kyle_Harding
+140,Armando Walle,D,Democratic,true,false,https://ballotpedia.org/Armando_Walle
+140,Laura Garcia DeLeon,R,Republican,false,false,https://ballotpedia.org/Laura_Garcia_DeLeon
+141,Senfronia Thompson,D,Democratic,true,false,https://ballotpedia.org/Senfronia_Thompson
+141,Julie Hunt,R,Republican,false,false,https://ballotpedia.org/Julie_Hunt
+142,Harold Dutton Jr.,D,Democratic,true,false,https://ballotpedia.org/Harold_Dutton_Jr.
+142,Heidi Hall,R,Republican,false,false,https://ballotpedia.org/Heidi_Hall_(Texas)
+143,Ana Hernandez,D,Democratic,true,false,https://ballotpedia.org/Ana_Hernandez_(Texas)
+143,Frank Salazar,R,Republican,false,false,https://ballotpedia.org/Frank_Salazar
+144,Mary Ann Perez,D,Democratic,true,false,https://ballotpedia.org/Mary_Ann_Perez
+144,David Flores,R,Republican,false,false,https://ballotpedia.org/David_Flores
+145,Christina Morales,D,Democratic,true,false,https://ballotpedia.org/Christina_Morales
+145,Inocensia Moreno,R,Republican,false,false,https://ballotpedia.org/Inocensia_Moreno
+146,Lauren Ashley Simmons,D,Democratic,true,false,https://ballotpedia.org/Lauren_Ashley_Simmons
+146,Alexandria Butler,R,Republican,false,false,https://ballotpedia.org/Alexandria_Butler
+147,Jolanda Jones,D,Democratic,true,false,https://ballotpedia.org/Jolanda_Jones
+147,Theodis Daniel,R,Republican,false,false,https://ballotpedia.org/Theodis_Daniel
+148,Penny Morales Shaw,D,Democratic,true,false,https://ballotpedia.org/Penny_Morales_Shaw
+148,Amanda LaBrie,R,Republican,false,false,https://ballotpedia.org/Amanda_LaBrie
+149,Darlene Breaux,D,Democratic,false,false,https://ballotpedia.org/Darlene_Breaux
+149,Dave Bennett,R,Republican,false,false,https://ballotpedia.org/Dave_Bennett
+150,A'Yonna Kellum,D,Democratic,false,false,https://ballotpedia.org/A'Yonna_Kellum
+150,Valoree Swanson,R,Republican,true,false,https://ballotpedia.org/Valoree_Swanson

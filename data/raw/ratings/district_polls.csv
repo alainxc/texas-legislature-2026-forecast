@@ -1,0 +1,2 @@
+chamber,district,pollster,sponsor,internal,start_date,end_date,sample_size,dem_pct,rep_pct,source_url,notes
+S,9,,Republican internal (sponsor not verified),true,2026-09-10,2026-09-15,600,,,https://www.mediaite.com/politics/internal-gop-poll-shows-republicans-getting-annihilated-in-trump-17-texas-district/,Toplines not retrievable (HTTP 403); reported only as 'Republicans trailing badly'. Verify before use.

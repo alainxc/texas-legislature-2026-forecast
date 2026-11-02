@@ -1,0 +1,68 @@
+[
+  {
+    "file": "raw/sos_portal_2020_Version.json",
+    "url": "https://results.texas-election.com/static/data/election/44144/Version.json",
+    "retrieved_at": "2026-11-01T21:19",
+    "description": "SOS results portal: current data version for 2020 general (election id 44144)"
+  },
+  {
+    "file": "raw/sos_portal_2020_Districted.json",
+    "url": "https://results.texas-election.com/static/data/election/44144/262/Districted.json",
+    "retrieved_at": "2026-11-01T21:19",
+    "description": "SOS results portal: all 'District Offices' races, 2020 general election (State Rep, State Senator, SBOE, courts), candidates/votes/pct, (I)=incumbent"
+  },
+  {
+    "file": "raw/sos_portal_2022_Version.json",
+    "url": "https://results.texas-election.com/static/data/election/47009/Version.json",
+    "retrieved_at": "2026-11-01T21:19",
+    "description": "SOS results portal: current data version for 2022 general (election id 47009)"
+  },
+  {
+    "file": "raw/sos_portal_2022_Districted.json",
+    "url": "https://results.texas-election.com/static/data/election/47009/242/Districted.json",
+    "retrieved_at": "2026-11-01T21:19",
+    "description": "SOS results portal: all 'District Offices' races, 2022 general election (State Rep, State Senator, SBOE, courts), candidates/votes/pct, (I)=incumbent"
+  },
+  {
+    "file": "raw/sos_portal_2024_Version.json",
+    "url": "https://results.texas-election.com/static/data/election/49664/Version.json",
+    "retrieved_at": "2026-11-01T21:19",
+    "description": "SOS results portal: current data version for 2024 general (election id 49664)"
+  },
+  {
+    "file": "raw/sos_portal_2024_Districted.json",
+    "url": "https://results.texas-election.com/static/data/election/49664/1012/Districted.json",
+    "retrieved_at": "2026-11-01T21:19",
+    "description": "SOS results portal: all 'District Offices' races, 2024 general election (State Rep, State Senator, SBOE, courts), candidates/votes/pct, (I)=incumbent"
+  },
+  {
+    "file": "raw/sos_2018_general_race_summary.htm",
+    "url": "https://elections.sos.state.tx.us/elchist331_state.htm",
+    "retrieved_at": "2026-11-01T21:19",
+    "description": "SOS historical results: 2018 General Election Race Summary Report (all races, canvass votes, (I)=incumbent)"
+  },
+  {
+    "file": "raw/sos_candidates_2022_general_state.html",
+    "url": "https://candidate.texas-election.com/Elections/getQualifiedCandidatesInfo.do (POST nbElecYear=2022, idElection=47009, cdOfficeType=S, results=R)",
+    "retrieved_at": "2026-11-01T21:20",
+    "description": "SOS qualified-candidate list, 2022 November general election, STATE offices (name, party, status, incumbent flag)"
+  },
+  {
+    "file": "raw/ballotpedia_H21.html",
+    "url": "https://ballotpedia.org/Texas_House_of_Representatives_District_21",
+    "retrieved_at": "2026-11-01T21:20",
+    "description": "Ballotpedia district page (fallback for 2022 seat missing from SOS candidate list)"
+  },
+  {
+    "file": "leg_results.csv",
+    "url": "(derived)",
+    "retrieved_at": "2026-11-01T21:20",
+    "description": "Tidy candidate-level results, all years/chambers"
+  },
+  {
+    "file": "leg_races.csv",
+    "url": "(derived)",
+    "retrieved_at": "2026-11-01T21:20",
+    "description": "Race-level summary, all years/chambers"
+  }
+]

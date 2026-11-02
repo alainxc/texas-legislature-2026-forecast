@@ -1,0 +1,8 @@
+chamber,source,rating_raw,rating_std,as_of_date,source_url,retrieved_at,note
+H,State Navigate (model),80% R chamber control,,2026-10-03,https://statenavigate.org/states/tx/,2026-11-01T21:23,Model probability of chamber control; not a categorical rating
+S,State Navigate (model),>99% R chamber control,,2026-10-03,https://statenavigate.org/states/tx/,2026-11-01T21:23,Model probability of chamber control; not a categorical rating
+S,Sabato's Crystal Ball,Safe Republican,Safe R,2026-01-22,https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_louis_jacobson/handicapping_the_2026_state_legislative_map_a_first_look,2026-11-01T21:23,
+H,Sabato's Crystal Ball,Safe Republican,Safe R,2026-01-22,https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_louis_jacobson/handicapping_the_2026_state_legislative_map_a_first_look,2026-11-01T21:23,
+H,Ballotpedia battleground chambers,Not a battleground chamber,,,"https://ballotpedia.org/State_legislative_battleground_chambers,_2026",2026-11-01T21:23,18 chambers listed as battlegrounds
+S,Ballotpedia battleground chambers,Not a battleground chamber,,,"https://ballotpedia.org/State_legislative_battleground_chambers,_2026",2026-11-01T21:23,18 chambers listed as battlegrounds
+H,DLCC target map,Pick up House seats.,Target-D,,https://www.dlcc.org/the-dlcc-target-map-2025-2026/,2026-11-01T21:23,Texas on DLCC 2026 target map

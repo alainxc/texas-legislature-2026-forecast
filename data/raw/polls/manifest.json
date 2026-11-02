@@ -1,0 +1,138 @@
+[
+ {
+  "file": "wiki_2026_tx_gov.html",
+  "url": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Wikipedia: 2026 Texas gubernatorial election (general-election polling tables)",
+  "http_status": 200,
+  "bytes": 1184369
+ },
+ {
+  "file": "wiki_2026_tx_sen.html",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Wikipedia: 2026 US Senate election in Texas (general-election polling tables)",
+  "http_status": 200,
+  "bytes": 3056712
+ },
+ {
+  "file": "wiki_2026_tx_house.html",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_Texas",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Wikipedia: 2026 US House elections in Texas (statewide generic-ballot polling table)",
+  "http_status": 200,
+  "bytes": 5036259
+ },
+ {
+  "file": "wiki_2026_us_house.html",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Wikipedia: 2026 US House elections (generic ballot aggregates only; saved for traceability)",
+  "http_status": 200,
+  "bytes": 2919696
+ },
+ {
+  "file": "wiki_2026_us_elections.html",
+  "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Wikipedia: 2026 United States elections (national generic congressional ballot poll tables)",
+  "http_status": 200,
+  "bytes": 3873002
+ },
+ {
+  "file": "tpp_abbott_job_approval_trend.html",
+  "url": "https://texaspolitics.utexas.edu/set/greg-abbott-job-approval-trend",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Texas Politics Project: Greg Abbott job approval trend (Highcharts data embedded in page)",
+  "http_status": 200,
+  "bytes": 40017
+ },
+ {
+  "file": "tpp_abbott_approval_october_2026.html",
+  "url": "https://texaspolitics.utexas.edu/set/greg-abbott-approval-october-2026",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Texas Politics Project: Abbott approval, October 2026 poll set page",
+  "http_status": 200,
+  "bytes": 67140
+ },
+ {
+  "file": "tpp_2026_gov_tracker.html",
+  "url": "https://texaspolitics.utexas.edu/blog/texas-2026-gubernatorial-poll-tracker",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Texas Politics Project 2026 gubernatorial poll tracker (cross-check only, not parsed into polls.csv)",
+  "http_status": 200,
+  "bytes": 52196
+ },
+ {
+  "file": "tpp_2026_sen_tracker.html",
+  "url": "https://texaspolitics.utexas.edu/blog/texas-2026-u-s-senate-poll-tracker",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Texas Politics Project 2026 US Senate poll tracker (cross-check only, not parsed into polls.csv)",
+  "http_status": 200,
+  "bytes": 50253
+ },
+ {
+  "file": "270towin_2026_tx_gov.html",
+  "url": "https://www.270towin.com/2026-governor-polls/texas",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "270toWin Texas governor 2026 polls (cross-check only, last ~10 polls)",
+  "http_status": 200,
+  "bytes": 190255
+ },
+ {
+  "file": "270towin_2026_tx_sen.html",
+  "url": "https://www.270towin.com/2026-senate-polls/texas",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "270toWin Texas Senate 2026 polls (cross-check only, last ~10 polls)",
+  "http_status": 200,
+  "bytes": 253827
+ },
+ {
+  "file": "wiki_2022_tx_gov.html",
+  "url": "https://en.wikipedia.org/wiki/2022_Texas_gubernatorial_election",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Wikipedia: 2022 Texas gubernatorial election (Abbott vs O'Rourke polling)",
+  "http_status": 200,
+  "bytes": 2886985
+ },
+ {
+  "file": "wiki_2024_tx_pres.html",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_Texas",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Wikipedia: 2024 US presidential election in Texas (Trump vs Harris / Trump vs Biden polling)",
+  "http_status": 200,
+  "bytes": 2575173
+ },
+ {
+  "file": "wiki_2024_tx_sen.html",
+  "url": "https://en.wikipedia.org/wiki/2024_United_States_Senate_election_in_Texas",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Wikipedia: 2024 US Senate election in Texas (Cruz vs Allred polling)",
+  "http_status": 200,
+  "bytes": 2815216
+ },
+ {
+  "file": "fte_generic_ballot_polls_historical_wayback20250305.csv",
+  "url": "https://web.archive.org/web/20250305204633id_/https://projects.fivethirtyeight.com/polls/data/generic_ballot_polls_historical.csv",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "FiveThirtyEight generic_ballot_polls_historical.csv, Wayback Machine snapshot 2025-03-05 (2022 and 2024 national generic ballot)",
+  "error": "HTTP 429, 620 bytes",
+  "cached_from_previous_run": true,
+  "file_mtime": "2026-11-01T21:19"
+ },
+ {
+  "file": "pollster_ratings.csv",
+  "url": "https://raw.githubusercontent.com/fivethirtyeight/data/master/pollster-ratings/pollster-ratings-combined.csv",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "FiveThirtyEight pollster-ratings-combined.csv (numeric_grade, POLLSCORE, transparency, bias)",
+  "http_status": 200,
+  "bytes": 40046
+ },
+ {
+  "file": "polls.csv",
+  "url": "(derived from files above)",
+  "retrieved_at": "2026-11-01T21:22",
+  "description": "Tidy polling dataset produced by this script",
+  "rows": 3231
+ }
+]

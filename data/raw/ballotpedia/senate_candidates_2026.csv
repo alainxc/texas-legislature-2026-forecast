@@ -1,0 +1,34 @@
+district,candidate_name,party,party_raw,incumbent,withdrew,did_not_make_ballot,ballotpedia_url
+1,Laticia Ambroz,D,Democratic,false,false,false,https://ballotpedia.org/Laticia_Ambroz
+1,Steven Wayne Clugston,I,Independent,false,false,true,https://ballotpedia.org/Steven_Wayne_Clugston
+1,Bryan Hughes,R,Republican,true,false,false,https://ballotpedia.org/Bryan_Hughes
+2,Keenen Colbert,D,Democratic,false,false,false,https://ballotpedia.org/Keenen_Colbert
+2,Bob Hall,R,Republican,true,false,false,https://ballotpedia.org/Bob_Hall_(Texas)
+3,Bobby Tillman,D,Democratic,false,false,false,https://ballotpedia.org/Bobby_Tillman
+3,Trent Ashby,R,Republican,false,false,false,https://ballotpedia.org/Trent_Ashby
+4,Ron Angeletti,D,Democratic,false,false,false,https://ballotpedia.org/Ron_Angeletti
+4,Brett Ligon,R,Republican,true,false,false,https://ballotpedia.org/Brett_Ligon
+5,Paul Thomasson,D,Democratic,false,false,false,https://ballotpedia.org/Paul_Thomasson
+5,James Harlan Granberry Jr.,I,Independent,false,false,true,https://ballotpedia.org/James_Harlan_Granberry_Jr.
+5,Charles Schwertner,R,Republican,true,false,false,https://ballotpedia.org/Charles_Schwertner
+9,Taylor Rehmet,D,Democratic,true,false,false,https://ballotpedia.org/Taylor_Rehmet
+9,Leigh Wambsganss,R,Republican,false,false,false,https://ballotpedia.org/Leigh_Wambsganss
+11,Shannon Dicely,D,Democratic,false,false,false,https://ballotpedia.org/Shannon_Dicely
+11,Dennis Paul,R,Republican,false,false,false,https://ballotpedia.org/Dennis_Paul
+13,Borris Miles,D,Democratic,true,false,false,https://ballotpedia.org/Borris_Miles
+18,Erica Gillum,D,Democratic,false,false,false,https://ballotpedia.org/Erica_Gillum
+18,Lois Kolkhorst,R,Republican,true,false,false,https://ballotpedia.org/Lois_Kolkhorst
+19,Roland Gutierrez,D,Democratic,true,false,false,https://ballotpedia.org/Roland_Gutierrez
+19,Marcus Cardenas,R,Republican,false,false,false,https://ballotpedia.org/Marcus_Cardenas
+21,Judith Zaffirini,D,Democratic,true,false,false,https://ballotpedia.org/Judith_Zaffirini
+21,Julie Dahlberg,R,Republican,false,false,false,https://ballotpedia.org/Julie_Dahlberg
+22,Amy Martinez-Salas,D,Democratic,false,false,false,https://ballotpedia.org/Amy_Martinez-Salas
+22,David Cook,R,Republican,false,false,false,https://ballotpedia.org/David_Cook_(Texas_House_of_Representatives)
+24,Joe P. Herrera,D,Democratic,false,false,false,https://ballotpedia.org/Joe_P._Herrera
+24,Peter P. Flores,R,Republican,true,false,false,https://ballotpedia.org/Peter_P._Flores
+26,José Menéndez,D,Democratic,true,false,false,https://ballotpedia.org/José_Menéndez
+26,Julian Villarreal,G,Green Party,false,false,false,https://ballotpedia.org/Julian_Villarreal_(Texas_Senate_candidate)
+28,Riley Rodriquez,D,Democratic,false,false,false,https://ballotpedia.org/Riley_Rodriquez
+28,Charles Perry,R,Republican,true,false,false,https://ballotpedia.org/Charles_Perry
+31,John Betancourt,D,Democratic,false,false,false,https://ballotpedia.org/John_Betancourt
+31,Kevin Sparks,R,Republican,true,false,false,https://ballotpedia.org/Kevin_Sparks_(Texas_state_senator)

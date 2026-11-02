@@ -1,0 +1,102 @@
+{
+  "retrieved_at": "2026-11-01T21:11",
+  "sources": [
+    "https://ballotpedia.org/Texas_House_of_Representatives",
+    "https://ballotpedia.org/Texas_House_of_Representatives_elections,_2026",
+    "https://ballotpedia.org/Texas_state_legislative_special_elections,_2025",
+    "https://ballotpedia.org/Texas_state_legislative_special_elections,_2026"
+  ],
+  "partisan_composition": {
+    "source_label": "chamber page",
+    "as_of": "November 2026",
+    "democratic": 62,
+    "republican": 86,
+    "other": 0,
+    "vacancies": 2,
+    "total": 150
+  },
+  "partisan_composition_elections_page": {
+    "source_label": "elections page",
+    "as_of": "November 2026",
+    "democratic": 62,
+    "republican": 86,
+    "other": 0,
+    "vacancies": 2,
+    "total": 150
+  },
+  "vacant_house_districts": [
+    1,
+    93
+  ],
+  "speaker": {
+    "name": "Dustin Burrows",
+    "party": "R"
+  },
+  "special_elections_2025_2026": [
+    {
+      "year_page": 2025,
+      "election_date_heading": "November 4, 2025",
+      "seat": "Texas State Senate District 9",
+      "chamber": "Senate",
+      "district": 9,
+      "status": "decided",
+      "winner": "Taylor Rehmet",
+      "winner_party": "D",
+      "runoff": true,
+      "vacancy_reason": "after Kelly Hancock (R) was appointed to serve as Texas Comptroller of Public Accounts",
+      "candidates_mentioned": [
+        "John Huffman (R)",
+        "Leigh Wambsganss (R)",
+        "Taylor Rehmet (D)"
+      ]
+    },
+    {
+      "year_page": 2026,
+      "election_date_heading": "May 2, 2026",
+      "seat": "Texas State Senate District 4",
+      "chamber": "Senate",
+      "district": 4,
+      "status": "decided",
+      "winner": "Brett Ligon",
+      "winner_party": "R",
+      "runoff": false,
+      "vacancy_reason": "on October 2, 2025, after Brandon Creighton (R) resigned to accept the position of Chancellor of the Texas Tech University System",
+      "candidates_mentioned": [
+        "Brett Ligon (R)",
+        "Ron Angeletti (D)"
+      ]
+    },
+    {
+      "year_page": 2026,
+      "election_date_heading": "November 3, 2026",
+      "seat": "Texas State Senate District 22",
+      "chamber": "Senate",
+      "district": 22,
+      "status": "pending",
+      "winner": null,
+      "winner_party": null,
+      "runoff": false,
+      "vacancy_reason": "after Brian Birdwell (R) resigned on May 29, 2026, to serve as the Assistant Secretary of U.S. Defense for Sustainment",
+      "candidates_mentioned": [
+        "Amy Martinez-Salas (D)",
+        "David Cook (R)"
+      ]
+    },
+    {
+      "year_page": 2026,
+      "election_date_heading": "November 3, 2026",
+      "seat": "Texas House of Representatives District 93",
+      "chamber": "House",
+      "district": 93,
+      "status": "pending",
+      "winner": null,
+      "winner_party": null,
+      "runoff": false,
+      "vacancy_reason": "after Nate Schatzline (R) resigned on July 2, 2026 to take a position as Gov. Greg Abbott 's (R) senior advisor on election policy",
+      "candidates_mentioned": [
+        "Alan Blaylock (R)",
+        "Ericka Lomick (D)"
+      ]
+    }
+  ]
+}

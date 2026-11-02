@@ -1,0 +1,44 @@
+:root{--bg:#fbfaf7;--card:#ffffff;--ink:#1d1d1b;--ink2:#55554f;--muted:#8a8a82;--line:#e4e2db;--dem:#2b5fb3;--dem2:#9db9e6;--rep:#c0392b;--rep2:#e6a39b;--oth:#8d8d85;--neutral:#d6d4cc;--accent:#1d1d1b;--max:1100px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15161a;--card:#1e2026;--ink:#ececea;--ink2:#b9b9b4;--muted:#8d8d8a;--line:#33363e;--dem:#6f9be3;--dem2:#2f4a7a;--rep:#e3675a;--rep2:#7a3027;--oth:#9a9a95;--neutral:#3a3d46}}
+:root[data-theme="dark"]{--bg:#15161a;--card:#1e2026;--ink:#ececea;--ink2:#b9b9b4;--muted:#8d8d8a;--line:#33363e;--dem:#6f9be3;--dem2:#2f4a7a;--rep:#e3675a;--rep2:#7a3027;--oth:#9a9a95;--neutral:#3a3d46}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+a{color:inherit}
+header.top{border-bottom:1px solid var(--line);background:var(--card)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+nav.main{display:flex;flex-wrap:wrap;gap:4px 18px;align-items:center;padding:12px 0;font-size:15px}
+nav.main .brand{font-weight:700;font-size:18px;margin-right:auto;text-decoration:none}
+nav.main a{text-decoration:none;color:var(--ink2)}nav.main a.on,nav.main a:hover{color:var(--ink);text-decoration:underline}
+h1{font-size:30px;line-height:1.15;margin:26px 0 6px}h2{font-size:22px;margin:34px 0 10px}h3{font-size:17px;margin:22px 0 8px}
+.sub{color:var(--ink2);margin:0 0 18px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.card h2{margin-top:0}
+.hero{display:flex;gap:16px;align-items:baseline;flex-wrap:wrap}
+.big{font-size:44px;font-weight:700;line-height:1}
+.dem{color:var(--dem)}.rep{color:var(--rep)}.oth{color:var(--oth)}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff}
+.pill.D{background:var(--dem)}.pill.R{background:var(--rep)}.pill.O,.pill.I,.pill.L,.pill.G{background:var(--oth)}
+svg.chart{width:100%;height:auto;display:block}
+.tt{position:fixed;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 9px;font-size:13px;box-shadow:0 4px 14px rgba(0,0,0,.12);z-index:9;max-width:260px;display:none}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-weight:600;color:var(--ink2);cursor:pointer;white-space:nowrap;user-select:none}
+th.sorted::after{content:" ↕";color:var(--muted)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{overflow-x:auto}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+.filters select,.filters input{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink)}
+.bar{height:10px;border-radius:4px;background:var(--neutral);position:relative;overflow:hidden}
+.bar>span{position:absolute;top:0;bottom:0;left:0;background:var(--dem)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--ink2);margin:8px 0}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:5px}
+.map path{stroke:var(--card);stroke-width:.7;cursor:pointer;transition:opacity .1s}.map path:hover{opacity:.75;stroke:var(--ink);stroke-width:1.2}
+footer{margin:48px 0 30px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+.kv{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;font-size:14px}.kv b{font-weight:600;color:var(--ink2)}
+.small{font-size:13px;color:var(--ink2)}
+.note{background:var(--card);border-left:4px solid var(--neutral);padding:10px 14px;margin:14px 0;font-size:14px}
+.prose{max-width:760px}.prose p,.prose li{font-size:16px}
+code{font-size:13px;background:var(--neutral);padding:1px 5px;border-radius:4px}
+.wf text{font-size:12px;fill:var(--ink2)}
+@media (max-width:600px){h1{font-size:24px}.big{font-size:36px}th,td{padding:6px 5px;font-size:13px}}

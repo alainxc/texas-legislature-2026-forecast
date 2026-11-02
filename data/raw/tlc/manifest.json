@@ -1,0 +1,72 @@
+[
+ {
+  "file": "planh2316_r206_election24g_v2.xls",
+  "url": "https://data.capitol.texas.gov/dataset/71af633c-21bf-42cf-ad48-4fe95593a897/resource/30c0c5b7-c512-4a94-af01-afdcff39baf5/download/planh2316_r206_election24g.xls",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/planh2316",
+  "description": "TLC Report 206 Election Analysis, 2024 general election, by House district"
+ },
+ {
+  "file": "planh2316_r206_election22g.xls",
+  "url": "https://data.capitol.texas.gov/dataset/71af633c-21bf-42cf-ad48-4fe95593a897/resource/2a562276-2ea9-4083-a702-b82105ac6a9d/download/planh2316_r206_election22g.xls",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/planh2316",
+  "description": "TLC Report 206 Election Analysis, 2022 general election, by House district"
+ },
+ {
+  "file": "planh2316_r206_election20g.xls",
+  "url": "https://data.capitol.texas.gov/dataset/71af633c-21bf-42cf-ad48-4fe95593a897/resource/ee2b3b92-2c8f-4b55-bcca-136cf4db5ad7/download/planh2316r206_20g.xls",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/planh2316",
+  "description": "TLC Report 206 Election Analysis, 2020 general election, by House district"
+ },
+ {
+  "file": "planh2316_r206_election18g.xls",
+  "url": "https://data.capitol.texas.gov/dataset/71af633c-21bf-42cf-ad48-4fe95593a897/resource/536fb105-b68a-42bc-bdc9-6c7a3cd7935b/download/planh2316r206_18g.xls",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/planh2316",
+  "description": "TLC Report 206 Election Analysis, 2018 general election, by House district"
+ },
+ {
+  "file": "plans2168_r206_election24g.xls",
+  "url": "https://data.capitol.texas.gov/dataset/70836384-f10c-423d-a36e-748d7e000872/resource/e3eda2c0-627e-4c29-b1bd-35c55f594800/download/plans2168_r206_election24g.xls",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/plans2168",
+  "description": "TLC Report 206 Election Analysis, 2024 general election, by Senate district"
+ },
+ {
+  "file": "plans2168_r206_election22g.xls",
+  "url": "https://data.capitol.texas.gov/dataset/70836384-f10c-423d-a36e-748d7e000872/resource/f423a696-46b8-457b-a65d-624207fe5246/download/plans2168_r206_election22g.xls",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/plans2168",
+  "description": "TLC Report 206 Election Analysis, 2022 general election, by Senate district"
+ },
+ {
+  "file": "plans2168_r206_election20g.xls",
+  "url": "https://data.capitol.texas.gov/dataset/70836384-f10c-423d-a36e-748d7e000872/resource/5f554ff3-9ca5-47ea-912f-8e58d74cb94b/download/plans2168r206_20g.xls",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/plans2168",
+  "description": "TLC Report 206 Election Analysis, 2020 general election, by Senate district"
+ },
+ {
+  "file": "plans2168_r206_election18g.xls",
+  "url": "https://data.capitol.texas.gov/dataset/70836384-f10c-423d-a36e-748d7e000872/resource/d358daa3-0a43-4c63-bc24-a9f35c8feceb/download/plans2168r206_18g.xls",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/plans2168",
+  "description": "TLC Report 206 Election Analysis, 2018 general election, by Senate district"
+ },
+ {
+  "file": "planh2316.zip",
+  "url": "https://data.capitol.texas.gov/dataset/71af633c-21bf-42cf-ad48-4fe95593a897/resource/a4d3230f-47f2-4253-85f3-51a6c3c9ad0a/download/planh2316.zip",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/planh2316",
+  "description": "District shapefile (NAD83 Lambert Conformal Conic)"
+ },
+ {
+  "file": "plans2168.zip",
+  "url": "https://data.capitol.texas.gov/dataset/70836384-f10c-423d-a36e-748d7e000872/resource/8247dbc6-b942-4a29-813c-1ebc603a7236/download/plans2168.zip",
+  "retrieved_at": "2026-11-01T21:08",
+  "portal_page": "https://data.capitol.texas.gov/dataset/plans2168",
+  "description": "District shapefile (NAD83 Lambert Conformal Conic)"
+ }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "file": "Texas_House_of_Representatives_elections_2026.html",
+    "url": "https://ballotpedia.org/Texas_House_of_Representatives_elections,_2026",
+    "retrieved_at": "2026-11-01T21:11",
+    "description": "Raw Ballotpedia HTML"
+  },
+  {
+    "file": "Texas_House_of_Representatives.html",
+    "url": "https://ballotpedia.org/Texas_House_of_Representatives",
+    "retrieved_at": "2026-11-01T21:11",
+    "description": "Raw Ballotpedia HTML"
+  },
+  {
+    "file": "Texas_state_legislative_special_elections_2025.html",
+    "url": "https://ballotpedia.org/Texas_state_legislative_special_elections,_2025",
+    "retrieved_at": "2026-11-01T21:11",
+    "description": "Raw Ballotpedia HTML"
+  },
+  {
+    "file": "Texas_state_legislative_special_elections_2026.html",
+    "url": "https://ballotpedia.org/Texas_state_legislative_special_elections,_2026",
+    "retrieved_at": "2026-11-01T21:11",
+    "description": "Raw Ballotpedia HTML"
+  },
+  {
+    "file": "house_candidates_2026.csv",
+    "url": "https://ballotpedia.org/Texas_House_of_Representatives_elections,_2026",
+    "retrieved_at": "2026-11-01T21:11",
+    "description": "Parsed general-election candidates, TX House 2026, one row per candidate"
+  },
+  {
+    "file": "house_districts_2026.csv",
+    "url": "https://ballotpedia.org/Texas_House_of_Representatives_elections,_2026",
+    "retrieved_at": "2026-11-01T21:11",
+    "description": "Per-district summary derived from house_candidates_2026.csv"
+  },
+  {
+    "file": "house_control_2026.json",
+    "url": "https://ballotpedia.org/Texas_House_of_Representatives",
+    "retrieved_at": "2026-11-01T21:11",
+    "description": "Current partisan composition, vacancies, and 2025-2026 TX legislative special elections"
+  },
+  {
+    "file": "senate_ballotpedia_elections_2026.html",
+    "url": "https://ballotpedia.org/Texas_State_Senate_elections,_2026",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Ballotpedia: Texas State Senate elections, 2026 (general/primary candidate tables, open seats)"
+  },
+  {
+    "file": "senate_ballotpedia_elections_2024.html",
+    "url": "https://ballotpedia.org/Texas_State_Senate_elections,_2024",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Ballotpedia: Texas State Senate elections, 2024 (complement check: seats NOT up in 2026)"
+  },
+  {
+    "file": "senate_ballotpedia_chamber.html",
+    "url": "https://ballotpedia.org/Texas_State_Senate",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Ballotpedia: Texas State Senate chamber page (current members, partisan composition, vacancies)"
+  },
+  {
+    "file": "senate_ballotpedia_special_elections_2025.html",
+    "url": "https://ballotpedia.org/Texas_state_legislative_special_elections,_2025",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Ballotpedia: Texas state legislative special elections, 2025"
+  },
+  {
+    "file": "senate_ballotpedia_special_elections_2026.html",
+    "url": "https://ballotpedia.org/Texas_state_legislative_special_elections,_2026",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Ballotpedia: Texas state legislative special elections, 2026"
+  },
+  {
+    "file": "senate_ballotpedia_redistricting_2020_census.html",
+    "url": "https://ballotpedia.org/Redistricting_in_Texas_after_the_2020_census",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Ballotpedia: Redistricting in Texas after the 2020 census (2023 re-enactment of 2021 legislative maps)"
+  },
+  {
+    "file": "senate_ballotpedia_redistricting_ahead_of_2026.html",
+    "url": "https://ballotpedia.org/Redistricting_in_Texas_ahead_of_the_2026_elections",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Ballotpedia: Redistricting in Texas ahead of the 2026 elections (2025 mid-decade congressional redraw)"
+  },
+  {
+    "file": "senate_tlc_redistricting_home.html",
+    "url": "https://redistricting.capitol.texas.gov/",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Texas Legislative Council redistricting site: statement of plans in effect for the 2026 elections"
+  },
+  {
+    "file": "senate_texastribune_2023_term_lottery.html",
+    "url": "https://www.texastribune.org/2023/01/11/texas-senate-2023-terms/",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Texas Tribune, Jan 11 2023: full list of senators drawing 2-year vs 4-year terms after redistricting"
+  },
+  {
+    "file": "senate_lrl_members_88th.html",
+    "url": "https://lrl.texas.gov/legeLeaders/members/membersearch.cfm?leg=88&chamber=S",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Legislative Reference Library: Senate members of the 88th Legislature (name -> district map for the 2023 lottery)"
+  },
+  {
+    "file": "senate_lrl_members_89th.html",
+    "url": "https://lrl.texas.gov/legeLeaders/members/membersearch.cfm?leg=89&chamber=S",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Legislative Reference Library: Senate members of the 89th Legislature with term years (official cross-check)"
+  },
+  {
+    "file": "senate_sos_candidate_portal_2026_probe.html",
+    "url": "https://candidate.texas-election.com/Elections/getQualifiedCandidatesInfo.do",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Texas SOS qualified-candidate portal, POST nbElecYear=2026 (probe; portal lists no 2026 elections)"
+  },
+  {
+    "file": "senate_seats_up_2026.json",
+    "url": "https://ballotpedia.org/Texas_State_Senate_elections,_2026",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Derived: Texas Senate districts on the Nov 3 2026 ballot with cross-checks"
+  },
+  {
+    "file": "senate_candidates_2026.csv",
+    "url": "https://ballotpedia.org/Texas_State_Senate_elections,_2026",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Parsed from Ballotpedia general-election table: candidates per Senate district (incl. did-not-make-ballot entries)"
+  },
+  {
+    "file": "senate_districts_2026.csv",
+    "url": "https://ballotpedia.org/Texas_State_Senate_elections,_2026",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Derived per-seat summary (incumbent from Ballotpedia chamber page; open_seat = no incumbent on the general ballot)"
+  },
+  {
+    "file": "senate_control_2026.json",
+    "url": "https://ballotpedia.org/Texas_State_Senate",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Derived: current Senate composition, member list, 2025-2026 special elections"
+  },
+  {
+    "file": "maps_confirmation.json",
+    "url": "https://redistricting.capitol.texas.gov/",
+    "retrieved_at": "2026-11-01T21:17",
+    "description": "Confirmation that PLANS2168/PLANH2316 are the 2026 legislative maps (congressional-only 2025 redraw)"
+  }
+]

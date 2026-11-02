@@ -1,0 +1,26 @@
+{
+  "statement": "Texas's 2025 mid-decade redistricting (89th Legislature, 2nd Called Session) replaced only the congressional plan (PlanC2193 -> PlanC2333). The state Senate plan PLANS2168 and state House plan PLANH2316, enacted in 2023 (SB 375 / HB 1000) with the same districts as the 2021 plans, remain the plans in effect for the November 3, 2026 elections.",
+  "tlc_verbatim": "The district plans in effect for the 2026 elections include the congressional redistricting plan enacted by the 89th Legislature, 2nd Called Session, ( PlanC2333 ) and the state senate ( PlanS2168 ), state house ( PlanH2316 ), and state board of education ( PlanE2106 ), plans in effect since the 2022 elections.",
+  "tlc_plan_ids_found": [
+    "PlanC2333",
+    "PlanE2106",
+    "PlanH2316",
+    "PlanS2168"
+  ],
+  "ballotpedia_2026_redistricting_sentence": "On August 29, 2025, Gov. Greg Abbott (R) signed a bill enacting a new congressional map that shifted five Democratic districts toward Republicans ahead of the 2026 elections.",
+  "ballotpedia_2026_page_mentions_legislative_redraw": false,
+  "ballotpedia_2026_page_legislative_redraw_sentences": [],
+  "ballotpedia_2020_census_legislative_sentence": "Texas enacted new legislative district boundaries in June 2023 for use in 2024 and until the 2030 census. These districts were the same as those enacted by the state in October 2021.",
+  "senate_plan": "PLANS2168",
+  "house_plan": "PLANH2316",
+  "congressional_plan_2026": "PLANC2333",
+  "verified": true,
+  "source_urls": [
+    "https://redistricting.capitol.texas.gov/",
+    "https://ballotpedia.org/Redistricting_in_Texas_ahead_of_the_2026_elections",
+    "https://ballotpedia.org/Redistricting_in_Texas_after_the_2020_census",
+    "https://dvr.capitol.texas.gov/Senate/0/PLANS2168",
+    "https://dvr.capitol.texas.gov/House/0/PLANH2316"
+  ],
+  "retrieved_at": "2026-11-01T21:17"
+}

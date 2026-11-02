@@ -1,0 +1,678 @@
+year,chamber,district,dem_pct,rep_pct,other_pct,margin_d_minus_r,uncontested,on_ballot,winner_party,winner_name,incumbent_party_if_known,n_candidates,total_votes,source
+2018,H,1,0.0,100.0,0.0,-100.0,True,True,R,Gary VanDeaver,,1,43340,sos_2018_html
+2018,H,2,19.96,80.04,0.0,-60.08,False,True,R,Dan Flynn,R,2,57275,sos_2018_html
+2018,H,3,24.0,76.0,0.0,-52.0,False,True,R,Cecil Bell Jr,R,2,63971,sos_2018_html
+2018,H,4,24.19,74.1,1.71,-49.91,False,True,R,Keith Bell,,3,60279,sos_2018_html
+2018,H,5,20.65,79.35,0.0,-58.7,False,True,R,Cole Hefner,R,2,56214,sos_2018_html
+2018,H,6,0.0,75.6,24.4,-75.6,False,True,R,Matt Schaefer,R,2,49167,sos_2018_html
+2018,H,7,0.0,100.0,0.0,-100.0,True,True,R,Jay Dean,R,1,39588,sos_2018_html
+2018,H,8,21.78,78.22,0.0,-56.44,False,True,R,Cody Harris,,2,46706,sos_2018_html
+2018,H,9,0.0,100.0,0.0,-100.0,True,True,R,Chris Paddie,R,1,45918,sos_2018_html
+2018,H,10,27.45,70.26,2.29,-42.81,False,True,R,John Wray,R,3,63550,sos_2018_html
+2018,H,11,25.64,74.36,0.0,-48.72,False,True,R,Travis Clardy,R,2,52066,sos_2018_html
+2018,H,12,32.41,67.59,0.0,-35.18,False,True,R,Kyle Kacal,R,2,48918,sos_2018_html
+2018,H,13,20.88,79.12,0.0,-58.24,False,True,R,Ben Leman,,2,64620,sos_2018_html
+2018,H,14,43.62,56.38,0.0,-12.76,False,True,R,John Raney,R,2,47723,sos_2018_html
+2018,H,15,32.85,67.15,0.0,-34.3,False,True,R,Steve Toth,,2,78890,sos_2018_html
+2018,H,16,19.67,80.33,0.0,-60.66,False,True,R,Will Metcalf,R,2,61292,sos_2018_html
+2018,H,17,37.45,62.55,0.0,-25.1,False,True,R,John P. Cyrier,R,2,53591,sos_2018_html
+2018,H,18,24.51,75.49,0.0,-50.98,False,True,R,Ernest Bailes,R,2,47156,sos_2018_html
+2018,H,19,16.81,83.19,0.0,-66.38,False,True,R,James White,R,2,60158,sos_2018_html
+2018,H,20,28.5,71.5,0.0,-43.0,False,True,R,Terry M. Wilson,R,2,80954,sos_2018_html
+2018,H,21,0.0,100.0,0.0,-100.0,True,True,R,Dade Phelan,R,1,46435,sos_2018_html
+2018,H,22,100.0,0.0,0.0,100.0,True,True,D,Joe Deshotel,D,1,31441,sos_2018_html
+2018,H,23,41.43,56.46,2.11,-15.03,False,True,R,Mayes Middleton,,3,58366,sos_2018_html
+2018,H,24,28.37,69.59,2.04,-41.22,False,True,R,Greg Bonnen,R,3,69036,sos_2018_html
+2018,H,25,0.0,100.0,0.0,-100.0,True,True,R,Dennis Bonnen,R,1,40902,sos_2018_html
+2018,H,26,47.59,52.41,0.0,-4.82,False,True,R,"D.F. ""Rick"" Miller",R,2,65834,sos_2018_html
+2018,H,27,100.0,0.0,0.0,100.0,True,True,D,RON REYNOLDS,D,1,47450,sos_2018_html
+2018,H,28,45.84,54.16,0.0,-8.32,False,True,R,John Zerwas,R,2,81998,sos_2018_html
+2018,H,29,0.0,100.0,0.0,-100.0,True,True,R,Ed Thompson,R,1,46810,sos_2018_html
+2018,H,30,25.3,74.7,0.0,-49.4,False,True,R,Geanie W. Morrison,R,2,53083,sos_2018_html
+2018,H,31,100.0,0.0,0.0,100.0,True,True,D,Ryan Guillen,D,1,27492,sos_2018_html
+2018,H,32,0.0,100.0,0.0,-100.0,True,True,R,Todd Hunter,R,1,38359,sos_2018_html
+2018,H,33,35.0,65.0,0.0,-30.0,False,True,R,Justin Holland,R,2,82883,sos_2018_html
+2018,H,34,61.11,38.89,0.0,22.22,False,True,D,Abel Herrero,D,2,41311,sos_2018_html
+2018,H,35,100.0,0.0,0.0,100.0,True,True,D,Oscar Longoria,D,1,23351,sos_2018_html
+2018,H,36,100.0,0.0,0.0,100.0,True,True,D,"Sergio Muñoz, Jr.",D,1,25971,sos_2018_html
+2018,H,37,100.0,0.0,0.0,100.0,True,True,D,Alex Dominguez,,1,20314,sos_2018_html
+2018,H,38,100.0,0.0,0.0,100.0,True,True,D,Eddie Lucio III,D,1,25019,sos_2018_html
+2018,H,39,100.0,0.0,0.0,100.0,True,True,D,"Armando ""Mando"" Martínez",D,1,25822,sos_2018_html
+2018,H,40,100.0,0.0,0.0,100.0,True,True,D,Terry Canales,D,1,24252,sos_2018_html
+2018,H,41,61.49,38.51,0.0,22.98,False,True,D,Bobby Guerra,D,2,40339,sos_2018_html
+2018,H,42,74.31,25.69,0.0,48.62,False,True,D,Richard Peña Raymond,D,2,34170,sos_2018_html
+2018,H,43,38.88,61.12,0.0,-22.24,False,True,R,J.M. Lozano,R,2,43344,sos_2018_html
+2018,H,44,31.36,68.64,0.0,-37.28,False,True,R,John Kuempel,R,2,70957,sos_2018_html
+2018,H,45,51.6,48.4,0.0,3.2,False,True,D,Erin Zwiener,,2,83738,sos_2018_html
+2018,H,46,82.23,14.95,2.82,67.28,False,True,D,Sheryl Cole,,3,57026,sos_2018_html
+2018,H,47,52.4,47.6,0.0,4.8,False,True,D,Vikki Goodwin,R,2,105551,sos_2018_html
+2018,H,48,100.0,0.0,0.0,100.0,True,True,D,Donna Howard,D,1,67952,sos_2018_html
+2018,H,49,83.0,17.0,0.0,66.0,False,True,D,Gina Hinojosa,D,2,92587,sos_2018_html
+2018,H,50,100.0,0.0,0.0,100.0,True,True,D,Celia Israel,D,1,52652,sos_2018_html
+2018,H,51,100.0,0.0,0.0,100.0,True,True,D,Eddie Rodriguez,D,1,50282,sos_2018_html
+2018,H,52,51.73,48.27,0.0,3.46,False,True,D,James Talarico,,2,71138,sos_2018_html
+2018,H,53,21.45,78.55,0.0,-57.1,False,True,R,Andrew S. Murr,R,2,67348,sos_2018_html
+2018,H,54,46.2,53.8,0.0,-7.6,False,True,R,Brad Buckley,,2,48394,sos_2018_html
+2018,H,55,0.0,100.0,0.0,-100.0,True,True,R,Hugh D. Shine,R,1,34297,sos_2018_html
+2018,H,56,34.22,65.78,0.0,-31.56,False,True,R,"Charles ""Doc"" Anderson",R,2,57606,sos_2018_html
+2018,H,57,20.96,79.04,0.0,-58.08,False,True,R,Trent Ashby,R,2,52070,sos_2018_html
+2018,H,58,0.0,100.0,0.0,-100.0,True,True,R,DeWayne Burns,R,1,49255,sos_2018_html
+2018,H,59,0.0,100.0,0.0,-100.0,True,True,R,J.D. Sheffield,R,1,39453,sos_2018_html
+2018,H,60,0.0,100.0,0.0,-100.0,True,True,R,Mike Lang,R,1,56741,sos_2018_html
+2018,H,61,0.0,100.0,0.0,-100.0,True,True,R,Phil King,R,1,66735,sos_2018_html
+2018,H,62,21.9,76.16,1.94,-54.26,False,True,R,Reggie Smith,,3,55142,sos_2018_html
+2018,H,63,32.88,67.12,0.0,-34.24,False,True,R,Tan Parker,R,2,78915,sos_2018_html
+2018,H,64,44.49,52.81,2.7,-8.32,False,True,R,Lynn Stucky,R,3,68626,sos_2018_html
+2018,H,65,51.16,48.84,0.0,2.32,False,True,D,Michelle Beckley,R,2,58586,sos_2018_html
+2018,H,66,49.71,50.29,0.0,-0.58,False,True,R,Matt Shaheen,R,2,68373,sos_2018_html
+2018,H,67,48.85,51.15,0.0,-2.3,False,True,R,Jeff Leach,R,2,72864,sos_2018_html
+2018,H,68,0.0,100.0,0.0,-100.0,True,True,R,Drew Springer,R,1,45916,sos_2018_html
+2018,H,69,0.0,100.0,0.0,-100.0,True,True,R,James Frank,R,1,36068,sos_2018_html
+2018,H,70,38.25,61.75,0.0,-23.5,False,True,R,Scott Sanford,R,2,85069,sos_2018_html
+2018,H,71,21.95,78.05,0.0,-56.1,False,True,R,Stan Lambert,R,2,49339,sos_2018_html
+2018,H,72,0.0,100.0,0.0,-100.0,True,True,R,Drew Darby,R,1,41480,sos_2018_html
+2018,H,73,25.22,74.78,0.0,-49.56,False,True,R,Kyle Biedermann,R,2,92536,sos_2018_html
+2018,H,74,100.0,0.0,0.0,100.0,True,True,D,Poncho Nevárez,D,1,25439,sos_2018_html
+2018,H,75,100.0,0.0,0.0,100.0,True,True,D,Mary E. Gonzalez,D,1,30201,sos_2018_html
+2018,H,76,100.0,0.0,0.0,100.0,True,True,D,Cesar J. Blanco,D,1,29445,sos_2018_html
+2018,H,77,100.0,0.0,0.0,100.0,True,True,D,"Evelina ""Lina"" Ortega",D,1,27685,sos_2018_html
+2018,H,78,65.24,34.76,0.0,30.48,False,True,D,Joe Moody,D,2,48869,sos_2018_html
+2018,H,79,100.0,0.0,0.0,100.0,True,True,D,Joe C. Pickett,D,1,33015,sos_2018_html
+2018,H,80,100.0,0.0,0.0,100.0,True,True,D,Tracy King,D,1,27781,sos_2018_html
+2018,H,81,25.01,74.99,0.0,-49.98,False,True,R,Brooks Landgraf,R,2,38755,sos_2018_html
+2018,H,82,19.87,80.13,0.0,-60.26,False,True,R,Tom Craddick,R,2,48707,sos_2018_html
+2018,H,83,22.68,77.32,0.0,-54.64,False,True,R,Dustin Burrows,R,2,58688,sos_2018_html
+2018,H,84,39.85,60.15,0.0,-20.3,False,True,R,John Frullo,R,2,45765,sos_2018_html
+2018,H,85,43.52,56.48,0.0,-12.96,False,True,R,Phil Stephenson,R,2,56687,sos_2018_html
+2018,H,86,17.87,82.13,0.0,-64.26,False,True,R,John Smithee,R,2,57212,sos_2018_html
+2018,H,87,0.0,100.0,0.0,-100.0,True,True,R,Four Price,R,1,32314,sos_2018_html
+2018,H,88,16.25,83.75,0.0,-67.5,False,True,R,Ken King,R,2,39911,sos_2018_html
+2018,H,89,40.46,59.54,0.0,-19.08,False,True,R,Candy Noble,,2,74648,sos_2018_html
+2018,H,90,100.0,0.0,0.0,100.0,True,True,D,Ramon Romero Jr.,D,1,20728,sos_2018_html
+2018,H,91,36.52,63.48,0.0,-26.96,False,True,R,Stephanie Klick,R,2,54511,sos_2018_html
+2018,H,92,47.43,49.82,2.75,-2.39,False,True,R,Jonathan Stickland,R,3,59726,sos_2018_html
+2018,H,93,46.13,53.87,0.0,-7.74,False,True,R,Matt Krause,R,2,57323,sos_2018_html
+2018,H,94,43.91,52.49,3.61,-8.58,False,True,R,Tony Tinderholt,R,3,61823,sos_2018_html
+2018,H,95,76.51,21.78,1.71,54.73,False,True,D,Nicole Collier,D,3,43158,sos_2018_html
+2018,H,96,47.21,50.84,1.95,-3.63,False,True,R,Bill Zedler,R,3,64314,sos_2018_html
+2018,H,97,44.86,53.19,1.95,-8.33,False,True,R,Craig Goldman,R,3,66125,sos_2018_html
+2018,H,98,29.34,68.25,2.41,-38.91,False,True,R,Giovanni Capriglione,R,3,83217,sos_2018_html
+2018,H,99,35.69,64.31,0.0,-28.62,False,True,R,Charlie Geren,R,2,59159,sos_2018_html
+2018,H,100,100.0,0.0,0.0,100.0,True,True,D,Eric Johnson,D,1,33933,sos_2018_html
+2018,H,101,87.39,0.0,12.61,87.39,False,True,D,Chris Turner,D,2,35617,sos_2018_html
+2018,H,102,52.88,47.12,0.0,5.76,False,True,D,Ana-Maria Ramos,R,2,56783,sos_2018_html
+2018,H,103,78.25,21.75,0.0,56.5,False,True,D,Rafael M. Anchia,D,2,38258,sos_2018_html
+2018,H,104,100.0,0.0,0.0,100.0,True,True,D,Jessica Gonzalez,,1,26078,sos_2018_html
+2018,H,105,54.74,45.26,0.0,9.48,False,True,D,"Thresa ""Terry"" Meza",R,2,44903,sos_2018_html
+2018,H,106,41.69,58.31,0.0,-16.62,False,True,R,Jared Patterson,,2,83111,sos_2018_html
+2018,H,107,57.1,42.9,0.0,14.2,False,True,D,Victoria Neave,D,2,50887,sos_2018_html
+2018,H,108,49.86,50.14,0.0,-0.28,False,True,R,Morgan Meyer,R,2,78634,sos_2018_html
+2018,H,109,99.0,0.0,1.0,99.0,True,True,D,Carl Sherman,,2,52499,sos_2018_html
+2018,H,110,100.0,0.0,0.0,100.0,True,True,D,Toni Rose,D,1,27300,sos_2018_html
+2018,H,111,100.0,0.0,0.0,100.0,True,True,D,Yvonne Davis,D,1,44377,sos_2018_html
+2018,H,112,48.96,51.04,0.0,-2.08,False,True,R,Angie Chen Button,R,2,53142,sos_2018_html
+2018,H,113,53.48,46.52,0.0,6.96,False,True,D,Rhetta Andrews Bowers,,2,52670,sos_2018_html
+2018,H,114,55.65,44.35,0.0,11.3,False,True,D,John Turner,,2,66528,sos_2018_html
+2018,H,115,56.79,43.21,0.0,13.58,False,True,D,Julie Johnson,R,2,56726,sos_2018_html
+2018,H,116,70.4,29.6,0.0,40.8,False,True,D,Trey Martinez Fischer,,2,46218,sos_2018_html
+2018,H,117,57.39,42.61,0.0,14.78,False,True,D,Philip Cortez,D,2,57456,sos_2018_html
+2018,H,118,58.05,41.95,0.0,16.1,False,True,D,Leo Pacheco,,2,41399,sos_2018_html
+2018,H,119,100.0,0.0,0.0,100.0,True,True,D,Roland Gutierrez,D,1,30331,sos_2018_html
+2018,H,120,68.37,31.63,0.0,36.74,False,True,D,Barbara Gervin-Hawkins,D,2,42218,sos_2018_html
+2018,H,121,44.73,53.17,2.09,-8.44,False,True,R,Steve Allison,,3,73051,sos_2018_html
+2018,H,122,38.07,61.93,0.0,-23.86,False,True,R,Lyle Larson,R,2,94162,sos_2018_html
+2018,H,123,100.0,0.0,0.0,100.0,True,True,D,Diego Bernanl,D,1,36851,sos_2018_html
+2018,H,124,67.64,32.36,0.0,35.28,False,True,D,Ina Minjarez,D,2,47064,sos_2018_html
+2018,H,125,81.38,0.0,18.62,81.38,False,True,D,Justin Rodriguez,D,2,40494,sos_2018_html
+2018,H,126,45.16,54.84,0.0,-9.68,False,True,R,E. Sam Harless,,2,55434,sos_2018_html
+2018,H,127,0.0,80.24,19.76,-80.24,False,True,R,Dan Huberty,R,2,55576,sos_2018_html
+2018,H,128,0.0,100.0,0.0,-100.0,True,True,R,Briscoe Cain,R,1,38197,sos_2018_html
+2018,H,129,41.82,56.51,1.66,-14.69,False,True,R,Dennis Paul,R,3,64684,sos_2018_html
+2018,H,130,29.68,68.44,1.88,-38.76,False,True,R,Tom Oliverson,R,3,76132,sos_2018_html
+2018,H,131,85.81,14.19,0.0,71.62,False,True,D,Alma A. Allen,D,2,41870,sos_2018_html
+2018,H,132,49.26,49.09,1.66,0.17,False,True,D,Gina Calanni,R,3,66675,sos_2018_html
+2018,H,133,41.89,58.11,0.0,-16.22,False,True,R,Jim Murphy,R,2,71244,sos_2018_html
+2018,H,134,46.83,53.17,0.0,-6.34,False,True,R,Sarah Davis,R,2,88914,sos_2018_html
+2018,H,135,50.81,47.65,1.55,3.16,False,True,D,Jon E. Rosenthal,R,3,56041,sos_2018_html
+2018,H,136,53.37,43.73,2.9,9.64,False,True,D,John H Bucy III,R,3,77934,sos_2018_html
+2018,H,137,88.28,0.0,11.72,88.28,False,True,D,Gene Wu,D,2,19954,sos_2018_html
+2018,H,138,49.93,50.03,0.04,-0.1,False,True,R,Dwayne Bohac,R,3,48417,sos_2018_html
+2018,H,139,92.79,0.0,7.21,92.79,False,True,D,Jarvis D Johnson,D,2,40046,sos_2018_html
+2018,H,140,100.0,0.0,0.0,100.0,True,True,D,Armando Lucio Walle,D,1,19188,sos_2018_html
+2018,H,141,100.0,0.0,0.0,100.0,True,True,D,Senfronia Thompson,D,1,27946,sos_2018_html
+2018,H,142,100.0,0.0,0.0,100.0,True,True,D,Harold V. Dutton Jr,D,1,32087,sos_2018_html
+2018,H,143,100.0,0.0,0.0,100.0,True,True,D,Ana Hernandez,D,1,22504,sos_2018_html
+2018,H,144,61.18,38.82,0.0,22.36,False,True,D,Mary Ann Perez,D,2,23455,sos_2018_html
+2018,H,145,90.36,0.0,9.64,90.36,False,True,D,Carol Alvarado,D,2,26859,sos_2018_html
+2018,H,146,92.89,0.0,7.11,92.89,False,True,D,Shawn Nicole Thierry,D,2,38387,sos_2018_html
+2018,H,147,80.8,19.2,0.0,61.6,False,True,D,Garnet F. Coleman,D,2,54842,sos_2018_html
+2018,H,148,67.91,32.09,0.0,35.82,False,True,D,Jessica Cristina Farrar,D,2,47459,sos_2018_html
+2018,H,149,88.32,0.0,11.68,88.32,False,True,D,Hubert Vo,D,2,30652,sos_2018_html
+2018,H,150,42.22,57.78,0.0,-15.56,False,True,R,Valoree Swanson,R,2,70795,sos_2018_html
+2018,S,2,40.65,59.35,0.0,-18.7,False,True,R,Bob Hall,R,2,258048,sos_2018_html
+2018,S,3,20.53,78.27,1.2,-57.74,False,True,R,Robert Nichols,R,3,274757,sos_2018_html
+2018,S,5,41.47,55.34,3.18,-13.87,False,True,R,Charles Schwertner,R,3,329842,sos_2018_html
+2018,S,7,40.34,57.75,1.91,-17.41,False,True,R,Paul Bettencourt,R,3,307974,sos_2018_html
+2018,S,8,48.82,51.18,0.0,-2.36,False,True,R,Angela Paxton,,2,332152,sos_2018_html
+2018,S,9,45.97,54.03,0.0,-8.06,False,True,R,Kelly Hancock,R,2,244793,sos_2018_html
+2018,S,10,51.73,48.27,0.0,3.46,False,True,D,Beverly Powell,R,2,287927,sos_2018_html
+2018,S,14,71.93,25.23,2.84,46.7,False,True,D,Kirk Watson,D,3,383775,sos_2018_html
+2018,S,15,65.18,32.17,2.65,33.01,False,True,D,John Whitmire,D,3,234763,sos_2018_html
+2018,S,16,54.13,45.87,0.0,8.26,False,True,D,Nathan Johnson,R,2,294161,sos_2018_html
+2018,S,17,46.8,51.44,1.75,-4.64,False,True,R,Joan Huffman,R,3,307637,sos_2018_html
+2018,S,23,100.0,0.0,0.0,100.0,True,True,D,Royce West,D,1,192148,sos_2018_html
+2018,S,25,42.32,57.68,0.0,-15.36,False,True,R,Donna Campbell,R,2,410451,sos_2018_html
+2018,S,30,26.08,73.92,0.0,-47.84,False,True,R,Pat Fallon,,2,317043,sos_2018_html
+2018,S,31,0.0,87.52,12.48,-87.52,False,True,R,Kel Seliger,R,2,199236,sos_2018_html
+2020,H,1,0.0,100.0,0.0,-100.0,True,True,R,GARY VANDEAVER,R,1,59508,sos_portal
+2020,H,2,18.71,81.29,0.0,-62.58,False,True,R,BRYAN SLATON,,2,77588,sos_portal
+2020,H,3,22.66,77.34,0.0,-54.68,False,True,R,CECIL BELL JR,R,2,91010,sos_portal
+2020,H,4,0.0,79.08,20.92,-79.08,False,True,R,KEITH BELL,R,2,83340,sos_portal
+2020,H,5,20.03,79.97,0.0,-59.94,False,True,R,COLE HEFNER,R,2,74021,sos_portal
+2020,H,6,31.84,68.16,0.0,-36.32,False,True,R,MATT SCHAEFER,R,2,73569,sos_portal
+2020,H,7,0.0,100.0,0.0,-100.0,True,True,R,JAY DEAN,R,1,54726,sos_portal
+2020,H,8,0.0,85.91,14.09,-85.91,False,True,R,CODY HARRIS,R,2,58704,sos_portal
+2020,H,9,0.0,100.0,0.0,-100.0,True,True,R,CHRIS PADDIE,R,1,62151,sos_portal
+2020,H,10,0.0,75.83,24.17,-75.83,False,True,R,JAKE ELLZEY,,2,85795,sos_portal
+2020,H,11,24.25,75.75,0.0,-51.5,False,True,R,TRAVIS CLARDY,R,2,65829,sos_portal
+2020,H,12,0.0,100.0,0.0,-100.0,True,True,R,KYLE KACAL,R,1,49785,sos_portal
+2020,H,13,0.0,100.0,0.0,-100.0,True,True,R,BEN LEMAN,R,1,72890,sos_portal
+2020,H,14,42.47,57.53,0.0,-15.06,False,True,R,JOHN RANEY,R,2,62442,sos_portal
+2020,H,15,33.53,66.47,0.0,-32.94,False,True,R,STEVE TOTH,R,2,107697,sos_portal
+2020,H,16,0.0,100.0,0.0,-100.0,True,True,R,WILL METCALF,R,1,74821,sos_portal
+2020,H,17,36.4,63.6,0.0,-27.2,False,True,R,JOHN P. CYRIER,R,2,71100,sos_portal
+2020,H,18,0.0,100.0,0.0,-100.0,True,True,R,ERNEST BAILES,R,1,56026,sos_portal
+2020,H,19,0.0,100.0,0.0,-100.0,True,True,R,JAMES WHITE,R,1,72573,sos_portal
+2020,H,20,28.63,71.37,0.0,-42.74,False,True,R,TERRY M. WILSON,R,2,110532,sos_portal
+2020,H,21,0.0,100.0,0.0,-100.0,True,True,R,DADE PHELAN,R,1,65689,sos_portal
+2020,H,22,68.27,31.73,0.0,36.54,False,True,D,JOE DESHOTEL,D,2,52588,sos_portal
+2020,H,23,39.83,60.17,0.0,-20.34,False,True,R,MAYES MIDDLETON,R,2,78222,sos_portal
+2020,H,24,27.57,69.92,2.51,-42.35,False,True,R,GREG BONNEN,R,3,93764,sos_portal
+2020,H,25,28.43,71.57,0.0,-43.14,False,True,R,CODY THANE VASUT,,2,67753,sos_portal
+2020,H,26,48.21,51.79,0.0,-3.58,False,True,R,JACEY JETTON,,2,83874,sos_portal
+2020,H,27,67.81,32.19,0.0,35.62,False,True,D,RON REYNOLDS,D,2,83139,sos_portal
+2020,H,28,44.73,55.27,0.0,-10.54,False,True,R,GARY GATES,R,2,120527,sos_portal
+2020,H,29,43.31,56.69,0.0,-13.38,False,True,R,ED THOMPSON,R,2,96306,sos_portal
+2020,H,30,0.0,100.0,0.0,-100.0,True,True,R,GEANIE W. MORRISON,R,1,57232,sos_portal
+2020,H,31,58.41,41.59,0.0,16.82,False,True,D,RYAN GUILLEN,D,2,55185,sos_portal
+2020,H,32,38.86,61.14,0.0,-22.28,False,True,R,TODD HUNTER,R,2,69282,sos_portal
+2020,H,33,35.05,64.95,0.0,-29.9,False,True,R,JUSTIN HOLLAND,R,2,119330,sos_portal
+2020,H,34,59.49,40.51,0.0,18.98,False,True,D,ABEL HERRERO,D,2,55004,sos_portal
+2020,H,35,100.0,0.0,0.0,100.0,True,True,D,OSCAR LONGORIA,D,1,31195,sos_portal
+2020,H,36,100.0,0.0,0.0,100.0,True,True,D,SERGIO MUNOZ JR,D,1,36564,sos_portal
+2020,H,37,100.0,0.0,0.0,100.0,True,True,D,ALEX DOMINGUEZ,D,1,27650,sos_portal
+2020,H,38,100.0,0.0,0.0,100.0,True,True,D,EDDIE LUCIO III,D,1,35492,sos_portal
+2020,H,39,100.0,0.0,0.0,100.0,True,True,D,ARMANDO 'MANDO&QUOT; MARTINEZ,D,1,36860,sos_portal
+2020,H,40,100.0,0.0,0.0,100.0,True,True,D,TERRY CANALES,D,1,34576,sos_portal
+2020,H,41,57.87,42.13,0.0,15.74,False,True,D,BOBBY GUERRA,D,2,55463,sos_portal
+2020,H,42,100.0,0.0,0.0,100.0,True,True,D,RICHARD PENA RAYMOND,D,1,35709,sos_portal
+2020,H,43,0.0,100.0,0.0,-100.0,True,True,R,J.M. LOZANO,R,1,45357,sos_portal
+2020,H,44,29.48,67.42,3.1,-37.94,False,True,R,JOHN KUEMPEL,R,3,99841,sos_portal
+2020,H,45,50.53,49.47,0.0,1.06,False,True,D,ERIN ZWIENER,D,2,113558,sos_portal
+2020,H,46,100.0,0.0,0.0,100.0,True,True,D,SHERYL COLE,D,1,62064,sos_portal
+2020,H,47,49.27,48.28,2.44,0.99,False,True,D,VIKKI GOODWIN,D,3,135601,sos_portal
+2020,H,48,70.1,29.9,0.0,40.2,False,True,D,DONNA HOWARD,D,2,104972,sos_portal
+2020,H,49,78.85,17.96,3.19,60.89,False,True,D,GINA HINOJOSA,D,3,101783,sos_portal
+2020,H,50,68.78,31.22,0.0,37.56,False,True,D,CELIA ISRAEL,D,2,92254,sos_portal
+2020,H,51,82.66,17.34,0.0,65.32,False,True,D,EDDIE RODRIGUEZ,D,2,71688,sos_portal
+2020,H,52,51.48,48.52,0.0,2.96,False,True,D,JAMES TALARICO,D,2,98131,sos_portal
+2020,H,53,21.8,78.2,0.0,-56.4,False,True,R,ANDREW S. MURR,R,2,85840,sos_portal
+2020,H,54,46.61,53.39,0.0,-6.78,False,True,R,BRAD BUCKLEY,R,2,72771,sos_portal
+2020,H,55,0.0,100.0,0.0,-100.0,True,True,R,HUGH D. SHINE,R,1,54733,sos_portal
+2020,H,56,32.71,67.29,0.0,-34.58,False,True,R,CHARLES &QUOT;DOC&QUOT; ANDERSON,R,2,72863,sos_portal
+2020,H,57,20.55,79.45,0.0,-58.9,False,True,R,TRENT ASHBY,R,2,67876,sos_portal
+2020,H,58,20.96,79.04,0.0,-58.08,False,True,R,DEWAYNE BURNS,R,2,78665,sos_portal
+2020,H,59,0.0,100.0,0.0,-100.0,True,True,R,SHELBY SLAWSON,,1,53825,sos_portal
+2020,H,60,0.0,100.0,0.0,-100.0,True,True,R,GLENN ROGERS,,1,75270,sos_portal
+2020,H,61,14.16,82.95,2.89,-68.79,False,True,R,PHIL KING,R,3,105515,sos_portal
+2020,H,62,21.41,78.59,0.0,-57.18,False,True,R,REGGIE SMITH,R,2,75094,sos_portal
+2020,H,63,32.58,67.42,0.0,-34.84,False,True,R,TAN PARKER,R,2,108723,sos_portal
+2020,H,64,45.05,54.95,0.0,-9.9,False,True,R,LYNN STUCKY,R,2,87692,sos_portal
+2020,H,65,51.51,48.49,0.0,3.02,False,True,D,MICHELLE BECKLEY,D,2,78685,sos_portal
+2020,H,66,48.58,49.56,1.86,-0.98,False,True,R,MATT SHAHEEN,R,3,86207,sos_portal
+2020,H,67,48.29,51.71,0.0,-3.42,False,True,R,JEFF LEACH,R,2,94980,sos_portal
+2020,H,68,14.53,85.47,0.0,-70.94,False,True,R,DREW SPRINGER,R,2,66286,sos_portal
+2020,H,69,0.0,100.0,0.0,-100.0,True,True,R,JAMES B. FRANK,R,1,49731,sos_portal
+2020,H,70,38.15,61.85,0.0,-23.7,False,True,R,SCOTT SANFORD,R,2,124097,sos_portal
+2020,H,71,21.15,78.85,0.0,-57.7,False,True,R,STAN LAMBERT,R,2,65159,sos_portal
+2020,H,72,0.0,100.0,0.0,-100.0,True,True,R,DREW DARBY,R,1,54898,sos_portal
+2020,H,73,25.17,74.83,0.0,-49.66,False,True,R,KYLE BIEDERMANN,R,2,127476,sos_portal
+2020,H,74,53.92,46.08,0.0,7.84,False,True,D,EDDIE MORALES,,2,48465,sos_portal
+2020,H,75,100.0,0.0,0.0,100.0,True,True,D,MARY E. GONZALEZ,D,1,46455,sos_portal
+2020,H,76,100.0,0.0,0.0,100.0,True,True,D,CLAUDIA ORDAZ PEREZ,,1,36199,sos_portal
+2020,H,77,100.0,0.0,0.0,100.0,True,True,D,EVELINA (LINA) ORTEGA,D,1,34659,sos_portal
+2020,H,78,61.65,38.35,0.0,23.3,False,True,D,JOE MOODY,D,2,63056,sos_portal
+2020,H,79,100.0,0.0,0.0,100.0,True,True,D,ART FIERRO,D,1,42667,sos_portal
+2020,H,80,100.0,0.0,0.0,100.0,True,True,D,TRACY KING,D,1,37792,sos_portal
+2020,H,81,0.0,100.0,0.0,-100.0,True,True,R,BROOKS LANDGRAF,R,1,48239,sos_portal
+2020,H,82,0.0,100.0,0.0,-100.0,True,True,R,TOM CRADDICK,R,1,61068,sos_portal
+2020,H,83,20.71,79.29,0.0,-58.58,False,True,R,DUSTIN BURROWS,R,2,78144,sos_portal
+2020,H,84,38.78,61.22,0.0,-22.44,False,True,R,JOHN FRULLO,R,2,57274,sos_portal
+2020,H,85,41.15,56.44,2.41,-15.29,False,True,R,PHIL STEPHENSON,R,3,76234,sos_portal
+2020,H,86,0.0,100.0,0.0,-100.0,True,True,R,JOHN SMITHEE,R,1,67985,sos_portal
+2020,H,87,0.0,100.0,0.0,-100.0,True,True,R,FOUR PRICE,R,1,44412,sos_portal
+2020,H,88,0.0,100.0,0.0,-100.0,True,True,R,KEN KING,R,1,45771,sos_portal
+2020,H,89,38.45,59.04,2.51,-20.59,False,True,R,CANDY NOBLE,R,3,98405,sos_portal
+2020,H,90,72.4,27.6,0.0,44.8,False,True,D,RAMON ROMERO,D,2,34985,sos_portal
+2020,H,91,36.13,63.87,0.0,-27.74,False,True,R,STEPHANIE KLICK,R,2,70629,sos_portal
+2020,H,92,47.2,50.87,1.93,-3.67,False,True,R,JEFF CASON,,3,78384,sos_portal
+2020,H,93,45.53,54.47,0.0,-8.94,False,True,R,MATT KRAUSE,R,2,84215,sos_portal
+2020,H,94,45.9,50.97,3.13,-5.07,False,True,R,TONY TINDERHOLT,R,3,75730,sos_portal
+2020,H,95,100.0,0.0,0.0,100.0,True,True,D,NICOLE COLLIER,D,1,46120,sos_portal
+2020,H,96,46.1,51.22,2.69,-5.12,False,True,R,DAVID COOK,,3,87965,sos_portal
+2020,H,97,45.19,52.55,2.26,-7.36,False,True,R,CRAIG GOLDMAN,R,3,83443,sos_portal
+2020,H,98,32.15,67.85,0.0,-35.7,False,True,R,GIOVANNI CAPRIGLIONE,R,2,105326,sos_portal
+2020,H,99,0.0,100.0,0.0,-100.0,True,True,R,CHARLIE GEREN,R,1,62554,sos_portal
+2020,H,100,100.0,0.0,0.0,100.0,True,True,D,JASMINE FELICIA CROCKETT,,1,45550,sos_portal
+2020,H,101,100.0,0.0,0.0,100.0,True,True,D,CHRIS TURNER,D,1,45531,sos_portal
+2020,H,102,53.94,46.06,0.0,7.88,False,True,D,ANA-MARIA RAMOS,D,2,69004,sos_portal
+2020,H,103,74.56,25.44,0.0,49.12,False,True,D,RAFAEL M. ANCHIA,D,2,50842,sos_portal
+2020,H,104,100.0,0.0,0.0,100.0,True,True,D,JESSICA GONZALEZ,D,1,35710,sos_portal
+2020,H,105,54.96,42.03,3.01,12.93,False,True,D,TERRY MEZA,D,3,57313,sos_portal
+2020,H,106,41.49,58.51,0.0,-17.02,False,True,R,JARED PATTERSON,R,2,125949,sos_portal
+2020,H,107,56.5,43.5,0.0,13.0,False,True,D,VICTORIA NEAVE,D,2,61846,sos_portal
+2020,H,108,48.03,49.65,2.31,-1.62,False,True,R,MORGAN MEYER,R,3,101159,sos_portal
+2020,H,109,83.28,16.72,0.0,66.56,False,True,D,CARL O. SHERMAN SR,D,2,77025,sos_portal
+2020,H,110,100.0,0.0,0.0,100.0,True,True,D,TONI ROSE,D,1,37214,sos_portal
+2020,H,111,100.0,0.0,0.0,100.0,True,True,D,YVONNE DAVIS,D,1,59450,sos_portal
+2020,H,112,48.59,48.92,2.49,-0.33,False,True,R,ANGIE CHEN BUTTON,R,3,69015,sos_portal
+2020,H,113,51.77,48.23,0.0,3.54,False,True,D,RHETTA ANDREWS BOWERS,D,2,68821,sos_portal
+2020,H,114,53.65,46.35,0.0,7.3,False,True,D,JOHN TURNER,D,2,79856,sos_portal
+2020,H,115,56.9,43.1,0.0,13.8,False,True,D,JULIE JOHNSON,D,2,71987,sos_portal
+2020,H,116,69.12,30.88,0.0,38.24,False,True,D,TREY MARTINEZ FISCHER,D,2,59936,sos_portal
+2020,H,117,54.85,41.29,3.85,13.56,False,True,D,PHILIP CORTEZ,D,3,91321,sos_portal
+2020,H,118,56.75,39.92,3.33,16.83,False,True,D,LEO PACHECO,D,3,58558,sos_portal
+2020,H,119,61.67,34.72,3.61,26.95,False,True,D,"ELIZABETH ""LIZ"" CAMPOS",,4,60926,sos_portal
+2020,H,120,65.81,30.98,3.21,34.83,False,True,D,BARBARA GERVIN-HAWKINS,D,3,60784,sos_portal
+2020,H,121,46.55,53.45,0.0,-6.9,False,True,R,STEVE ALLISON,R,2,94230,sos_portal
+2020,H,122,40.37,59.63,0.0,-19.26,False,True,R,LYLE LARSON,R,2,124344,sos_portal
+2020,H,123,100.0,0.0,0.0,100.0,True,True,D,DIEGO BERNAL,D,1,3,sos_portal
+2020,H,124,100.0,0.0,0.0,100.0,True,True,D,INA MINJAREZ,D,1,3,sos_portal
+2020,H,125,79.8,0.0,20.2,79.8,False,True,D,RAY LOPEZ,D,2,57015,sos_portal
+2020,H,126,46.68,53.32,0.0,-6.64,False,True,R,E. SAM HARLESS,R,2,73995,sos_portal
+2020,H,127,0.0,70.26,29.74,-70.26,False,True,R,DAN HUBERTY,R,2,86252,sos_portal
+2020,H,128,31.61,68.39,0.0,-36.78,False,True,R,BRISCOE CAIN,R,2,71400,sos_portal
+2020,H,129,41.07,58.93,0.0,-17.86,False,True,R,DENNIS PAUL,R,2,84795,sos_portal
+2020,H,130,31.0,69.0,0.0,-38.0,False,True,R,TOM OLIVERSON,R,2,103951,sos_portal
+2020,H,131,100.0,0.0,0.0,100.0,True,True,D,ALMA A. ALLEN,D,1,47790,sos_portal
+2020,H,132,48.07,51.82,0.11,-3.75,False,True,R,MIKE SCHOFIELD,D,3,100929,sos_portal
+2020,H,133,41.15,57.17,1.68,-16.02,False,True,R,JIM MURPHY,R,3,88825,sos_portal
+2020,H,134,52.27,47.73,0.0,4.54,False,True,D,ANN JOHNSON,R,2,108855,sos_portal
+2020,H,135,49.06,48.66,2.27,0.4,False,True,D,JON E. ROSENTHAL,D,3,74923,sos_portal
+2020,H,136,53.31,43.07,3.61,10.24,False,True,D,JOHN H. BUCY III,D,3,101073,sos_portal
+2020,H,137,81.48,0.0,18.52,81.48,False,True,D,GENE WU,D,2,28844,sos_portal
+2020,H,138,48.36,51.64,0.0,-3.28,False,True,R,LACEY HULL,,2,64063,sos_portal
+2020,H,139,85.88,0.0,14.12,85.88,False,True,D,JARVIS D. JOHNSON,D,2,56870,sos_portal
+2020,H,140,100.0,0.0,0.0,100.0,True,True,D,ARMANDO LUCIO WALLE,D,1,25989,sos_portal
+2020,H,141,100.0,0.0,0.0,100.0,True,True,D,SENFRONIA THOMPSON,D,1,38529,sos_portal
+2020,H,142,74.77,25.23,0.0,49.54,False,True,D,HAROLD V. DUTTON JR,D,2,56340,sos_portal
+2020,H,143,100.0,0.0,0.0,100.0,True,True,D,ANA HERNANDEZ,D,1,30460,sos_portal
+2020,H,144,56.42,43.58,0.0,12.84,False,True,D,MARY ANN PEREZ,D,2,31044,sos_portal
+2020,H,145,64.01,33.73,2.26,30.28,False,True,D,CHRISTINA MORALES,D,3,42830,sos_portal
+2020,H,146,87.04,0.0,12.96,87.04,False,True,D,SHAWN NICOLE THIERRY,D,2,51874,sos_portal
+2020,H,147,100.0,0.0,0.0,100.0,True,True,D,GARNET F. COLEMAN,D,1,58763,sos_portal
+2020,H,148,63.67,36.33,0.0,27.34,False,True,D,PENNY MORALES SHAW,,2,60131,sos_portal
+2020,H,149,59.42,40.58,0.0,18.84,False,True,D,HUBERT VO,D,2,53718,sos_portal
+2020,H,150,38.55,58.15,3.3,-19.6,False,True,R,VALOREE SWANSON,R,3,97184,sos_portal
+2020,S,1,24.74,75.26,0.0,-50.52,False,True,R,BRYAN HUGHES,R,2,355289,sos_portal
+2020,S,4,30.19,67.35,2.46,-37.16,False,True,R,BRANDON CREIGHTON,R,3,417401,sos_portal
+2020,S,6,84.05,0.0,15.95,84.05,False,True,D,CAROL ALVARADO,D,2,164061,sos_portal
+2020,S,11,38.1,59.45,2.45,-21.35,False,True,R,LARRY TAYLOR,R,3,389012,sos_portal
+2020,S,12,37.71,62.29,0.0,-24.58,False,True,R,JANE NELSON,R,2,471009,sos_portal
+2020,S,13,80.47,19.53,0.0,60.94,False,True,D,BORRIS L MILES,D,2,248776,sos_portal
+2020,S,18,34.21,65.79,0.0,-31.58,False,True,R,LOIS W. KOLKHORST,R,2,422361,sos_portal
+2020,S,19,49.85,46.55,3.6,3.3,False,True,D,ROLAND GUTIERREZ,R,3,318404,sos_portal
+2020,S,20,58.48,41.52,0.0,16.96,False,True,D,JUAN &QUOT;CHUY&QUOT; HINOJOSA,D,2,263874,sos_portal
+2020,S,21,60.14,39.86,0.0,20.28,False,True,D,JUDITH ZAFFIRINI,D,2,278814,sos_portal
+2020,S,22,31.55,68.45,0.0,-36.9,False,True,R,BRIAN BIRDWELL,R,2,375746,sos_portal
+2020,S,24,30.46,69.54,0.0,-39.08,False,True,R,DAWN BUCKINGHAM,R,2,380370,sos_portal
+2020,S,26,79.99,0.0,20.01,79.99,False,True,D,JOSÉ MENÉNDEZ,D,2,249833,sos_portal
+2020,S,27,64.81,35.19,0.0,29.62,False,True,D,EDDIE LUCIO JR,D,2,206803,sos_portal
+2020,S,28,0.0,100.0,0.0,-100.0,True,True,R,CHARLES PERRY,R,1,248025,sos_portal
+2020,S,29,67.32,32.68,0.0,34.64,False,True,D,CÉSAR J BLANCO,,2,261979,sos_portal
+2022,H,1,,,,,True,False,R,GARY VANDEAVER,R,1,,sos_candidate_list_2022_unopposed
+2022,H,2,,,,,True,False,R,BRYAN SLATON,R,1,,sos_candidate_list_2022_unopposed
+2022,H,3,,,,,True,False,R,CECIL BELL JR,R,1,,sos_candidate_list_2022_unopposed
+2022,H,4,0.0,77.26,22.74,-77.26,False,True,R,KEITH BELL,R,2,54415,sos_portal
+2022,H,5,,,,,True,False,R,COLE HEFNER,R,1,,sos_candidate_list_2022_unopposed
+2022,H,6,26.71,73.29,0.0,-46.58,False,True,R,MATT SCHAEFER,R,2,59816,sos_portal
+2022,H,7,,,,,True,False,R,JAY DEAN,R,1,,sos_candidate_list_2022_unopposed
+2022,H,8,0.0,87.99,12.01,-87.99,False,True,R,CODY HARRIS,R,2,52876,sos_portal
+2022,H,9,17.63,82.37,0.0,-64.74,False,True,R,TRENT ASHBY,R,2,63349,sos_portal
+2022,H,10,,,,,True,False,R,BRIAN HARRISON,R,1,,sos_candidate_list_2022_unopposed
+2022,H,11,,,,,True,False,R,TRAVIS CLARDY,R,1,,sos_candidate_list_2022_unopposed
+2022,H,12,,,,,True,False,R,KYLE KACAL,R,1,,sos_candidate_list_2022_unopposed
+2022,H,13,22.5,77.5,0.0,-55.0,False,True,R,ANGELIA ORR,,2,53450,sos_portal
+2022,H,14,0.0,68.09,31.91,-68.09,False,True,R,JOHN RANEY,R,2,43863,sos_portal
+2022,H,15,34.33,65.67,0.0,-31.34,False,True,R,STEVE TOTH,R,2,71599,sos_portal
+2022,H,16,,,,,True,False,R,WILL METCALF,R,1,,sos_candidate_list_2022_unopposed
+2022,H,17,31.87,64.21,3.92,-32.34,False,True,R,STAN GERDES,,3,60884,sos_portal
+2022,H,18,,,,,True,False,R,ERNEST BAILES,R,1,,sos_candidate_list_2022_unopposed
+2022,H,19,27.35,72.65,0.0,-45.3,False,True,R,ELLEN TROXCLAIR,,2,97025,sos_portal
+2022,H,20,40.92,59.08,0.0,-18.16,False,True,R,TERRY M. WILSON,R,2,83520,sos_portal
+2022,H,21,,,,,True,False,R,Dade Phelan,R,1,,ballotpedia_2022_canceled_race
+2022,H,22,56.49,43.51,0.0,12.98,False,True,D,"CHRISTIAN ""MANUEL"" HAYES",,2,37883,sos_portal
+2022,H,23,36.22,63.78,0.0,-27.56,False,True,R,TERRI LEO-WILSON,,2,55751,sos_portal
+2022,H,24,30.01,68.01,1.98,-38.0,False,True,R,GREG BONNEN,R,3,69456,sos_portal
+2022,H,25,,,,,True,False,R,CODY THANE VASUT,R,1,,sos_candidate_list_2022_unopposed
+2022,H,26,39.33,60.67,0.0,-21.34,False,True,R,JACEY JETTON,R,2,61606,sos_portal
+2022,H,27,70.27,29.73,0.0,40.54,False,True,D,RON REYNOLDS,D,2,57874,sos_portal
+2022,H,28,38.44,61.56,0.0,-23.12,False,True,R,GARY GATES,R,2,65364,sos_portal
+2022,H,29,,,,,True,False,R,ED THOMPSON,R,1,,sos_candidate_list_2022_unopposed
+2022,H,30,,,,,True,False,R,GEANIE W. MORRISON,R,1,,sos_candidate_list_2022_unopposed
+2022,H,31,28.76,71.24,0.0,-42.48,False,True,R,RYAN GUILLEN,R,2,48860,sos_portal
+2022,H,32,,,,,True,False,R,TODD HUNTER,R,1,,sos_candidate_list_2022_unopposed
+2022,H,33,34.89,65.11,0.0,-30.22,False,True,R,JUSTIN HOLLAND,R,2,67628,sos_portal
+2022,H,34,57.65,42.35,0.0,15.3,False,True,D,ABEL HERRERO,D,2,38564,sos_portal
+2022,H,35,64.18,35.82,0.0,28.36,False,True,D,OSCAR LONGORIA,D,2,24259,sos_portal
+2022,H,36,,,,,True,False,D,SERGIO MUÑOZ JR.,D,1,,sos_candidate_list_2022_unopposed
+2022,H,37,48.17,51.83,0.0,-3.66,False,True,R,JANIE LOPEZ,,2,39432,sos_portal
+2022,H,38,,,,,True,False,D,ERIN ELIZABETH GAMEZ,D,1,,sos_candidate_list_2022_unopposed
+2022,H,39,64.69,35.31,0.0,29.38,False,True,D,"ARMANDO ""MANDO"" MARTINEZ",D,2,29412,sos_portal
+2022,H,40,,,,,True,False,D,TERRY CANALES,D,1,,sos_candidate_list_2022_unopposed
+2022,H,41,56.97,43.03,0.0,13.94,False,True,D,BOBBY GUERRA,D,2,39235,sos_portal
+2022,H,42,71.21,28.79,0.0,42.42,False,True,D,RICHARD PEÑA RAYMOND,D,2,33809,sos_portal
+2022,H,43,,,,,True,False,R,J.M. LOZANO,R,1,,sos_candidate_list_2022_unopposed
+2022,H,44,30.7,69.3,0.0,-38.6,False,True,R,JOHN KUEMPEL,R,2,61415,sos_portal
+2022,H,45,59.24,40.76,0.0,18.48,False,True,D,ERIN ZWIENER,D,2,65966,sos_portal
+2022,H,46,75.48,21.76,2.76,53.72,False,True,D,SHERYL COLE,D,3,62627,sos_portal
+2022,H,47,61.27,38.73,0.0,22.54,False,True,D,VIKKI GOODWIN,D,2,83317,sos_portal
+2022,H,48,79.57,0.0,20.43,79.57,False,True,D,DONNA HOWARD,D,2,80478,sos_portal
+2022,H,49,83.44,14.41,2.14,69.03,False,True,D,GINA HINOJOSA,D,3,82436,sos_portal
+2022,H,50,76.85,20.25,2.9,56.6,False,True,D,JAMES TALARICO,,3,47991,sos_portal
+2022,H,51,84.43,15.57,0.0,68.86,False,True,D,"MARIA LUISA ""LULU"" FLORES",,2,50211,sos_portal
+2022,H,52,44.06,55.94,0.0,-11.88,False,True,R,CAROLINE HARRIS,,2,77754,sos_portal
+2022,H,53,20.17,79.83,0.0,-59.66,False,True,R,ANDREW S. MURR,R,2,78960,sos_portal
+2022,H,54,37.01,62.99,0.0,-25.98,False,True,R,BRAD BUCKLEY,R,2,39260,sos_portal
+2022,H,55,38.94,61.06,0.0,-22.12,False,True,R,HUGH D. SHINE,R,2,47277,sos_portal
+2022,H,56,29.85,70.15,0.0,-40.3,False,True,R,CHARLES DOC ANDERSON,R,2,61332,sos_portal
+2022,H,57,0.0,65.29,34.71,-65.29,False,True,R,RICHARD HAYES,,2,61161,sos_portal
+2022,H,58,,,,,True,False,R,DEWAYNE BURNS,R,1,,sos_candidate_list_2022_unopposed
+2022,H,59,,,,,True,False,R,SHELBY SLAWSON,R,1,,sos_candidate_list_2022_unopposed
+2022,H,60,,,,,True,False,R,GLENN ROGERS,R,1,,sos_candidate_list_2022_unopposed
+2022,H,61,41.74,58.26,0.0,-16.52,False,True,R,FREDERICK FRAZIER,,2,68782,sos_portal
+2022,H,62,,,,,True,False,R,REGGIE SMITH,R,1,,sos_candidate_list_2022_unopposed
+2022,H,63,44.07,55.93,0.0,-11.86,False,True,R,BEN BUMGARNER,,2,64307,sos_portal
+2022,H,64,,,,,True,False,R,LYNN STUCKY,R,1,,sos_candidate_list_2022_unopposed
+2022,H,65,40.21,59.79,0.0,-19.58,False,True,R,KRONDA THIMESCH,,2,71812,sos_portal
+2022,H,66,39.58,60.42,0.0,-20.84,False,True,R,MATT SHAHEEN,R,2,70834,sos_portal
+2022,H,67,40.8,59.2,0.0,-18.4,False,True,R,JEFF LEACH,R,2,65588,sos_portal
+2022,H,68,,,,,True,False,R,DAVID SPILLER,R,1,,sos_candidate_list_2022_unopposed
+2022,H,69,18.71,79.13,2.16,-60.42,False,True,R,JAMES B. FRANK,R,3,50927,sos_portal
+2022,H,70,50.73,49.27,0.0,1.46,False,True,D,MIHAELA ELIZABETH PLESA,,2,58461,sos_portal
+2022,H,71,19.0,81.0,0.0,-62.0,False,True,R,STAN LAMBERT,R,2,52912,sos_portal
+2022,H,72,,,,,True,False,R,DREW DARBY,R,1,,sos_candidate_list_2022_unopposed
+2022,H,73,29.65,70.35,0.0,-40.7,False,True,R,CARRIE ISAAC,,2,95932,sos_portal
+2022,H,74,55.67,44.33,0.0,11.34,False,True,D,EDDIE MORALES,D,2,37925,sos_portal
+2022,H,75,75.91,0.0,24.09,75.91,False,True,D,MARY E. GONZÁLEZ,D,2,25519,sos_portal
+2022,H,76,57.26,42.74,0.0,14.52,False,True,D,SULEMAN LALANI,,2,49443,sos_portal
+2022,H,77,,,,,True,False,D,"EVELINA ""LINA"" ORTEGA",D,1,,sos_candidate_list_2022_unopposed
+2022,H,78,,,,,True,False,D,JOE MOODY,D,1,,sos_candidate_list_2022_unopposed
+2022,H,79,,,,,True,False,D,CLAUDIA ORDAZ PEREZ,,1,,sos_candidate_list_2022_unopposed
+2022,H,80,,,,,True,False,D,TRACY O. KING,D,1,,sos_candidate_list_2022_unopposed
+2022,H,81,,,,,True,False,R,BROOKS LANDGRAF,R,1,,sos_candidate_list_2022_unopposed
+2022,H,82,,,,,True,False,R,TOM CRADDICK,,1,,sos_candidate_list_2022_unopposed
+2022,H,83,,,,,True,False,R,DUSTIN BURROWS,R,1,,sos_candidate_list_2022_unopposed
+2022,H,84,,,,,True,False,R,CARL TEPPER,,1,,sos_candidate_list_2022_unopposed
+2022,H,85,24.23,73.82,1.96,-49.59,False,True,R,STAN KITZMAN,,3,66868,sos_portal
+2022,H,86,,,,,True,False,R,JOHN T. SMITHEE,R,1,,sos_candidate_list_2022_unopposed
+2022,H,87,0.0,87.08,12.92,-87.08,False,True,R,FOUR PRICE,R,2,37811,sos_portal
+2022,H,88,,,,,True,False,R,KEN KING,R,1,,sos_candidate_list_2022_unopposed
+2022,H,89,,,,,True,False,R,CANDY NOBLE,R,1,,sos_candidate_list_2022_unopposed
+2022,H,90,,,,,True,False,D,RAMÓN ROMERO JR.,D,1,,sos_candidate_list_2022_unopposed
+2022,H,91,,,,,True,False,R,STEPHANIE KLICK,R,1,,sos_candidate_list_2022_unopposed
+2022,H,92,58.01,41.99,0.0,16.02,False,True,D,SALMAN BHOJANI,,2,34792,sos_portal
+2022,H,93,40.07,59.93,0.0,-19.86,False,True,R,NATE SCHATZLINE,,2,58390,sos_portal
+2022,H,94,43.37,56.63,0.0,-13.26,False,True,R,TONY TINDERHOLT,R,2,61971,sos_portal
+2022,H,95,74.88,25.12,0.0,49.76,False,True,D,NICOLE COLLIER,D,2,37929,sos_portal
+2022,H,96,,,,,True,False,R,DAVID COOK,R,1,,sos_candidate_list_2022_unopposed
+2022,H,97,41.8,58.2,0.0,-16.4,False,True,R,CRAIG GOLDMAN,R,2,64329,sos_portal
+2022,H,98,33.73,66.27,0.0,-32.54,False,True,R,GIOVANNI CAPRIGLIONE,R,2,79050,sos_portal
+2022,H,99,38.16,61.84,0.0,-23.68,False,True,R,CHARLIE GEREN,R,2,53701,sos_portal
+2022,H,100,85.09,0.0,14.91,85.09,False,True,D,VENTON C. JONES,,2,27698,sos_portal
+2022,H,101,,,,,True,False,D,CHRIS TURNER,D,1,,sos_candidate_list_2022_unopposed
+2022,H,102,62.22,37.78,0.0,24.44,False,True,D,ANA-MARIA RAMOS,D,2,37075,sos_portal
+2022,H,103,75.52,0.0,24.48,75.52,False,True,D,RAFAEL M. ANCHÍA,D,2,35464,sos_portal
+2022,H,104,,,,,True,False,D,JESSICA GONZÁLEZ,D,1,,sos_candidate_list_2022_unopposed
+2022,H,105,55.8,44.2,0.0,11.6,False,True,D,TERRY MEZA,D,2,30583,sos_portal
+2022,H,106,,,,,True,False,R,JARED PATTERSON,R,1,,sos_candidate_list_2022_unopposed
+2022,H,107,72.88,0.0,27.12,72.88,False,True,D,VICTORIA NEAVE CRIADO,D,2,25662,sos_portal
+2022,H,108,43.55,56.45,0.0,-12.9,False,True,R,MORGAN MEYER,R,2,88145,sos_portal
+2022,H,109,,,,,True,False,D,CARL O. SHERMAN,D,1,,sos_candidate_list_2022_unopposed
+2022,H,110,,,,,True,False,D,TONI ROSE,D,1,,sos_candidate_list_2022_unopposed
+2022,H,111,79.12,20.88,0.0,58.24,False,True,D,YVONNE DAVIS,D,2,47537,sos_portal
+2022,H,112,45.17,54.83,0.0,-9.66,False,True,R,ANGIE CHEN BUTTON,R,2,68512,sos_portal
+2022,H,113,,,,,True,False,D,RHETTA ANDREWS BOWERS,D,1,,sos_candidate_list_2022_unopposed
+2022,H,114,66.01,33.99,0.0,32.02,False,True,D,JOHN BRYANT,,2,55976,sos_portal
+2022,H,115,56.7,43.3,0.0,13.4,False,True,D,JULIE JOHNSON,D,2,53058,sos_portal
+2022,H,116,,,,,True,False,D,TREY MARTINEZ FISCHER,D,1,,sos_candidate_list_2022_unopposed
+2022,H,117,62.6,37.4,0.0,25.2,False,True,D,PHILIP CORTEZ,D,2,44441,sos_portal
+2022,H,118,48.16,51.84,0.0,-3.68,False,True,R,JOHN LUJAN,R,2,50845,sos_portal
+2022,H,119,78.02,0.0,21.98,78.02,False,True,D,"ELIZABETH ""LIZ"" CAMPOS",D,2,37496,sos_portal
+2022,H,120,67.5,32.5,0.0,35.0,False,True,D,BARBARA GERVIN-HAWKINS,D,2,39131,sos_portal
+2022,H,121,44.98,55.02,0.0,-10.04,False,True,R,STEVE ALLISON,R,2,77190,sos_portal
+2022,H,122,41.14,56.02,2.84,-14.88,False,True,R,MARK DORAZIO,,3,85329,sos_portal
+2022,H,123,66.76,33.24,0.0,33.52,False,True,D,DIEGO BERNAL,D,2,51552,sos_portal
+2022,H,124,66.99,33.01,0.0,33.98,False,True,D,JOSEY GARCIA,,2,35276,sos_portal
+2022,H,125,62.41,37.59,0.0,24.82,False,True,D,RAY LOPEZ,D,2,55695,sos_portal
+2022,H,126,,,,,True,False,R,E. SAM HARLESS,,1,,sos_candidate_list_2022_unopposed
+2022,H,127,,,,,True,False,R,CHARLES CUNNINGHAM,,1,,sos_candidate_list_2022_unopposed
+2022,H,128,29.51,70.49,0.0,-40.98,False,True,R,BRISCOE CAIN,R,2,46059,sos_portal
+2022,H,129,39.21,60.79,0.0,-21.58,False,True,R,DENNIS PAUL,,2,64256,sos_portal
+2022,H,130,,,,,True,False,R,TOM OLIVERSON,,1,,sos_candidate_list_2022_unopposed
+2022,H,131,80.52,19.48,0.0,61.04,False,True,D,ALMA A. ALLEN,D,2,31129,sos_portal
+2022,H,132,40.26,59.74,0.0,-19.48,False,True,R,MIKE SCHOFIELD,,2,60805,sos_portal
+2022,H,133,36.39,61.44,2.16,-25.05,False,True,R,MANO DEAYALA,,3,59972,sos_portal
+2022,H,134,61.56,37.13,1.31,24.43,False,True,D,ANN JOHNSON,D,3,80714,sos_portal
+2022,H,135,57.62,42.38,0.0,15.24,False,True,D,JON ROSENTHAL,D,2,40532,sos_portal
+2022,H,136,61.32,36.04,2.63,25.28,False,True,D,JOHN H. BUCY III,D,3,58929,sos_portal
+2022,H,137,76.02,0.0,23.98,76.02,False,True,D,GENE WU,D,2,19010,sos_portal
+2022,H,138,42.91,57.09,0.0,-14.18,False,True,R,LACEY HULL,,2,56748,sos_portal
+2022,H,139,,,,,True,False,D,JARVIS D. JOHNSON,D,1,,sos_candidate_list_2022_unopposed
+2022,H,140,,,,,True,False,D,ARMANDO LUCIO WALLE,D,1,,sos_candidate_list_2022_unopposed
+2022,H,141,,,,,True,False,D,SENFRONIA THOMPSON,D,1,,sos_candidate_list_2022_unopposed
+2022,H,142,,,,,True,False,D,HAROLD V. DUTTON JR.,D,1,,sos_candidate_list_2022_unopposed
+2022,H,143,,,,,True,False,D,ANA HERNANDEZ,D,1,,sos_candidate_list_2022_unopposed
+2022,H,144,,,,,True,False,D,MARY ANN PEREZ,D,1,,sos_candidate_list_2022_unopposed
+2022,H,145,71.33,28.67,0.0,42.66,False,True,D,CHRISTINA MORALES,D,2,45271,sos_portal
+2022,H,146,,,,,True,False,D,SHAWN NICOLE THIERRY,D,1,,sos_candidate_list_2022_unopposed
+2022,H,147,,,,,True,False,D,JOLANDA JONES,D,1,,sos_candidate_list_2022_unopposed
+2022,H,148,55.52,42.59,1.89,12.93,False,True,D,PENNY MORALES SHAW,D,3,36844,sos_portal
+2022,H,149,59.84,37.65,2.51,22.19,False,True,D,HUBERT VO,D,3,31808,sos_portal
+2022,H,150,39.3,60.7,0.0,-21.4,False,True,R,VALOREE SWANSON,R,2,57400,sos_portal
+2022,S,1,,,,,True,False,R,BRYAN HUGHES,R,1,,sos_candidate_list_2022_unopposed
+2022,S,2,38.1,61.9,0.0,-23.8,False,True,R,BOB HALL,R,2,279022,sos_portal
+2022,S,3,21.16,77.41,1.43,-56.25,False,True,R,ROBERT NICHOLS,R,3,275514,sos_portal
+2022,S,4,30.06,69.94,0.0,-39.88,False,True,R,BRANDON CREIGHTON,R,2,289287,sos_portal
+2022,S,5,0.0,71.57,28.43,-71.57,False,True,R,CHARLES SCHWERTNER,R,2,268463,sos_portal
+2022,S,6,,,,,True,False,D,CAROL ALVARADO,D,1,,sos_candidate_list_2022_unopposed
+2022,S,7,,,,,True,False,R,PAUL BETTENCOURT,R,1,,sos_candidate_list_2022_unopposed
+2022,S,8,39.45,57.69,2.86,-18.24,False,True,R,ANGELA PAXTON,R,3,325446,sos_portal
+2022,S,9,39.95,60.05,0.0,-20.1,False,True,R,KELLY HANCOCK,R,2,277883,sos_portal
+2022,S,10,,,,,True,False,R,PHIL KING,,1,,sos_candidate_list_2022_unopposed
+2022,S,11,,,,,True,False,R,MAYES MIDDLETON,,1,,sos_candidate_list_2022_unopposed
+2022,S,12,38.56,61.44,0.0,-22.88,False,True,R,TAN PARKER,,2,346697,sos_portal
+2022,S,13,,,,,True,False,D,BORRIS L. MILES,D,1,,sos_candidate_list_2022_unopposed
+2022,S,14,82.23,0.0,17.77,82.23,False,True,D,SARAH ECKHARDT,D,2,322399,sos_portal
+2022,S,15,65.33,34.67,0.0,30.66,False,True,D,JOHN WHITMIRE,D,2,243562,sos_portal
+2022,S,16,61.95,38.05,0.0,23.9,False,True,D,NATHAN JOHNSON,D,2,191548,sos_portal
+2022,S,17,34.67,65.33,0.0,-30.66,False,True,R,JOAN HUFFMAN,R,2,274973,sos_portal
+2022,S,18,33.83,66.17,0.0,-32.34,False,True,R,LOIS W. KOLKHORST,R,2,281654,sos_portal
+2022,S,19,55.39,44.61,0.0,10.78,False,True,D,ROLAND GUTIERREZ,D,2,212104,sos_portal
+2022,S,20,59.18,40.82,0.0,18.36,False,True,D,"JUAN ""CHUY"" HINOJOSA",D,2,172816,sos_portal
+2022,S,21,61.56,35.94,2.5,25.62,False,True,D,JUDITH ZAFFIRINI,D,3,210913,sos_portal
+2022,S,22,0.0,74.26,25.74,-74.26,False,True,R,BRIAN BIRDWELL,R,2,257192,sos_portal
+2022,S,23,,,,,True,False,D,ROYCE WEST,D,1,,sos_candidate_list_2022_unopposed
+2022,S,24,35.68,64.32,0.0,-28.64,False,True,R,PETE FLORES,,2,291661,sos_portal
+2022,S,25,37.17,62.83,0.0,-25.66,False,True,R,DONNA CAMPBELL,R,2,388316,sos_portal
+2022,S,26,66.55,33.45,0.0,33.1,False,True,D,JOSÉ MENÉNDEZ,D,2,211572,sos_portal
+2022,S,27,50.19,49.81,0.0,0.38,False,True,D,MORGAN LAMANTIA,,2,175415,sos_portal
+2022,S,28,,,,,True,False,R,CHARLES PERRY,R,1,,sos_candidate_list_2022_unopposed
+2022,S,29,64.09,35.91,0.0,28.18,False,True,D,CÉSAR J. BLANCO,D,2,174182,sos_portal
+2022,S,30,,,,,True,False,R,DREW SPRINGER,R,1,,sos_candidate_list_2022_unopposed
+2022,S,31,,,,,True,False,R,KEVIN SPARKS,,1,,sos_candidate_list_2022_unopposed
+2024,H,1,0.0,100.0,0.0,-100.0,True,True,R,GARY VANDEAVER,R,1,66843,sos_portal
+2024,H,2,19.44,80.56,0.0,-61.12,False,True,R,BRENT A. MONEY,,2,88404,sos_portal
+2024,H,3,0.0,100.0,0.0,-100.0,True,True,R,CECIL BELL JR,R,1,85793,sos_portal
+2024,H,4,30.33,69.67,0.0,-39.34,False,True,R,KEITH BELL,R,2,86527,sos_portal
+2024,H,5,0.0,98.79,1.21,-98.79,True,True,R,COLE HEFNER,R,2,75291,sos_portal
+2024,H,6,28.17,71.83,0.0,-43.66,False,True,R,DANIEL ALDERS,,2,78655,sos_portal
+2024,H,7,25.79,74.21,0.0,-48.42,False,True,R,JAY DEAN,R,2,79576,sos_portal
+2024,H,8,18.64,81.36,0.0,-62.72,False,True,R,CODY HARRIS,R,2,74899,sos_portal
+2024,H,9,0.0,100.0,0.0,-100.0,True,True,R,TRENT ASHBY,R,1,74006,sos_portal
+2024,H,10,0.0,98.67,1.34,-98.67,True,True,R,BRIAN HARRISON,R,3,69634,sos_portal
+2024,H,11,0.0,100.0,0.0,-100.0,True,True,R,JOANNE SHOFNER,,1,62338,sos_portal
+2024,H,12,23.16,76.84,0.0,-53.68,False,True,R,TREY WHARTON,,2,83430,sos_portal
+2024,H,13,23.82,76.18,0.0,-52.36,False,True,R,ANGELIA ORR,R,2,72618,sos_portal
+2024,H,14,39.54,60.46,0.0,-20.92,False,True,R,PAUL DYSON,,2,66594,sos_portal
+2024,H,15,0.0,100.0,0.0,-100.0,True,True,R,STEVE TOTH,R,1,73720,sos_portal
+2024,H,16,19.64,80.36,0.0,-60.72,False,True,R,WILL METCALF,R,2,91315,sos_portal
+2024,H,17,33.85,66.15,0.0,-32.3,False,True,R,STAN GERDES,R,2,80920,sos_portal
+2024,H,18,0.0,86.58,13.42,-86.58,False,True,R,JANIS HOLT,,2,80075,sos_portal
+2024,H,19,25.52,70.85,3.63,-45.33,False,True,R,ELLEN TROXCLAIR,R,3,123380,sos_portal
+2024,H,20,40.24,59.76,0.0,-19.52,False,True,R,TERRY M. WILSON,R,2,107234,sos_portal
+2024,H,21,0.0,100.0,0.0,-100.0,True,True,R,DADE PHELAN,R,1,66398,sos_portal
+2024,H,22,100.0,0.0,0.0,100.0,True,True,D,CHRISTIAN MANUEL,D,1,34336,sos_portal
+2024,H,23,33.13,66.87,0.0,-33.74,False,True,R,TERRI LEO WILSON,R,2,80521,sos_portal
+2024,H,24,0.0,100.0,0.0,-100.0,True,True,R,GREG BONNEN,R,1,78761,sos_portal
+2024,H,25,38.96,61.04,0.0,-22.08,False,True,R,CODY THANE VASUT,R,2,77001,sos_portal
+2024,H,26,40.83,59.17,0.0,-18.34,False,True,R,MATT MORGAN,,2,82066,sos_portal
+2024,H,27,69.81,30.19,0.0,39.62,False,True,D,RONALD REYNOLDS,D,2,82502,sos_portal
+2024,H,28,39.45,60.55,0.0,-21.1,False,True,R,GARY GATES,R,2,93948,sos_portal
+2024,H,29,38.48,61.52,0.0,-23.04,False,True,R,JEFFREY BARRY,,2,80715,sos_portal
+2024,H,30,23.04,76.96,0.0,-53.92,False,True,R,AJ LOUDERBACK,,2,74300,sos_portal
+2024,H,31,0.0,100.0,0.0,-100.0,True,True,R,RYAN GUILLEN,R,1,50653,sos_portal
+2024,H,32,31.31,68.69,0.0,-37.38,False,True,R,TODD HUNTER,R,2,78747,sos_portal
+2024,H,33,0.0,100.0,0.0,-100.0,True,True,R,KATRINA PIERSON,,1,70996,sos_portal
+2024,H,34,44.63,55.37,0.0,-10.74,False,True,R,DENISE VILLALOBOS,,2,51566,sos_portal
+2024,H,35,100.0,0.0,0.0,100.0,True,True,D,OSCAR LONGORIA,D,1,25896,sos_portal
+2024,H,36,100.0,0.0,0.0,100.0,True,True,D,SERGIO MUÑOZ JR,D,1,32483,sos_portal
+2024,H,37,44.99,55.01,0.0,-10.02,False,True,R,JANIE LOPEZ,R,2,55604,sos_portal
+2024,H,38,100.0,0.0,0.0,100.0,True,True,D,ERIN ELIZABETH GAMEZ,D,1,33944,sos_portal
+2024,H,39,60.9,39.1,0.0,21.8,False,True,D,"ARMANDO ""MANDO"" MARTINEZ",D,2,44270,sos_portal
+2024,H,40,100.0,0.0,0.0,100.0,True,True,D,TERRY CANALES,D,1,34671,sos_portal
+2024,H,41,53.47,46.53,0.0,6.94,False,True,D,BOBBY GUERRA,D,2,57207,sos_portal
+2024,H,42,100.0,0.0,0.0,100.0,True,True,D,RICHARD PENA RAYMOND,D,1,38584,sos_portal
+2024,H,43,33.27,66.73,0.0,-33.46,False,True,R,J.M. LOZANO,R,2,65654,sos_portal
+2024,H,44,34.88,65.12,0.0,-30.24,False,True,R,ALAN SCHOOLCRAFT,,2,88246,sos_portal
+2024,H,45,56.76,43.24,0.0,13.52,False,True,D,ERIN ZWIENER,D,2,93224,sos_portal
+2024,H,46,73.24,26.76,0.0,46.48,False,True,D,SHERYL COLE,D,2,83055,sos_portal
+2024,H,47,60.17,39.83,0.0,20.34,False,True,D,VIKKI GOODWIN,D,2,98082,sos_portal
+2024,H,48,83.0,0.0,17.0,83.0,False,True,D,DONNA HOWARD,D,2,87502,sos_portal
+2024,H,49,100.0,0.0,0.0,100.0,True,True,D,GINA HINOJOSA,D,1,80498,sos_portal
+2024,H,50,100.0,0.0,0.0,100.0,True,True,D,JAMES TALARICO,D,1,48289,sos_portal
+2024,H,51,100.0,0.0,0.0,100.0,True,True,D,"MARIA LUISA ""LULU"" FLORES",D,1,52801,sos_portal
+2024,H,52,43.76,56.24,0.0,-12.48,False,True,R,CAROLINE HARRIS DAVILA,R,2,111714,sos_portal
+2024,H,53,21.17,76.59,2.24,-55.42,False,True,R,WES VIRDELL,,3,99464,sos_portal
+2024,H,54,38.91,61.09,0.0,-22.18,False,True,R,BRAD BUCKLEY,R,2,56519,sos_portal
+2024,H,55,42.59,57.41,0.0,-14.82,False,True,R,HILLARY HICKLAND,,2,68724,sos_portal
+2024,H,56,31.41,68.59,0.0,-37.18,False,True,R,PAT CURRY,,2,81928,sos_portal
+2024,H,57,38.51,58.27,3.22,-19.76,False,True,R,RICHARD HAYES,R,3,89014,sos_portal
+2024,H,58,0.0,82.06,17.94,-82.06,False,True,R,HELEN KERWIN,,2,77695,sos_portal
+2024,H,59,19.33,80.67,0.0,-61.34,False,True,R,SHELBY SLAWSON,R,2,79514,sos_portal
+2024,H,60,0.0,100.0,0.0,-100.0,True,True,R,MIKE OLCOTT,,1,93326,sos_portal
+2024,H,61,40.38,59.62,0.0,-19.24,False,True,R,KERESA RICHARDSON,,2,98145,sos_portal
+2024,H,62,22.29,77.71,0.0,-55.42,False,True,R,SHELLEY LUTHER,,2,86302,sos_portal
+2024,H,63,44.34,55.66,0.0,-11.32,False,True,R,BEN BUMGARNER,R,2,84187,sos_portal
+2024,H,64,36.88,63.12,0.0,-26.24,False,True,R,ANDY HOPPER,,2,94328,sos_portal
+2024,H,65,39.7,60.3,0.0,-20.6,False,True,R,MITCH LITTLE,,2,99970,sos_portal
+2024,H,66,38.89,61.11,0.0,-22.22,False,True,R,MATT SHAHEEN,R,2,95392,sos_portal
+2024,H,67,39.77,60.23,0.0,-20.46,False,True,R,JEFF LEACH,R,2,93158,sos_portal
+2024,H,68,12.83,87.17,0.0,-74.34,False,True,R,DAVID SPILLER,R,2,91259,sos_portal
+2024,H,69,21.32,78.68,0.0,-57.36,False,True,R,JAMES B FRANK,R,2,68101,sos_portal
+2024,H,70,52.22,47.78,0.0,4.44,False,True,D,MIHAELA ELIZABETH PLESA,D,2,73116,sos_portal
+2024,H,71,18.97,81.03,0.0,-62.06,False,True,R,STAN LAMBERT,R,2,72091,sos_portal
+2024,H,72,0.0,100.0,0.0,-100.0,True,True,R,DREW DARBY,R,1,57821,sos_portal
+2024,H,73,28.52,71.48,0.0,-42.96,False,True,R,CARRIE ISAAC,R,2,128610,sos_portal
+2024,H,74,51.67,48.33,0.0,3.34,False,True,D,EDDIE MORALES JR,D,2,54581,sos_portal
+2024,H,75,100.0,0.0,0.0,100.0,True,True,D,MARY E. GONZALEZ,D,1,35033,sos_portal
+2024,H,76,56.5,43.5,0.0,13.0,False,True,D,SULEMAN LALANI,D,2,70385,sos_portal
+2024,H,77,100.0,0.0,0.0,100.0,True,True,D,"VINCENT ""VINCE"" PEREZ",,1,35427,sos_portal
+2024,H,78,100.0,0.0,0.0,100.0,True,True,D,JOE MOODY,D,1,45474,sos_portal
+2024,H,79,100.0,0.0,0.0,100.0,True,True,D,CLAUDIA ORDAZ,D,1,41652,sos_portal
+2024,H,80,40.51,59.49,0.0,-18.98,False,True,R,DON MCLAUGHLIN JR,,2,52413,sos_portal
+2024,H,81,0.0,100.0,0.0,-100.0,True,True,R,BROOKS LANDGRAF,R,1,41508,sos_portal
+2024,H,82,17.27,82.73,0.0,-65.46,False,True,R,TOM CRADDICK,R,2,61101,sos_portal
+2024,H,83,0.0,100.0,0.0,-100.0,True,True,R,DUSTIN BURROWS,R,1,69899,sos_portal
+2024,H,84,35.9,64.1,0.0,-28.2,False,True,R,CARL H. TEPPER,R,2,57754,sos_portal
+2024,H,85,0.0,100.0,0.0,-100.0,True,True,R,STAN KITZMAN,R,1,75040,sos_portal
+2024,H,86,0.0,100.0,0.0,-100.0,True,True,R,JOHN SMITHEE,R,1,68942,sos_portal
+2024,H,87,20.68,79.22,0.1,-58.54,False,True,R,CAROLINE FAIRLY,,3,53420,sos_portal
+2024,H,88,0.0,100.0,0.0,-100.0,True,True,R,KEN KING,R,1,54093,sos_portal
+2024,H,89,39.37,60.63,0.0,-21.26,False,True,R,CANDY NOBLE,R,2,92192,sos_portal
+2024,H,90,100.0,0.0,0.0,100.0,True,True,D,RAMON ROMERO JR,D,1,35674,sos_portal
+2024,H,91,0.0,100.0,0.0,-100.0,True,True,R,DAVID LOWE,,1,53970,sos_portal
+2024,H,92,100.0,0.0,0.0,100.0,True,True,D,SALMAN BHOJANI,D,1,35274,sos_portal
+2024,H,93,39.45,60.55,0.0,-21.1,False,True,R,NATE SCHATZLINE,R,2,88403,sos_portal
+2024,H,94,44.38,55.62,0.0,-11.24,False,True,R,TONY TINDERHOLT,R,2,78722,sos_portal
+2024,H,95,100.0,0.0,0.0,100.0,True,True,D,NICOLE COLLIER,D,1,43827,sos_portal
+2024,H,96,42.63,57.37,0.0,-14.74,False,True,R,DAVID COOK,R,2,85090,sos_portal
+2024,H,97,41.93,58.07,0.0,-16.14,False,True,R,JOHN MCQUEENEY,,2,88564,sos_portal
+2024,H,98,34.3,65.7,0.0,-31.4,False,True,R,GIOVANNI CAPRIGLIONE,R,2,98678,sos_portal
+2024,H,99,37.18,62.82,0.0,-25.64,False,True,R,CHARLIE GEREN,R,2,75941,sos_portal
+2024,H,100,100.0,0.0,0.0,100.0,True,True,D,VENTON JONES,D,1,34119,sos_portal
+2024,H,101,64.94,35.06,0.0,29.88,False,True,D,CHRIS TURNER,D,2,62118,sos_portal
+2024,H,102,100.0,0.0,0.0,100.0,True,True,D,ANA-MARIA RAMOS,D,1,35788,sos_portal
+2024,H,103,100.0,0.0,0.0,100.0,True,True,D,RAFAEL ANCHIA,D,1,40330,sos_portal
+2024,H,104,100.0,0.0,0.0,100.0,True,True,D,JESSICA GONZALEZ,D,1,33295,sos_portal
+2024,H,105,54.69,45.31,0.0,9.38,False,True,D,TERRY MEZA,D,2,41778,sos_portal
+2024,H,106,39.42,60.58,0.0,-21.16,False,True,R,JARED PATTERSON,R,2,101322,sos_portal
+2024,H,107,100.0,0.0,0.0,100.0,True,True,D,LINDA GARCIA,,1,29546,sos_portal
+2024,H,108,42.39,57.61,0.0,-15.22,False,True,R,MORGAN MEYER,R,2,104534,sos_portal
+2024,H,109,100.0,0.0,0.0,100.0,True,True,D,AICHA DAVIS,,1,56138,sos_portal
+2024,H,110,100.0,0.0,0.0,100.0,True,True,D,TONI ROSE,D,1,30618,sos_portal
+2024,H,111,100.0,0.0,0.0,100.0,True,True,D,YVONNE DAVIS,D,1,53039,sos_portal
+2024,H,112,46.13,53.87,0.0,-7.74,False,True,R,ANGIE CHEN BUTTON,R,2,88101,sos_portal
+2024,H,113,56.59,43.41,0.0,13.18,False,True,D,RHETTA ANDREWS BOWERS,D,2,59279,sos_portal
+2024,H,114,62.76,37.24,0.0,25.52,False,True,D,JOHN BRYANT,D,2,69393,sos_portal
+2024,H,115,54.31,45.69,0.0,8.62,False,True,D,CASSANDRA HERNANDEZ,,2,69401,sos_portal
+2024,H,116,66.0,34.0,0.0,32.0,False,True,D,TREY MARTINEZ FISCHER,D,2,57640,sos_portal
+2024,H,117,57.99,42.01,0.0,15.98,False,True,D,PHILIP CORTEZ,D,2,69087,sos_portal
+2024,H,118,48.27,51.73,0.0,-3.46,False,True,R,JOHN LUJAN III,R,2,75870,sos_portal
+2024,H,119,63.68,36.32,0.0,27.36,False,True,D,"ELIZABETH ""LIZ"" CAMPOS",D,2,59923,sos_portal
+2024,H,120,100.0,0.0,0.0,100.0,True,True,D,BARBARA GERVIN-HAWKINS,D,1,38208,sos_portal
+2024,H,121,47.47,52.53,0.0,-5.06,False,True,R,MARC LAHOOD,,2,97117,sos_portal
+2024,H,122,41.91,58.09,0.0,-16.18,False,True,R,MARK DORAZIO,R,2,110198,sos_portal
+2024,H,123,100.0,0.0,0.0,100.0,True,True,D,DIEGO BERNAL,D,1,44043,sos_portal
+2024,H,124,61.52,38.48,0.0,23.04,False,True,D,JOSEY GARCIA,D,2,49326,sos_portal
+2024,H,125,100.0,0.0,0.0,100.0,True,True,D,RAY LOPEZ,D,1,48251,sos_portal
+2024,H,126,0.0,98.98,1.02,-98.98,True,True,R,E. SAM HARLESS,R,2,60365,sos_portal
+2024,H,127,39.49,60.51,0.0,-21.02,False,True,R,CHARLES CUNNINGHAM,R,2,90980,sos_portal
+2024,H,128,28.85,68.24,2.91,-39.39,False,True,R,BRISCOE CAIN,R,3,66485,sos_portal
+2024,H,129,39.17,60.83,0.0,-21.66,False,True,R,DENNIS PAUL,R,2,86177,sos_portal
+2024,H,130,31.18,68.82,0.0,-37.64,False,True,R,TOM OLIVERSON,R,2,91941,sos_portal
+2024,H,131,100.0,0.0,0.0,100.0,True,True,D,ALMA A. ALLEN,D,1,36948,sos_portal
+2024,H,132,41.24,58.76,0.0,-17.52,False,True,R,MIKE SCHOFIELD,R,2,91774,sos_portal
+2024,H,133,0.0,100.0,0.0,-100.0,True,True,R,MANO DEAYALA,R,1,54283,sos_portal
+2024,H,134,61.33,38.67,0.0,22.66,False,True,D,ANN JOHNSON,D,2,99517,sos_portal
+2024,H,135,100.0,0.0,0.0,100.0,True,True,D,JON E. ROSENTHAL,D,1,43114,sos_portal
+2024,H,136,62.02,37.98,0.0,24.04,False,True,D,JOHN H. BUCY III,D,2,72850,sos_portal
+2024,H,137,76.31,0.0,23.69,76.31,False,True,D,GENE WU,D,2,25274,sos_portal
+2024,H,138,42.98,57.02,0.0,-14.04,False,True,R,LACEY HULL,R,2,73693,sos_portal
+2024,H,139,100.0,0.0,0.0,100.0,True,True,D,CHARLENE WARD JOHNSON,,1,46196,sos_portal
+2024,H,140,100.0,0.0,0.0,100.0,True,True,D,ARMANDO LUCIO WALLE,D,1,22272,sos_portal
+2024,H,141,100.0,0.0,0.0,100.0,True,True,D,SENFRONIA THOMPSON,D,1,32492,sos_portal
+2024,H,142,100.0,0.0,0.0,100.0,True,True,D,HAROLD V. DUTTON JR,D,1,41430,sos_portal
+2024,H,143,100.0,0.0,0.0,100.0,True,True,D,ANA HERNANDEZ,D,1,27796,sos_portal
+2024,H,144,100.0,0.0,0.0,100.0,True,True,D,MARY ANN PEREZ,D,1,26617,sos_portal
+2024,H,145,100.0,0.0,0.0,100.0,True,True,D,CHRISTINA MORALES,D,1,46104,sos_portal
+2024,H,146,77.72,22.28,0.0,55.44,False,True,D,LAUREN ASHLEY SIMMONS,,2,55122,sos_portal
+2024,H,147,74.54,25.46,0.0,49.08,False,True,D,JOLANDA JONES,D,2,64160,sos_portal
+2024,H,148,54.94,45.06,0.0,9.88,False,True,D,PENNY MORALES SHAW,D,2,51587,sos_portal
+2024,H,149,57.02,42.98,0.0,14.04,False,True,D,HUBERT VO,D,2,47212,sos_portal
+2024,H,150,40.14,59.86,0.0,-19.72,False,True,R,VALOREE SWANSON,R,2,80181,sos_portal
+2024,S,6,63.01,36.99,0.0,26.02,False,True,D,CAROL ALVARADO,D,2,189293,sos_portal
+2024,S,7,36.59,63.41,0.0,-26.82,False,True,R,PAUL BETTENCOURT,R,2,396589,sos_portal
+2024,S,8,40.64,59.36,0.0,-18.72,False,True,R,ANGELA PAXTON,R,2,454385,sos_portal
+2024,S,10,38.29,61.71,0.0,-23.42,False,True,R,PHIL KING,R,2,368638,sos_portal
+2024,S,12,38.64,61.36,0.0,-22.72,False,True,R,TAN PARKER,R,2,452609,sos_portal
+2024,S,14,100.0,0.0,0.0,100.0,True,True,D,SARAH ECKHARDT,D,1,321035,sos_portal
+2024,S,15,61.9,38.1,0.0,23.8,False,True,D,MOLLY COOK,,2,324195,sos_portal
+2024,S,16,100.0,0.0,0.0,100.0,True,True,D,NATHAN JOHNSON,D,1,187557,sos_portal
+2024,S,17,35.84,64.16,0.0,-28.32,False,True,R,JOAN HUFFMAN,R,2,371455,sos_portal
+2024,S,20,100.0,0.0,0.0,100.0,True,True,D,"JUAN ""CHUY"" HINOJOSA",D,1,178987,sos_portal
+2024,S,23,100.0,0.0,0.0,100.0,True,True,D,ROYCE WEST,D,1,253413,sos_portal
+2024,S,25,36.43,63.57,0.0,-27.14,False,True,R,DONNA CAMPBELL,R,2,505965,sos_portal
+2024,S,27,48.29,49.38,2.33,-1.09,False,True,R,ADAM HINOJOSA,D,3,255334,sos_portal
+2024,S,29,100.0,0.0,0.0,100.0,True,True,D,CÉSAR J. BLANCO,D,1,174731,sos_portal
+2024,S,30,34.97,65.03,0.0,-30.06,False,True,R,BRENT HAGENBUCH,,2,445930,sos_portal

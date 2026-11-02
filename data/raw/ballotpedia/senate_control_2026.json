@@ -1,0 +1,660 @@
+{
+  "as_of": "2026-11-01T21:17",
+  "composition_ballotpedia_table": {
+    "as_of": "November 2026",
+    "D": 12,
+    "R": 18,
+    "other": 0,
+    "vacant": 1,
+    "total": 31
+  },
+  "composition_from_member_list": {
+    "D": 12,
+    "R": 18,
+    "vacant": 1,
+    "vacant_districts": [
+      22
+    ]
+  },
+  "members": {
+    "1": {
+      "name": "Bryan Hughes",
+      "party": "Republican",
+      "assumed_office": "January 10, 2017",
+      "vacant": false
+    },
+    "2": {
+      "name": "Bob Hall",
+      "party": "Republican",
+      "assumed_office": "2015",
+      "vacant": false
+    },
+    "3": {
+      "name": "Robert Nichols",
+      "party": "Republican",
+      "assumed_office": "2007",
+      "vacant": false
+    },
+    "4": {
+      "name": "Brett Ligon",
+      "party": "Republican",
+      "assumed_office": "May 19, 2026",
+      "vacant": false
+    },
+    "5": {
+      "name": "Charles Schwertner",
+      "party": "Republican",
+      "assumed_office": "2013",
+      "vacant": false
+    },
+    "6": {
+      "name": "Carol Alvarado",
+      "party": "Democratic",
+      "assumed_office": "December 21, 2018",
+      "vacant": false
+    },
+    "7": {
+      "name": "Paul Bettencourt",
+      "party": "Republican",
+      "assumed_office": "2015",
+      "vacant": false
+    },
+    "8": {
+      "name": "Angela Paxton",
+      "party": "Republican",
+      "assumed_office": "January 8, 2019",
+      "vacant": false
+    },
+    "9": {
+      "name": "Taylor Rehmet",
+      "party": "Democratic",
+      "assumed_office": "February 19, 2026",
+      "vacant": false
+    },
+    "10": {
+      "name": "Phil King",
+      "party": "Republican",
+      "assumed_office": "January 10, 2023",
+      "vacant": false
+    },
+    "11": {
+      "name": "Mayes Middleton",
+      "party": "Republican",
+      "assumed_office": "January 10, 2023",
+      "vacant": false
+    },
+    "12": {
+      "name": "Tan Parker",
+      "party": "Republican",
+      "assumed_office": "January 10, 2023",
+      "vacant": false
+    },
+    "13": {
+      "name": "Borris Miles",
+      "party": "Democratic",
+      "assumed_office": "2017",
+      "vacant": false
+    },
+    "14": {
+      "name": "Sarah Eckhardt",
+      "party": "Democratic",
+      "assumed_office": "July 31, 2020",
+      "vacant": false
+    },
+    "15": {
+      "name": "Molly Cook",
+      "party": "Democratic",
+      "assumed_office": "May 16, 2024",
+      "vacant": false
+    },
+    "16": {
+      "name": "Nathan Johnson",
+      "party": "Democratic",
+      "assumed_office": "January 8, 2019",
+      "vacant": false
+    },
+    "17": {
+      "name": "Joan Huffman",
+      "party": "Republican",
+      "assumed_office": "2009",
+      "vacant": false
+    },
+    "18": {
+      "name": "Lois Kolkhorst",
+      "party": "Republican",
+      "assumed_office": "December 22, 2014",
+      "vacant": false
+    },
+    "19": {
+      "name": "Roland Gutierrez",
+      "party": "Democratic",
+      "assumed_office": "January 12, 2021",
+      "vacant": false
+    },
+    "20": {
+      "name": "Juan Hinojosa",
+      "party": "Democratic",
+      "assumed_office": "2002",
+      "vacant": false
+    },
+    "21": {
+      "name": "Judith Zaffirini",
+      "party": "Democratic",
+      "assumed_office": "1987",
+      "vacant": false
+    },
+    "22": {
+      "name": "",
+      "party": "",
+      "assumed_office": "",
+      "vacant": true
+    },
+    "23": {
+      "name": "Royce West",
+      "party": "Democratic",
+      "assumed_office": "1993",
+      "vacant": false
+    },
+    "24": {
+      "name": "Peter P. Flores",
+      "party": "Republican",
+      "assumed_office": "January 10, 2023",
+      "vacant": false
+    },
+    "25": {
+      "name": "Donna Campbell",
+      "party": "Republican",
+      "assumed_office": "2013",
+      "vacant": false
+    },
+    "26": {
+      "name": "José Menéndez",
+      "party": "Democratic",
+      "assumed_office": "March 4, 2015",
+      "vacant": false
+    },
+    "27": {
+      "name": "Adam Hinojosa",
+      "party": "Republican",
+      "assumed_office": "January 14, 2025",
+      "vacant": false
+    },
+    "28": {
+      "name": "Charles Perry",
+      "party": "Republican",
+      "assumed_office": "September 30, 2014",
+      "vacant": false
+    },
+    "29": {
+      "name": "César Blanco",
+      "party": "Democratic",
+      "assumed_office": "January 12, 2021",
+      "vacant": false
+    },
+    "30": {
+      "name": "Brent Hagenbuch",
+      "party": "Republican",
+      "assumed_office": "January 14, 2025",
+      "vacant": false
+    },
+    "31": {
+      "name": "Kevin Sparks",
+      "party": "Republican",
+      "assumed_office": "January 10, 2023",
+      "vacant": false
+    }
+  },
+  "lrl_89th_senators_with_terms_ending_2026_or_later": {
+    "1": [
+      [
+        "Bryan Hughes",
+        "R",
+        [
+          "2017",
+          "2027"
+        ]
+      ]
+    ],
+    "2": [
+      [
+        "Bob Hall",
+        "R",
+        [
+          "2015",
+          "2027"
+        ]
+      ]
+    ],
+    "3": [
+      [
+        "Robert Nichols",
+        "R",
+        [
+          "2007",
+          "2027"
+        ]
+      ]
+    ],
+    "4": [
+      [
+        "Brett W. Ligon",
+        "R",
+        [
+          "2026",
+          "2027"
+        ]
+      ]
+    ],
+    "5": [
+      [
+        "Charles Schwertner",
+        "R",
+        [
+          "2013",
+          "2027"
+        ]
+      ]
+    ],
+    "6": [
+      [
+        "Carol Alvarado",
+        "D",
+        [
+          "2018",
+          "2029"
+        ]
+      ]
+    ],
+    "7": [
+      [
+        "Paul Bettencourt",
+        "R",
+        [
+          "2015",
+          "2029"
+        ]
+      ]
+    ],
+    "8": [
+      [
+        "Angela Paxton",
+        "R",
+        [
+          "2019",
+          "2029"
+        ]
+      ]
+    ],
+    "9": [
+      [
+        "Taylor Rehmet",
+        "D",
+        [
+          "2026",
+          "2027"
+        ]
+      ]
+    ],
+    "10": [
+      [
+        "Phil King",
+        "R",
+        [
+          "2023",
+          "2029"
+        ]
+      ]
+    ],
+    "11": [
+      [
+        "Mayes Middleton",
+        "R",
+        [
+          "2023",
+          "2027"
+        ]
+      ]
+    ],
+    "12": [
+      [
+        "Tan Parker",
+        "R",
+        [
+          "2023",
+          "2029"
+        ]
+      ]
+    ],
+    "13": [
+      [
+        "Borris Miles",
+        "D",
+        [
+          "2017",
+          "2027"
+        ]
+      ]
+    ],
+    "14": [
+      [
+        "Sarah Eckhardt",
+        "D",
+        [
+          "2020",
+          "2029"
+        ]
+      ]
+    ],
+    "15": [
+      [
+        "Molly Cook",
+        "D",
+        [
+          "2024",
+          "2029"
+        ]
+      ]
+    ],
+    "16": [
+      [
+        "Nathan Johnson",
+        "D",
+        [
+          "2019",
+          "2029"
+        ]
+      ]
+    ],
+    "17": [
+      [
+        "Joan Huffman",
+        "R",
+        [
+          "2008",
+          "2029"
+        ]
+      ]
+    ],
+    "18": [
+      [
+        "Lois W. Kolkhorst",
+        "R",
+        [
+          "2014",
+          "2027"
+        ]
+      ]
+    ],
+    "19": [
+      [
+        "Roland Gutierrez",
+        "D",
+        [
+          "2021",
+          "2027"
+        ]
+      ]
+    ],
+    "20": [
+      [
+        "Juan 'Chuy' Hinojosa",
+        "D",
+        [
+          "2003",
+          "2029"
+        ]
+      ]
+    ],
+    "21": [
+      [
+        "Judith Zaffirini",
+        "D",
+        [
+          "1987",
+          "2027"
+        ]
+      ]
+    ],
+    "22": [
+      [
+        "Brian Birdwell",
+        "R",
+        [
+          "2010",
+          "2026"
+        ]
+      ]
+    ],
+    "23": [
+      [
+        "Royce West",
+        "D",
+        [
+          "1993",
+          "2029"
+        ]
+      ]
+    ],
+    "24": [
+      [
+        "Pete Flores",
+        "R",
+        [
+          "2023",
+          "2027"
+        ]
+      ]
+    ],
+    "25": [
+      [
+        "Donna Campbell",
+        "R",
+        [
+          "2013",
+          "2029"
+        ]
+      ]
+    ],
+    "26": [
+      [
+        "José Menéndez",
+        "D",
+        [
+          "2015",
+          "2027"
+        ]
+      ]
+    ],
+    "27": [
+      [
+        "Adam Hinojosa",
+        "R",
+        [
+          "2025",
+          "2029"
+        ]
+      ]
+    ],
+    "28": [
+      [
+        "Charles Perry",
+        "R",
+        [
+          "2014",
+          "2027"
+        ]
+      ]
+    ],
+    "29": [
+      [
+        "César Blanco",
+        "D",
+        [
+          "2021",
+          "2029"
+        ]
+      ]
+    ],
+    "30": [
+      [
+        "Brent Hagenbuch",
+        "R",
+        [
+          "2025",
+          "2029"
+        ]
+      ]
+    ],
+    "31": [
+      [
+        "Kevin Sparks",
+        "R",
+        [
+          "2023",
+          "2027"
+        ]
+      ]
+    ]
+  },
+  "special_elections_2025_2026": [
+    {
+      "district": 9,
+      "source_page": "https://ballotpedia.org/Texas_state_legislative_special_elections,_2025",
+      "section_date": "November 4, 2025",
+      "election_date": "November 4, 2025",
+      "runoff_date": "January 31, 2026",
+      "vacancy_reason": "after Kelly Hancock (R) was appointed to serve as Texas Comptroller of Public Accounts",
+      "rounds": [
+        {
+          "round": "Special general runoff election for Texas State Senate District 9",
+          "results": [
+            {
+              "candidate": "Taylor Rehmet",
+              "party": "D",
+              "winner": true,
+              "pct": 57.3,
+              "votes": 54473
+            },
+            {
+              "candidate": "Leigh Wambsganss",
+              "party": "R",
+              "winner": false,
+              "pct": 42.7,
+              "votes": 40648
+            }
+          ]
+        },
+        {
+          "round": "Special general election for Texas State Senate District 9",
+          "results": [
+            {
+              "candidate": "Taylor Rehmet",
+              "party": "D",
+              "winner": true,
+              "pct": 47.6,
+              "votes": 56565
+            },
+            {
+              "candidate": "Leigh Wambsganss",
+              "party": "R",
+              "winner": true,
+              "pct": 35.9,
+              "votes": 42739
+            },
+            {
+              "candidate": "John Huffman",
+              "party": "R",
+              "winner": false,
+              "pct": 16.5,
+              "votes": 19608
+            }
+          ]
+        }
+      ],
+      "status": "decided",
+      "winner": "Taylor Rehmet",
+      "winner_party": "D"
+    },
+    {
+      "district": 4,
+      "source_page": "https://ballotpedia.org/Texas_state_legislative_special_elections,_2026",
+      "section_date": "May 2, 2026",
+      "election_date": "May 2, 2026",
+      "runoff_date": "",
+      "vacancy_reason": "on October 2, 2025, after Brandon Creighton (R) resigned to accept the position of Chancellor of the Texas Tech University System",
+      "rounds": [
+        {
+          "round": "Special general election for Texas State Senate District 4",
+          "results": [
+            {
+              "candidate": "Brett Ligon",
+              "party": "R",
+              "winner": true,
+              "pct": 75.0,
+              "votes": 26130
+            },
+            {
+              "candidate": "Ron Angeletti",
+              "party": "D",
+              "winner": false,
+              "pct": 25.0,
+              "votes": 8700
+            }
+          ]
+        }
+      ],
+      "status": "decided",
+      "winner": "Brett Ligon",
+      "winner_party": "R"
+    },
+    {
+      "district": 22,
+      "source_page": "https://ballotpedia.org/Texas_state_legislative_special_elections,_2026",
+      "section_date": "November 3, 2026",
+      "election_date": "November 3, 2026",
+      "runoff_date": "",
+      "vacancy_reason": "after Brian Birdwell (R) resigned on May 29, 2026, to serve as the Assistant Secretary of U.S. Defense for Sustainment",
+      "rounds": [
+        {
+          "round": "Special general election for Texas State Senate District 22",
+          "results": [
+            {
+              "candidate": "Amy Martinez-Salas",
+              "party": "D",
+              "winner": false,
+              "pct": null,
+              "votes": null
+            },
+            {
+              "candidate": "David Cook",
+              "party": "R",
+              "winner": false,
+              "pct": null,
+              "votes": null
+            }
+          ]
+        }
+      ],
+      "status": "pending",
+      "winner": "",
+      "winner_party": "",
+      "candidates": [
+        [
+          "Amy Martinez-Salas",
+          "D"
+        ],
+        [
+          "David Cook",
+          "R"
+        ]
+      ]
+    }
+  ],
+  "source_urls": [
+    "https://ballotpedia.org/Texas_State_Senate",
+    "https://ballotpedia.org/Texas_state_legislative_special_elections,_2025",
+    "https://ballotpedia.org/Texas_state_legislative_special_elections,_2026",
+    "https://lrl.texas.gov/legeLeaders/members/membersearch.cfm?leg=89&chamber=S"
+  ],
+  "notes": "Composition is pre-election (Nov 2026). Vacant seats listed under composition_from_member_list.vacant_districts."
+}

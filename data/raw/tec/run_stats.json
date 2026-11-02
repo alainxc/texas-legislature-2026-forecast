@@ -1,0 +1,71 @@
+{
+  "zip_url": "https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip",
+  "zip_size_bytes": 1084895166,
+  "zip_retrieved_at": "2026-11-01T21:08",
+  "zip_member_dates": {
+    "cover.csv": {
+      "size": 197130815,
+      "date": "2026-11-01"
+    },
+    "filers.csv": {
+      "size": 8944467,
+      "date": "2026-11-01"
+    }
+  },
+  "filers_total": 20894,
+  "filers_legislative": 4084,
+  "filers_legislative_by_type": {
+    "COH": 4064,
+    "SPK": 15,
+    "JCOH": 4,
+    "DCE": 1
+  },
+  "filers_with_2025_2026_reports": 817,
+  "filers_statehouse_with_reports": 693,
+  "filers_statesen_with_reports": 97,
+  "filers_seeking_other_office_2026": 27,
+  "other_offices_sought": {
+    "JUDGEDIST": 7,
+    "OTHER": 7,
+    "ATTYGEN": 3,
+    "RRCOMM": 2,
+    "COMPTROLLER": 1,
+    "GOVERNOR": 1,
+    "JUDGEDIST_FAMILY": 1,
+    "JUSTICE_SC": 1,
+    "LTGOVERNOR": 1,
+    "PARTYCHAIRCO": 1,
+    "STATEEDU": 1,
+    "T": 1
+  },
+  "filers_with_8day_pre_general_flag": 290,
+  "cover_rows_legislative_all_years": 51017,
+  "cover_rows_dropped_superseded": 5359,
+  "cover_rows_dropped_bad_dates": 200,
+  "cycle_reports_2025_2026": 3108,
+  "cycle_report_types": {
+    "SEMIJUL": 1028,
+    "SEMIJAN": 659,
+    "E30DAYBEF": 542,
+    "E08DAYBEF": 531,
+    "FINAL": 191,
+    "A15DAYAFT": 89,
+    "RUNOFF": 29,
+    "UNEXPCONT": 22,
+    "UNEXPCONT_FINAL": 9,
+    "500EXCEED": 7,
+    "SPKUC": 1
+  },
+  "latest_period_end_in_data": "20261027",
+  "latest_received_in_data": "20261031",
+  "eight_day_pre_general_2026_reports": 290,
+  "eight_day_pre_general_2026_filers": 290,
+  "eight_day_due_dates": [
+    "20261026"
+  ],
+  "eight_day_period_end_dates": [
+    "20261024"
+  ],
+  "party_available_count": 7,
+  "generated_at": "2026-11-01T21:14"
+}

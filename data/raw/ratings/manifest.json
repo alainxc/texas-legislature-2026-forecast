@@ -1,0 +1,111 @@
+[
+ {
+  "file": "raw/statenavigate_tx_home.html",
+  "url": "https://statenavigate.org/states/tx/",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "State Navigate Texas state page (chamber control odds + model date)"
+ },
+ {
+  "file": "raw/statenavigate_tx_forecast_lower.html",
+  "url": "https://projects.statenavigate.com/25-26/states/tx/forecast-lower.html",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "State Navigate 2026 Texas House forecast page (pre-rendered per-district rating cells)"
+ },
+ {
+  "file": "raw/statenavigate_tx_forecast_upper.html",
+  "url": "https://projects.statenavigate.com/25-26/states/tx/forecast-upper.html",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "State Navigate 2026 Texas Senate forecast page (pre-rendered per-district rating cells)"
+ },
+ {
+  "file": "raw/crystalball_jacobson_state_leg_first_look.html",
+  "url": "https://www.rasmussenreports.com/public_content/political_commentary/commentary_by_louis_jacobson/handicapping_the_2026_state_legislative_map_a_first_look",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Louis Jacobson / Sabato's Crystal Ball 'Handicapping the 2026 State Legislative Map: A First Look' (republished by Rasmussen Reports)"
+ },
+ {
+  "file": "raw/centerforpolitics_crystalball_home.html",
+  "url": "https://centerforpolitics.org/crystalball/",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 403,
+  "description": "Crystal Ball home (expected HTTP 403 bot-block; kept as evidence)"
+ },
+ {
+  "file": "raw/ballotpedia_battleground_chambers_2026.html",
+  "url": "https://ballotpedia.org/State_legislative_battleground_chambers,_2026",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Ballotpedia: State legislative battleground chambers, 2026"
+ },
+ {
+  "file": "raw/ballotpedia_tx_house_2026.html",
+  "url": "https://ballotpedia.org/Texas_House_of_Representatives_elections,_2026",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Ballotpedia: Texas House of Representatives elections, 2026 (ratings section embeds State Navigate)"
+ },
+ {
+  "file": "raw/ballotpedia_tx_senate_2026.html",
+  "url": "https://ballotpedia.org/Texas_State_Senate_elections,_2026",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Ballotpedia: Texas State Senate elections, 2026"
+ },
+ {
+  "file": "raw/dlcc_texas.html",
+  "url": "https://www.dlcc.org/texas",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "DLCC Texas page with 'DLCC Target Races' list"
+ },
+ {
+  "file": "raw/dlcc_target_map_2025_2026.html",
+  "url": "https://www.dlcc.org/the-dlcc-target-map-2025-2026/",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "DLCC 2025-2026 target map page"
+ },
+ {
+  "file": "raw/texashdcc_targeted_races.html",
+  "url": "https://texashdcc.com/targeted-races/",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "Texas House Democratic Campaign Committee targeted races"
+ },
+ {
+  "file": "raw/rslc_2026_texas_candidate_spotlight.html",
+  "url": "https://rslc.gop/rslc-launches-2026-texas-candidate-spotlight-series-announces-first-round-spotlights/",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "RSLC press release: 2026 Texas Candidate Spotlight series (first round)"
+ },
+ {
+  "file": "raw/rslc_search_texas.html",
+  "url": "https://rslc.gop/?s=Texas",
+  "retrieved_at": "2026-11-01T21:23",
+  "http_status": 200,
+  "description": "RSLC site search for Texas (no formal target list page exists)"
+ },
+ {
+  "file": "ratings.csv",
+  "url": "",
+  "retrieved_at": "2026-11-01T21:23",
+  "description": "Parsed district ratings + target-list flags"
+ },
+ {
+  "file": "chamber_ratings.csv",
+  "url": "",
+  "retrieved_at": "2026-11-01T21:23",
+  "description": "Parsed chamber-level calls"
+ },
+ {
+  "file": "district_polls.csv",
+  "url": "",
+  "retrieved_at": "2026-11-01T21:23",
+  "description": "District-level polls (see NOTES.md)"
+ }
+]

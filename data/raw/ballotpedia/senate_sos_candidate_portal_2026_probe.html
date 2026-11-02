@@ -1,0 +1,1106 @@
+
+
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<title>Candidate Information</title>
+</head>
+<head>
+<title>Candidate Information</title>
+<!-- Metadata Info -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1 ">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<link rel="shortcut icon" href="/Elections/images/global/favicon.ico" type="image/x-icon"/>
+<!-- Stylesheet Info -->
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+	integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	crossorigin="anonymous">
+<link href="/Elections/css/bootstrap.css"
+	rel="stylesheet">
+<link href="/Elections/css/normalize.css"
+	rel="stylesheet">
+<!-- <link href="css/mdb.css" rel="stylesheet"> -->
+<link href="/Elections/css/forms.css"
+	rel="stylesheet">
+<link href="/Elections/css/global.css"
+	rel="stylesheet">
+<link href="/Elections/css/custom.css"
+	rel="stylesheet">
+<link href="/Elections/css/compatible.css"
+	rel="stylesheet">
+
+
+
+<script type="text/javascript">
+	function loadValues() {
+	/* 	$("#nbElecYear").val("2026");
+		$("#idElection").val("0");
+		$("#idOffice").val("0");
+		$("#cdParty").val("");
+		$("#cdOfficeType").val("");
+		$("#cdStatus").val(""); */
+		if ("" == "C") {
+			$("#idTown").val("0");
+		}
+		if ("" == "C") {
+			$(".countyShow").removeClass("hidden");
+		} else {
+			$(".countyShow").addClass("hidden");
+		}
+	} 
+	function changeElection() {
+		if ($("#nbElecYear").val() == '0') {
+			$("#elecYearErr").html("Election Year is Required");
+			return false;
+		}
+		if ($("#idElection").val() == '0') {
+			$("#elecErr").html("Election is Required");
+			return false;
+		}
+
+		$("#cdParty").val("");
+		$("#idOffice").val("");
+		
+		$("#candidateInfoForm")
+				.attr("action",
+						"/Elections/getQualifiedCandidatesInfo.do");
+		document.candidateInfoForm.submit();
+	}
+
+	function changeElectionYear() {
+		$("#idElection").val("");
+		$("#idOffice").val("");
+		$("#cdParty").val("");
+		$("#idTown").val("");
+		$("#candidateInfoForm")
+				.attr("action",
+						"/Elections/getQualifiedCandidatesInfo.do");
+		document.candidateInfoForm.submit();
+	}
+
+	function changeElectionCat() {
+
+		if ($("#nbElecYear").val() == '0') {
+			$("#elecYearErr").html("Election Year is Required");
+			return false;
+		}
+		$("#idElection").val("");
+		$("#idOffice").val("");
+		$("#cdParty").val("");
+		$("#cdOfficeType").val("");
+		$("#idTown").val("");
+		$("#candidateInfoForm")
+				.attr("action",
+						"/Elections/getQualifiedCandidatesInfo.do");
+		document.form1.submit();
+	}
+
+	function changeOfficeType() {
+
+		if ($("#cdOfficeType").val() == 'C') {
+			$(".countyShow").removeClass("hidden");
+		} else {
+			$(".countyShow").addClass("hidden");
+		}
+		if ($("#nbElecYear").val() == '0') {
+			$("#elecYearErr").html("Election Year is Required");
+			return false;
+		}
+		if ($("#idElection").val() == '0') {
+			$("#elecErr").html("Election is Required");
+			return false;
+		}
+
+		$("#idTown").val("");
+		$("#idOffice").val("");
+		$("#candidateInfoForm")
+				.attr("action",
+						"/Elections/getQualifiedCandidatesInfo.do");
+		document.candidateInfoForm.submit();
+	}
+	function submitForm() {
+		if ($("#nbElecYear").val() == '0') {
+			$("#elecYearErr").html("Election Year is Required");
+			return false;
+		}
+		if ($("#idElection").val() == '0') {
+			$("#elecErr").html("Election is Required");
+			return false;
+		}
+		$("#results").val("R");
+		$("#cdFlow").val("S");
+		$("#candidateInfoForm").attr("action","/Elections/getQualifiedCandidatesInfo.do");
+		document.candidateInfoForm.submit();
+	}
+
+	function generateReport() {
+		$("#elecDateName").val($("#idElection option:selected").text());
+		candidateInfoForm.action = "exportQualifiedCandidatesReport.do";
+		candidateInfoForm.submit();
+	}
+	function officesForSelectedCounty() {
+		if ($("#nbElecYear").val() == 0) {
+			$("#elecYearErr").html("Election Year is Required");
+			return false;
+		}
+		if ($("#idElection").val() == 0) {
+			$("#elecErr").html("Election is Required");
+			return false;
+		}
+		$("#candidateInfoForm").attr("action","/Elections/getQualifiedCandidatesInfo.do");				
+		document.candidateInfoForm.submit();
+	}
+	function setSelectedElectionType() {
+
+		var elecId = $("#idElection option:selected").val();
+		if (elecId != "") {
+			
+
+		}
+	}
+</script>
+</head>
+<body onload="loadValues()">
+	<main>
+	
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	
+</head>
+<body>
+
+	<header>
+		<a href="#mainContent" class="hidden">Skip to Main Content</a>
+		<!-- <div id="header-alerts">
+			<span><strong>Election Outlook: </strong> <a href="/about/newsreleases/2019/041919.shtml">The Secretary of State Reminds Texans to Plan Their Trip to the Polls</a> &nbsp;<strong>|</strong>&nbsp; <a href="https://www.votetexas.gov/register-to-vote/need-id.html">More about Identification Requirements for Voting</a> &nbsp;<strong>|</strong>&nbsp; <a href="https://www.votetexas.gov/register-to-vote/index.html">Monday, October 7, 2019 is the last day to register to vote for the November 5, 2019 Uniform Election</a> &nbsp;<strong>|</strong>&nbsp; <a href="https://www.votetexas.gov/voting/what.html">What&rsquo;s on the Ballot?</a> &nbsp;<strong>|</strong>&nbsp; <a href="https://teamrv-mvp.sos.texas.gov/MVP/mvp.do">Am I Registered to Vote?</a> &nbsp;<strong>|</strong>&nbsp; <a href="https://enrpages.sos.state.tx.us/">Election Night Returns</a> &nbsp;|&nbsp;<a href="https://www.votetexas.gov/index.html"> Voter Information</a> &nbsp;<strong>|</strong>&nbsp; <a href="https://www.votetexas.gov/harvey/index.html">Voting Issues for Texas Harvey Evacuees</a> &nbsp;<strong>|</strong>&nbsp; <a href="/elections/conducting/2018-security-update.shtml">2018 Texas Election Security Update</a></span>
+		</div> -->
+		<div id="top_navigation">
+			<ul class="top_navigation">
+			   <li><a href="https://www.sos.texas.gov/index.html">Home</a> | </li>
+			   <li><a href="https://www.sos.texas.gov/about/index.shtml">About the Office </a>|</li>
+				<li><a href="https://www.sos.texas.gov/about/newsreleases/index.shtml">Press Releases</a> |</li>
+				<li><a href="https://www.sos.texas.gov/siteindex.shtml">Site Index</a> |</li>
+				<li><a href="https://www.sos.texas.gov/help.shtml">Help</a> |</li>
+				<li><a href="https://www.sos.texas.gov/contact.shtml">Contacts</a> |</li>
+				<li><a href="https://www.surveymonkey.com/r/sosweb"><strong>Web Survey</strong></a> |</li>
+				<li><a href="https://www.sos.texas.gov/sos_espanol.shtml">En Espa&ntilde;ol</a></li>
+			</ul>
+		</div>
+		<div id="header"> 
+
+		<a href="https://www.sos.texas.gov">
+			<img src="images/global/header.jpg" width="630" height="96" alt="Office of the Texas Secretary of State"/></a></div> 
+		
+		<div id="top-wrapper">
+		<div id="search"> 
+
+		<FORM id="ThunderstoneSearchForm" class="ThunderstoneForm" METHOD=get ACTION="https://www.sos.texas.gov/search.shtml" style="margin:0;">
+		<INPUT TYPE="hidden" NAME="dropXSL" VALUE=""/>
+		<INPUT TYPE=hidden NAME=pr VALUE="default"/>
+		<INPUT TYPE=hidden NAME=prox VALUE="page"/>
+		<INPUT TYPE=hidden NAME=rorder VALUE="500"/>
+		<INPUT TYPE=hidden NAME=rprox VALUE="500"/>
+		<INPUT TYPE=hidden NAME=rdfreq VALUE="500"/>
+		<INPUT TYPE=hidden NAME=rwfreq VALUE="500"/>
+		<INPUT TYPE=hidden NAME=rlead VALUE="500"/>
+		<INPUT TYPE=hidden NAME=sufs VALUE="0"/>
+		<INPUT TYPE=hidden NAME=order VALUE="r"/>
+		<INPUT TYPE=hidden NAME=rdepth VALUE="0"/>
+
+		<label for="query">Search for this:</label><INPUT SIZE=22 name="query" class=" queryAutocomplete" id="query" placeholder="Search" title="Search" /><INPUT TYPE=submit VALUE="Go"/>
+		</FORM>
+
+		</div> 
+		
+		<div id="navcontainer">
+			<ul id="navlist">
+			<li id="active" class="dropdown">
+				<a href="https://www.sos.texas.gov/elections/index.shtml" onmouseout="popDown('HM_Menu2')"  onmouseover="popUp('HM_Menu2',event)" >Elections</a>
+				<div class="dropdown-content">
+					<a href="https://www.sos.state.tx.us/elections/index.shtml">Current Election Information</a>
+					<a href="https://www.votetexas.gov/">Voter Texas.gov - Voter Information</a>
+					<a href="https://www.sos.texas.gov/elections/laws/voter-registration-agencies.shtml">Voter Registration Agencies</a>
+					<a href="https://www.sos.state.tx.us/elections/conducting/index.shtml">Conducting Elections</a>
+					<a href="https://www.sos.texas.gov/elections/candidates/index.shtml">Candidate Information</a>
+					<a href="https://www.sos.texas.gov/elections/voter/current.shtml">Officials and Officeholders</a>
+		            <a href="https://www.sos.texas.gov/elections/historical/index.shtml">Election Results</a>
+		            <a href="https://www.sos.texas.gov/elections/laws/education-resources.shtml">Voter Education &amp; Seminar Information</a>
+		            <a href="https://www.sos.texas.gov/elections/hava/index.shtml">Help America Vote Act (HAVA) Funding</a>
+	              	<a href="https://www.sos.texas.gov/elections/funds/index.shtml">Election Funds Management</a>
+		            <a href="https://www.sos.texas.gov/elections/laws/resources_legal.shtml">Forms, Resources and Legal Library</a>
+		            <a href="https://www.sos.texas.gov/elections/laws/votingsystems.shtml">Voting Systems</a>
+		            <a href="https://www.votetexas.gov/faq/">Frequently Asked Questions (FAQs)</a>
+		            <a href="https://www.sos.texas.gov/elections/contact.shtml">Contact Us</a>
+				</div>
+			</li>
+			
+			<li id="active" class="dropdown">
+			<a href="https://www.sos.texas.gov/corp/index.shtml" onmouseout="popDown('HM_Menu5')"  onmouseover="popUp('HM_Menu5',event)" >Business Services</a> 
+				<div class="dropdown-content">
+				  <a href="https://www.sos.texas.gov/corp/index.shtml">Business Basics</a>
+					<a href="https://www.sos.texas.gov/corp/business-startup.shtml">Business Start-Up Information</a>
+					<a href="https://www.sos.texas.gov/corp/forms_option.shtml">Business Forms</a>  
+					<a href="https://www.sos.texas.gov/corp/options.shtml">Filing Options</a>
+					<a href="https://direct.sos.state.tx.us/help/help-corp.asp?pg=fee">Fee Schedule</a>
+					<a href="https://www.sos.texas.gov/corp/copies.shtml">Copies &amp; Certificates</a>
+					<a href="https://www.sos.texas.gov/corp/publicinfo.shtml">Access Entity Information</a>
+					<a href="https://www.sos.texas.gov/corp/registeredagents.shtml">Registered Agents</a>
+					<a href="https://www.sos.texas.gov/corp/nonprofit_org.shtml">Nonprofit Organizations</a>
+					<a href="https://www.sos.texas.gov/corp/foreign_outofstate.shtml">Foreign or Out-of-State Entities</a>
+					<a href="https://www.sos.texas.gov/ucc/index.shtml">Uniform Commercial Code</a>
+					<a href="https://www.sos.texas.gov/corp/tradepatents.shtml">Trademarks</a>
+					<a href="https://www.sos.texas.gov/corp/service-of-process.shtml">Service of Process</a>
+					<a href="https://www.sos.texas.gov/corp/business-law.shtml">Texas Business Law</a>
+					<a href="https://www.sos.texas.gov/corp/generalfaqs.shtml">Frequently Asked Questions (FAQs)</a>
+					<a href="https://www.sos.texas.gov/corp/contact.shtml">Contact Us</a>
+				</div>
+			</li>
+			
+			<li id="active" class="dropdown">
+			<a href="https://www.sos.texas.gov/statdoc/index.shtml" onmouseout="popDown('HM_Menu8')"  onmouseover="popUp('HM_Menu8',event)" >Notary, Apostilles &amp; Authentications</a>
+				<div class="dropdown-content">
+				        <a href="https://www.sos.texas.gov/statdoc/index.shtml">About  Notary Public and Apostille Services</a>
+					    <a href="https://www.sos.texas.gov/statdoc/statforms.shtml">Forms</a>
+						<a href="https://www.sos.texas.gov/statdoc/notary-public.shtml">Notary Public</a>
+						<a href="https://www.sos.texas.gov/authinfo.shtml">Apostilles/Authentication of Documents</a>
+					    <a href="https://www.sos.texas.gov/statdoc/faqs.shtml">Frequently Asked Questions (FAQs)</a>
+						<a href="https://www.sos.texas.gov/statdoc/contact.shtml">Contact Us</a>
+				</div>
+			</li>
+			<li id="active" class="dropdown">
+			<a href="https://www.sos.texas.gov/texreg/index.shtml" onmouseout="popDown('HM_Menu4')"  onmouseover="popUp('HM_Menu4',event)" >Rules &amp; Open Meetings</a>
+				<div class="dropdown-content">
+				    <a href="https://www.sos.texas.gov/texreg/index.shtml">Texas Register</a>
+					<a href="https://www.sos.texas.gov/tac/index.shtml">Texas Administrative Code</a>
+					<a href="https://www.sos.texas.gov/open/index.shtml">Open Meetings</a>
+					<a href="https://www.sos.texas.gov/texreg/subinfo.shtml">Subscription Services</a>
+					<a href="https://www.sos.texas.gov/texreg/transfers/index.shtml">Rule Transfers and Agency Name Changes</a>
+					<a href="https://www.sos.texas.gov/texreg/liaisons.shtml">Liaison General Info</a>
+					<a href="https://texreg.sos.state.tx.us/tac/liaison_center$.startup">Liaison Login</a>
+					<a href="https://www.sos.texas.gov/texreg/resources.shtml">Other Resources</a>
+					<a href="https://www.sos.texas.gov/texreg/faqs.shtml">Frequently Asked Questions (FAQs)</a>
+					<a href="https://www.sos.texas.gov/texreg/contact.shtml">Contact Us</a> 
+				</div>
+			</li>
+			<li id="active" class="dropdown">
+				<a href="https://www.sos.texas.gov/border/index.shtml" onmouseout="popDown('HM_Menu3')"  onmouseover="popUp('HM_Menu3',event)" >International Relations</a>
+				<div class="dropdown-content">
+				    <a href="https://www.sos.state.tx.us/border/index.shtml">Border Relations With Mexico</a>
+					<a href="https://www.sos.state.tx.us/border/intlprotocol/index.shtml">International Relations</a>
+					<a href="https://www.sos.state.tx.us/statdoc/notary-public.shtml#notariopublico">&iquest;Notario P&uacute;blico?</a>
+					<a href="https://www.sos.state.tx.us/authinfo.shtml">Apostilles/Authentication of Documents</a>
+					<a href="https://www.sos.state.tx.us/border/contact.shtml">Contact Us</a>
+				</div>
+			</li>
+			<li id="active" class="dropdown">
+				<a href="https://www.sos.texas.gov/other/index.shtml"  onmouseout="popDown('HM_Menu9')"  onmouseover="popUp('HM_Menu9',event)" >Forms & Other Services</a>
+				<div class="dropdown-content">
+				    <a href="https://www.sos.state.tx.us/other/index.shtml">Other Services and Searches</a>
+					<a href="https://www.sos.state.tx.us/forms.shtml">Forms</a>
+					<a href="https://webservices.sos.state.tx.us/legbills/index.aspx">Legislative Bills</a>
+					<a href="https://www.sos.texas.gov/statdoc/cso.shtml">Credit Services Organizations</a>
+					<a href="https://www.sos.texas.gov/statdoc/seal.shtml">State Seal of Texas</a>
+					<a href="https://www.sos.texas.gov/statdoc/athlete-agents.shtml">Athlete Agents</a>
+					<a href="https://www.sos.texas.gov/statdoc/healthspas/index.shtml">Health Spas</a>
+					<a href="https://www.sos.texas.gov/other/faqs.shtml">Frequently Asked Questions (FAQs)</a>
+					<a href="https://www.sos.texas.gov/contact.shtml">Contact Us</a>
+				</div>
+			</li>
+			</ul>
+		</div>
+		</div>    
+	</header>
+	
+	<script language="javascript1.2" type="text/javascript">
+		//here you place the ids of every element you want.
+		//var ids=new Array('msg1','msg2','msg3','msg4');
+		var ids=new Array('msg1','msg2');
+		
+		function switchid(id){	
+			hideallids();
+			showdiv(id);
+		}
+		
+		function hideallids(){
+			//loop through the array and hide each element by id
+			for (var i=0;i<ids.length;i++){
+				hidediv(ids[i]);
+			}		  
+		}
+		
+		function hidediv(id) {
+			//safe function to hide an element with a specified id
+			if (document.getElementById) { // DOM3 = IE5, NS6
+				document.getElementById(id).style.display = 'none';
+			}
+			else {
+				if (document.layers) { // Netscape 4
+					document.id.display = 'none';
+				}
+				else { // IE 4
+					document.all.id.style.display = 'none';
+				}
+			}
+		}
+		
+		function showdiv(id) {
+			//safe function to show an element with a specified id
+				  
+			if (document.getElementById) { // DOM3 = IE5, NS6
+				document.getElementById(id).style.display = 'inline';
+			}
+			else {
+				if (document.layers) { // Netscape 4
+					document.id.display = 'inline';
+				}
+				else { // IE 4
+					document.all.id.style.display = 'inline';
+				}
+			}
+		}
+		</script>
+		
+	<script language="javascript" type="text/javascript">
+	
+	function MM_findObj(n, d) { //v4.0
+	  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+	    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+	  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+	  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+	  if(!x && document.getElementById) x=document.getElementById(n); return x;
+	}
+	
+	function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+	  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+	    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+	  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+	}
+	
+	MM_reloadPage(true);
+	
+	function MM_showHideLayers() { //v3.0
+	  var i,p,v,obj,args=MM_showHideLayers.arguments;
+	  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+	    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v='hide')?'hidden':v; }
+	    obj.visibility=v; }
+	}
+	
+	if(window.event + "" == "undefined") event = null;
+	function HM_f_PopUp(){return false};
+	function HM_f_PopDown(){return false};
+	popUp = HM_f_PopUp;
+	popDown = HM_f_PopDown;
+	
+	
+	</script>
+
+<script>
+	function toggle_visibility(id) {
+		var e = document.getElementById(id);
+		e.style.display = ((e.style.display!='none') ? 'none' : 'block');
+	}
+	
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a53fa445fdcbc54d',t:'MTc5MzU4NTgzMw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a53fa445fdcbc54d',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+	<section class="content-wrapper">
+		<div class="container-fluid">
+			<form id="candidateInfoForm" name="candidateInfoForm" action="/Elections/getQualifiedCandidatesInfo.do;jsessionid=E5961A734E018228FB6F756001178695.ports-03" method="post">
+				<div class="form-row">
+					<div class="col-12">
+						<h1>Candidate Information</h1>
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="col-12 col-sm-6 col-lg-4 mb-3">
+						<label for="nbElecYear">Election Year</label> <select id="nbElecYear" name="nbElecYear" class="form-control" onchange="changeElectionYear();">
+							<!--  <option value="" disabled selected>Choose your option</option> -->
+							<option value="0">-- Select Year --</option>
+							
+								<option value="2020">2020</option>
+							
+								<option value="2021">2021</option>
+							
+								<option value="2022">2022</option>
+							
+								<option value="2023">2023</option>
+							
+								<option value="2024">2024</option>
+							
+								<option value="2025">2025</option>
+							
+						</select> <span id="elecYearErr" class="fontError" style="color: red">
+						</span>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 mb-3">
+						<label for="idElection">Election</label> <select id="idElection" name="idElection" class="form-control" onchange="changeElection();">
+							<option value="0" selected="selected">-- Select Election --</option>
+							
+						</select> <span id="elecErr" class="fontError" style="color: red"></span>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 mb-3">
+						<label for="cdParty">Party</label> <select id="cdParty" name="cdParty" class="form-control">
+							<option value="" selected="selected">-- Select Party --</option>
+							
+						</select> <span id="partyErr" class="fontError" style="color: red"></span>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 mb-3">
+						<label for="cdOfficeType">Office Type</label> <select id="cdOfficeType" name="cdOfficeType" class="form-control" onchange="changeOfficeType();">
+
+							<option value="" selected="selected">-- Select Office Type --</option>
+							<option value="F">FEDERAL</option>
+							<option value="S">STATE</option>
+							<option value="C">COUNTY</option>
+						</select>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 mb-3">
+						<label for="idOffice">Office Name</label> <select id="idOffice" name="idOffice" class="form-control">
+							<option value="0" selected="selected">-- Select Office --</option>
+							
+						</select>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 mb-3">
+						<label for="cdStatus">Status</label> <select id="cdStatus" name="cdStatus" class="form-control">
+							<option value="" selected="selected">-- Select Status --</option>
+							
+								<option value="AC">Accepted</option>
+							
+								<option value="DE">Deceased</option>
+							
+								<option value="DI">Declared Ineligible</option>
+							
+								<option value="RE">Rejected</option>
+							
+								<option value="WD">Withdrew</option>
+							
+								<option value="CG">Candidate in the General Election</option>
+							
+								<option value="IP">In Primary</option>
+							
+								<option value="IR">In Runoff</option>
+							
+								<option value="LP">Lost Primary</option>
+							
+								<option value="SP">Candidate</option>
+							
+						</select>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 mb-3  countyShow hidden">
+						<label for="elecYear">County</label> <select id="idTown" name="idTown" class="form-control" onchange="officesForSelectedCounty();">
+							<option value="0" selected="selected">-- Select County --</option>
+							
+								<option value="1">ANDERSON</option>
+							
+								<option value="2">ANDREWS</option>
+							
+								<option value="3">ANGELINA</option>
+							
+								<option value="4">ARANSAS</option>
+							
+								<option value="5">ARCHER</option>
+							
+								<option value="6">ARMSTRONG</option>
+							
+								<option value="7">ATASCOSA</option>
+							
+								<option value="8">AUSTIN</option>
+							
+								<option value="9">BAILEY</option>
+							
+								<option value="10">BANDERA</option>
+							
+								<option value="11">BASTROP</option>
+							
+								<option value="12">BAYLOR</option>
+							
+								<option value="13">BEE</option>
+							
+								<option value="14">BELL</option>
+							
+								<option value="15">BEXAR</option>
+							
+								<option value="16">BLANCO</option>
+							
+								<option value="17">BORDEN</option>
+							
+								<option value="18">BOSQUE</option>
+							
+								<option value="19">BOWIE</option>
+							
+								<option value="20">BRAZORIA</option>
+							
+								<option value="21">BRAZOS</option>
+							
+								<option value="22">BREWSTER</option>
+							
+								<option value="23">BRISCOE</option>
+							
+								<option value="24">BROOKS</option>
+							
+								<option value="25">BROWN</option>
+							
+								<option value="26">BURLESON</option>
+							
+								<option value="27">BURNET</option>
+							
+								<option value="28">CALDWELL</option>
+							
+								<option value="29">CALHOUN</option>
+							
+								<option value="30">CALLAHAN</option>
+							
+								<option value="31">CAMERON</option>
+							
+								<option value="32">CAMP</option>
+							
+								<option value="33">CARSON</option>
+							
+								<option value="34">CASS</option>
+							
+								<option value="35">CASTRO</option>
+							
+								<option value="36">CHAMBERS</option>
+							
+								<option value="37">CHEROKEE</option>
+							
+								<option value="38">CHILDRESS</option>
+							
+								<option value="39">CLAY</option>
+							
+								<option value="40">COCHRAN</option>
+							
+								<option value="41">COKE</option>
+							
+								<option value="42">COLEMAN</option>
+							
+								<option value="43">COLLIN</option>
+							
+								<option value="44">COLLINGSWORTH</option>
+							
+								<option value="45">COLORADO</option>
+							
+								<option value="46">COMAL</option>
+							
+								<option value="47">COMANCHE</option>
+							
+								<option value="48">CONCHO</option>
+							
+								<option value="49">COOKE</option>
+							
+								<option value="50">CORYELL</option>
+							
+								<option value="51">COTTLE</option>
+							
+								<option value="52">CRANE</option>
+							
+								<option value="53">CROCKETT</option>
+							
+								<option value="54">CROSBY</option>
+							
+								<option value="55">CULBERSON</option>
+							
+								<option value="56">DALLAM</option>
+							
+								<option value="57">DALLAS</option>
+							
+								<option value="58">DAWSON</option>
+							
+								<option value="59">DEAF SMITH</option>
+							
+								<option value="60">DELTA</option>
+							
+								<option value="61">DENTON</option>
+							
+								<option value="62">DEWITT</option>
+							
+								<option value="63">DICKENS</option>
+							
+								<option value="64">DIMMIT</option>
+							
+								<option value="65">DONLEY</option>
+							
+								<option value="66">DUVAL</option>
+							
+								<option value="67">EASTLAND</option>
+							
+								<option value="68">ECTOR</option>
+							
+								<option value="69">EDWARDS</option>
+							
+								<option value="70">ELLIS</option>
+							
+								<option value="71">EL PASO</option>
+							
+								<option value="72">ERATH</option>
+							
+								<option value="73">FALLS</option>
+							
+								<option value="74">FANNIN</option>
+							
+								<option value="75">FAYETTE</option>
+							
+								<option value="76">FISHER</option>
+							
+								<option value="77">FLOYD</option>
+							
+								<option value="78">FOARD</option>
+							
+								<option value="79">FORT BEND</option>
+							
+								<option value="80">FRANKLIN</option>
+							
+								<option value="81">FREESTONE</option>
+							
+								<option value="82">FRIO</option>
+							
+								<option value="83">GAINES</option>
+							
+								<option value="84">GALVESTON</option>
+							
+								<option value="85">GARZA</option>
+							
+								<option value="86">GILLESPIE</option>
+							
+								<option value="87">GLASSCOCK</option>
+							
+								<option value="88">GOLIAD</option>
+							
+								<option value="89">GONZALES</option>
+							
+								<option value="90">GRAY</option>
+							
+								<option value="91">GRAYSON</option>
+							
+								<option value="92">GREGG</option>
+							
+								<option value="93">GRIMES</option>
+							
+								<option value="94">GUADALUPE</option>
+							
+								<option value="95">HALE</option>
+							
+								<option value="96">HALL</option>
+							
+								<option value="97">HAMILTON</option>
+							
+								<option value="98">HANSFORD</option>
+							
+								<option value="99">HARDEMAN</option>
+							
+								<option value="100">HARDIN</option>
+							
+								<option value="101">HARRIS</option>
+							
+								<option value="102">HARRISON</option>
+							
+								<option value="103">HARTLEY</option>
+							
+								<option value="104">HASKELL</option>
+							
+								<option value="105">HAYS</option>
+							
+								<option value="106">HEMPHILL</option>
+							
+								<option value="107">HENDERSON</option>
+							
+								<option value="108">HIDALGO</option>
+							
+								<option value="109">HILL</option>
+							
+								<option value="110">HOCKLEY</option>
+							
+								<option value="111">HOOD</option>
+							
+								<option value="112">HOPKINS</option>
+							
+								<option value="113">HOUSTON</option>
+							
+								<option value="114">HOWARD</option>
+							
+								<option value="115">HUDSPETH</option>
+							
+								<option value="116">HUNT</option>
+							
+								<option value="117">HUTCHINSON</option>
+							
+								<option value="118">IRION</option>
+							
+								<option value="119">JACK</option>
+							
+								<option value="120">JACKSON</option>
+							
+								<option value="121">JASPER</option>
+							
+								<option value="122">JEFF DAVIS</option>
+							
+								<option value="123">JEFFERSON</option>
+							
+								<option value="124">JIM HOGG</option>
+							
+								<option value="125">JIM WELLS</option>
+							
+								<option value="126">JOHNSON</option>
+							
+								<option value="127">JONES</option>
+							
+								<option value="128">KARNES</option>
+							
+								<option value="129">KAUFMAN</option>
+							
+								<option value="130">KENDALL</option>
+							
+								<option value="131">KENEDY</option>
+							
+								<option value="132">KENT</option>
+							
+								<option value="133">KERR</option>
+							
+								<option value="134">KIMBLE</option>
+							
+								<option value="135">KING</option>
+							
+								<option value="136">KINNEY</option>
+							
+								<option value="137">KLEBERG</option>
+							
+								<option value="138">KNOX</option>
+							
+								<option value="139">LAMAR</option>
+							
+								<option value="140">LAMB</option>
+							
+								<option value="141">LAMPASAS</option>
+							
+								<option value="142">LASALLE</option>
+							
+								<option value="143">LAVACA</option>
+							
+								<option value="144">LEE</option>
+							
+								<option value="145">LEON</option>
+							
+								<option value="146">LIBERTY</option>
+							
+								<option value="147">LIMESTONE</option>
+							
+								<option value="148">LIPSCOMB</option>
+							
+								<option value="149">LIVE OAK</option>
+							
+								<option value="150">LLANO</option>
+							
+								<option value="151">LOVING</option>
+							
+								<option value="152">LUBBOCK</option>
+							
+								<option value="153">LYNN</option>
+							
+								<option value="154">MADISON</option>
+							
+								<option value="155">MARION</option>
+							
+								<option value="156">MARTIN</option>
+							
+								<option value="157">MASON</option>
+							
+								<option value="158">MATAGORDA</option>
+							
+								<option value="159">MAVERICK</option>
+							
+								<option value="160">MCCULLOCH</option>
+							
+								<option value="161">MCLENNAN</option>
+							
+								<option value="162">MCMULLEN</option>
+							
+								<option value="163">MEDINA</option>
+							
+								<option value="164">MENARD</option>
+							
+								<option value="165">MIDLAND</option>
+							
+								<option value="166">MILAM</option>
+							
+								<option value="167">MILLS</option>
+							
+								<option value="168">MITCHELL</option>
+							
+								<option value="169">MONTAGUE</option>
+							
+								<option value="170">MONTGOMERY</option>
+							
+								<option value="171">MOORE</option>
+							
+								<option value="172">MORRIS</option>
+							
+								<option value="173">MOTLEY</option>
+							
+								<option value="174">NACOGDOCHES</option>
+							
+								<option value="175">NAVARRO</option>
+							
+								<option value="176">NEWTON</option>
+							
+								<option value="177">NOLAN</option>
+							
+								<option value="178">NUECES</option>
+							
+								<option value="179">OCHILTREE</option>
+							
+								<option value="180">OLDHAM</option>
+							
+								<option value="181">ORANGE</option>
+							
+								<option value="182">PALO PINTO</option>
+							
+								<option value="183">PANOLA</option>
+							
+								<option value="184">PARKER</option>
+							
+								<option value="185">PARMER</option>
+							
+								<option value="186">PECOS</option>
+							
+								<option value="187">POLK</option>
+							
+								<option value="188">POTTER</option>
+							
+								<option value="189">PRESIDIO</option>
+							
+								<option value="190">RAINS</option>
+							
+								<option value="191">RANDALL</option>
+							
+								<option value="192">REAGAN</option>
+							
+								<option value="193">REAL</option>
+							
+								<option value="194">RED RIVER</option>
+							
+								<option value="195">REEVES</option>
+							
+								<option value="196">REFUGIO</option>
+							
+								<option value="197">ROBERTS</option>
+							
+								<option value="198">ROBERTSON</option>
+							
+								<option value="199">ROCKWALL</option>
+							
+								<option value="200">RUNNELS</option>
+							
+								<option value="201">RUSK</option>
+							
+								<option value="202">SABINE</option>
+							
+								<option value="203">SAN AUGUSTINE</option>
+							
+								<option value="204">SAN JACINTO</option>
+							
+								<option value="205">SAN PATRICIO</option>
+							
+								<option value="206">SAN SABA</option>
+							
+								<option value="207">SCHLEICHER</option>
+							
+								<option value="208">SCURRY</option>
+							
+								<option value="209">SHACKELFORD</option>
+							
+								<option value="210">SHELBY</option>
+							
+								<option value="211">SHERMAN</option>
+							
+								<option value="212">SMITH</option>
+							
+								<option value="213">SOMERVELL</option>
+							
+								<option value="214">STARR</option>
+							
+								<option value="215">STEPHENS</option>
+							
+								<option value="216">STERLING</option>
+							
+								<option value="217">STONEWALL</option>
+							
+								<option value="218">SUTTON</option>
+							
+								<option value="219">SWISHER</option>
+							
+								<option value="220">TARRANT</option>
+							
+								<option value="221">TAYLOR</option>
+							
+								<option value="222">TERRELL</option>
+							
+								<option value="223">TERRY</option>
+							
+								<option value="224">THROCKMORTON</option>
+							
+								<option value="225">TITUS</option>
+							
+								<option value="226">TOM GREEN</option>
+							
+								<option value="227">TRAVIS</option>
+							
+								<option value="228">TRINITY</option>
+							
+								<option value="229">TYLER</option>
+							
+								<option value="230">UPSHUR</option>
+							
+								<option value="231">UPTON</option>
+							
+								<option value="232">UVALDE</option>
+							
+								<option value="233">VAL VERDE</option>
+							
+								<option value="234">VAN ZANDT</option>
+							
+								<option value="235">VICTORIA</option>
+							
+								<option value="236">WALKER</option>
+							
+								<option value="237">WALLER</option>
+							
+								<option value="238">WARD</option>
+							
+								<option value="239">WASHINGTON</option>
+							
+								<option value="240">WEBB</option>
+							
+								<option value="241">WHARTON</option>
+							
+								<option value="242">WHEELER</option>
+							
+								<option value="243">WICHITA</option>
+							
+								<option value="244">WILBARGER</option>
+							
+								<option value="245">WILLACY</option>
+							
+								<option value="246">WILLIAMSON</option>
+							
+								<option value="247">WILSON</option>
+							
+								<option value="248">WINKLER</option>
+							
+								<option value="249">WISE</option>
+							
+								<option value="250">WOOD</option>
+							
+								<option value="251">YOAKUM</option>
+							
+								<option value="252">YOUNG</option>
+							
+								<option value="253">ZAPATA</option>
+							
+								<option value="254">ZAVALA</option>
+							
+						</select> <span id="countyErr" class="countyErr" style="color: red"></span>
+					</div>
+				</div>
+				<div class="form-row pt-2 pb-5">
+					<div class="col-12 text-center">
+						<button class="btn btn-primary" onclick="submitForm();"
+							type="button">Qualified Candidates Information</button>
+
+
+						
+					</div>
+				</div>
+				<input type="hidden" name="cdFlow" id="cdFlow" value="0">
+				<div>
+					
+					
+				</div>
+				<input type="hidden" name="results" id="results" value="" /> 
+				<input id="elecDateName" name="elecDateName" type="hidden" value=""/>
+					 <input id="cdElectionType" name="cdElectionType" type="hidden" value=""/>
+			</form>
+		</div>
+		
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+</head>
+<body>
+
+ <footer>
+ <div id="lower-container">
+			<div id="lower-div">
+			  
+			<div id="lower-nav-col-1">
+				  <ul>
+					<li><a href="https://www.sos.texas.gov/corp/sosda/index.shtml">SOSDirect -Business Filings</a></li>
+					<li><a href="https://www.sos.texas.gov/corp/filingandothergeneralfaqs.shtml#CC">Business Copies and Certificates</a></li>
+					<li><a href="https://www.sos.texas.gov/ucc/index.shtml">Uniform Commercial Code</a></li>
+					<li><a href="https://www.sos.texas.gov/corp/texas-businesses-against-trafficking.shtml">Texas Businesses Against Trafficking</a></li>
+					<li><a href="http://www.texas.gov">Texas.gov </a></li>
+				  </ul>
+			</div>
+				
+
+			<div id="lower-nav-col-2">
+			<ul>
+				  <li><a href="https://www.votetexas.gov">VoteTexas.gov - Voter Information</a></li>
+				  <li><a href="https://www.votetexas.gov/register-to-vote/where-to-get-an-application-2.html">Register to Vote</a> <strong>&amp;</strong>  <a href="https://www.votetexas.gov/register-to-vote/need-id.html">Voter I.D. </a></li>
+				  <li><a href="https://www.sos.texas.gov/policies.shtml">Website Policies</a></li>
+				  <li><a href="https://www.sos.texas.gov/records.shtml">Open Records</a></li>
+				  <li><a href="https://www.sos.texas.gov/contact.shtml">Contacts</a></li>
+				</ul>
+			</div>
+
+				
+			<div id="lower-nav-col-3">
+				<ul>
+					<li><a href="https://www.tsl.texas.gov/trail/index.html">Statewide Search</a></li>
+					<li><a href="http://www.texashomelandsecurity.com/">Texas Homeland Security</a></li>
+					<li><a href="https://comptroller.texas.gov/transparency/spending/">Where the Money Goes</a></li>
+					<li><a href="https://sao.fraud.texas.gov/ReportFraud/">Fraud Reporting</a></li>
+					<li><a href="http://veterans.portal.texas.gov">Texas Veterans Portal</a></li>
+				</ul>
+			</div>	
+			  
+				</div>
+				
+			<div id="sub-footer">
+			  
+				<a href="https://www.facebook.com/txsecretary">
+					<img src="images/social/facebook-blue.png" width="31" height="31" alt="Facebook"/></a>&nbsp;<a href="https://www.instagram.com/texassecretary/">
+					<img src="images/social/instagram-blue.png" width="31" height="31" alt="Instragram"/></a>&nbsp; <a href="https://twitter.com/TXsecofstate">
+					<img src="images/social/twitter-blue.png" width="31" height="31" alt="Twitter"/></a>&nbsp;<a href="https://www.youtube.com/channel/UC7NJ9yjB4K-1MOMFzH6hAbQ/videos">
+					<img src="images/social/youtube-blue.png" width="31" height="31" alt="YouTube"/></a>&nbsp;<a href="/rss/index.shtml">
+					<img src="images/social/rss-blue.png" width="31" height="31" alt="RSS Feed"/></a>&nbsp;<a href="https://public.govdelivery.com/accounts/TXSOS/subscriber/new?qsp=TXSOS_1">
+					<img src="images/social/mail-blue.png" width="31" height="31" alt="Receive email updates"/></a>
+
+
+				
+			</div>
+		</div>
+                
+            </footer>
+
+
+
+</body>
+</html>
+	</section>
+	</main>
+	<!-- Scripts -->
+	<script src="/Elections/js/jquery-3.3.1.min.js"></script>
+	<script src="/Elections/js/popper.min.js"></script>
+	<script src="/Elections/js/bootstrap.js"></script>
+	<!-- <script src="js/mdb.js"></script> -->
+	<script src="/Elections/js/custom.js"></script>
+</body>
+</html>

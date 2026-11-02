@@ -1,0 +1,144 @@
+# Texas Legislature 2026 Forecast - single documented configuration file.
+# Every weight the model uses lives here. Units: margins are Democratic minus Republican
+# share of all votes, in percentage points (positive = Democratic lead).
+election_date: "2026-11-03"
+chambers:
+  house: {seats: 150, majority: 76}
+  senate: {seats: 31, majority: 16}
+
+baseline:
+  # Layer 1. District partisan lean = weighted blend of (district margin - statewide margin)
+  # across statewide races, measured on current district lines (TLC Report 206).
+  statewide_races:
+    - {key: pres_2024, year: 2024, race: PRESIDENT,    weight: 0.40}
+    - {key: sen_2024,  year: 2024, race: "U.S. SEN",   weight: 0.10}
+    - {key: gov_2022,  year: 2022, race: GOVERNOR,     weight: 0.20}
+    - {key: ag_2022,   year: 2022, race: "ATTORNEY GEN", weight: 0.15}
+    - {key: pres_2020, year: 2020, race: PRESIDENT,    weight: 0.15}
+  # Legislative-result lean (the district's own legislative race, relative to the statewide
+  # legislative environment that year) is blended in at a lower total weight, contested races only.
+  legislative_lean_weight: 0.20
+  legislative_years: {2024: 0.6, 2022: 0.4}
+  # Statewide reference margin that leans are measured against (the 2024 presidential result);
+  # the environment layer produces the 2026 expected statewide margin on the same scale.
+  reference_race: pres_2024
+
+environment:
+  # Layer 3. Expected 2026 statewide D-R margin for a generic Texas legislative race.
+  poll_half_life_days: 21          # recency weight = 0.5 ** (days before election / half_life)
+  sample_size_cap: 1500            # weight ~ sqrt(min(n, cap))
+  partisan_poll_weight: 0.5        # sponsor/internal polls
+  partisan_poll_shift: 2.5         # points moved away from the sponsor's side
+  # Pollster quality: the last public FiveThirtyEight ratings (numeric 0-3 scale) map linearly from
+  # numeric_floor (grade 0) to 1.0 (grade 3); letter grades and unrated pollsters use the table.
+  pollster_rating_weights: {numeric_floor: 0.55, "A+": 1.0, "A": 1.0, "A-": 0.95, "B+": 0.9, "B": 0.85, "B-": 0.8, "C+": 0.7, "C": 0.6, "C-": 0.5, "D": 0.4, "F": 0.2, unrated: 0.6}
+  max_poll_age_days: 120
+  # How each indicator maps to an implied generic Texas margin, and its weight in the blend.
+  indicators:
+    tx_generic:  {weight: 0.30, adjust: 0.0}
+    tx_sen:      {weight: 0.25, adjust: -1.5}  # Paxton (R) has run 1-4 points behind the Republican ticket in 2018 and 2022; remove part of that candidate effect
+    tx_gov:      {weight: 0.25, adjust: 3.0}   # remove incumbent-governor advantage (Abbott runs ahead of generic R)
+    us_generic:  {weight: 0.15, adjust: "texas_lean"}  # national generic + Texas lean vs nation
+    tx_abbott_approval: {weight: 0.05, net_to_margin: -0.5}  # implied gov margin = -0.5 * net approval, then same adjust as tx_gov
+  # Texas polls overstated Democrats by about 3.5 points in the 2022 and 2024 backtests (see the
+  # methodology page). Half of that is applied as a correction to the 2026 poll-based margin only;
+  # the backtests are run WITHOUT this correction so they stay out-of-sample.
+  poll_bias_correction: -2.0
+  texas_lean_vs_nation: -11.0      # average of 2020 (-10.1) and 2024 (-12.2) presidential gaps
+  # Structural midterm prior: president's party loses ground in midterms.
+  midterm_prior: {swing_toward_out_party: 4.0, sd: 4.0, weight_when_polls_full: 0.25}
+  min_polls_for_full_weight: 8     # fewer polls -> prior weight grows toward 1
+  reference_margin_pres_2024: null # filled by pipeline from TLC data (D-R, ~ -13.7)
+
+candidate:
+  # Layer 2. Adjustments to expected district margin, in points toward the candidate's party.
+  incumbency_bonus: {house: 2.5, senate: 2.5}
+  freshman_incumbent_discount: 0.5   # first-term incumbents get bonus * (1 - discount)
+  prior_nominee_bonus: 0.75          # candidate was the party's nominee here before (non-incumbent)
+  performance_carryover: 0.40        # share of an incumbent's past over/under-performance vs lean carried forward
+  # A 2025-26 special-election winner's over-performance (special margin minus lean + environment) is carried at a
+  # lower rate because special electorates are small and 2025-26 specials ran far ahead of the normal Democratic baseline.
+  special_election_carryover: 0.25
+  special_election_cap_points: 15
+  finance:
+    floor_dollars: 25000             # added to both sides before taking the ratio (noise floor)
+    points_per_log_ratio: 1.5
+    cap_points: 4.0
+    missing_treated_as: floor        # a candidate with no TEC filing is treated as raising the floor
+  third_party:
+    # Share of the absent major party's baseline voters who go to a minor-party/independent candidate
+    orphan_capture: 0.50
+    # Baseline minor-party share when both major parties are present
+    base_share: 2.5
+    extra_sd_when_major_absent: 6.0
+  uncontested_win_prob: 1.0          # single candidate on the ballot (write-ins ignored)
+
+district_polls_and_ratings:
+  # Layer 4.
+  district_poll_weight_per_poll: 0.25  # blended weight of a district poll average vs model (per effective poll, cap below)
+  district_poll_weight_cap: 0.55
+  internal_poll_weight: 0.5
+  internal_poll_shift: 3.0
+  rating_implied_margin: {"Safe": 16, "Likely": 9, "Lean": 4.5, "Tilt": 2, "Toss-up": 0}
+  rating_source_weights:             # blended weight of each source's implied margin vs the model
+    "State Navigate": 0.12
+    "CNalysis": 0.10
+    "Ballotpedia": 0.05
+    "Sabato": 0.05
+    "DLCC": 0.03
+    "RSLC": 0.03
+    "Other": 0.03
+  ratings_total_weight_cap: 0.30     # ratings can never move a seat more than this share toward their view
+  ratings_max_shift_points: 5.0      # ...and never more than this many points
+  target_list_pull_to_zero_weight: 0.04
+  target_list_extra_sd: 1.0
+
+simulation:
+  n_sims: 40000
+  seed: 20261103
+  statewide_error: {sd: 4.0, student_t_df: 4}     # fat-tailed, applied to every seat
+  regional_error_sd: 2.5                          # shared within region
+  hispanic_factor_sd: 3.0                         # shared error scaled by (SSVR share - mean), captures 2020/2024-style shifts
+  district_error_sd: {house: 5.5, senate: 5.0}        # calibrated so 80% intervals covered ~85-90% in the backtests
+  open_seat_extra_sd: 2.0
+  no_recent_result_extra_sd: 1.5                  # no contested legislative result on these lines since 2022
+  contested_both_majors_only: true                # third-party-only races use the extra_sd above
+
+backtest:
+  years: [2022, 2024]
+  n_sims: 10000
+
+sensitivity:
+  n_sims: 10000
+  sources: [district_polls, ratings_State Navigate, ratings_CNalysis, ratings_Ballotpedia, ratings_other, finance, midterm_prior, statewide_polls]
+
+backtest_years:
+  # Each backtest uses only inputs that existed before that election.
+  2024:
+    reference_race: pres_2020
+    statewide_races:
+      - {key: pres_2020, year: 2020, race: PRESIDENT,      weight: 0.35}
+      - {key: sen_2020,  year: 2020, race: "U.S. SEN",     weight: 0.10}
+      - {key: gov_2022,  year: 2022, race: GOVERNOR,       weight: 0.30}
+      - {key: ag_2022,   year: 2022, race: "ATTORNEY GEN", weight: 0.25}
+    legislative_years: {2022: 1.0}
+    indicators:
+      tx_pres_2024: {weight: 0.45, adjust: 0.0}
+      tx_sen_2024:  {weight: 0.35, adjust: 0.0}
+      us_generic_2024: {weight: 0.20, adjust: "texas_lean"}
+    midterm_prior: {swing_toward_out_party: 0.0, sd: 4.0, weight_when_polls_full: 0.15}
+    out_party_is_dem: false
+  2022:
+    reference_race: pres_2020
+    statewide_races:
+      - {key: pres_2020, year: 2020, race: PRESIDENT,      weight: 0.45}
+      - {key: sen_2020,  year: 2020, race: "U.S. SEN",     weight: 0.15}
+      - {key: gov_2018,  year: 2018, race: GOVERNOR,       weight: 0.20}
+      - {key: ag_2018,   year: 2018, race: "ATTORNEY GEN", weight: 0.20}
+    legislative_years: {}
+    indicators:
+      tx_gov_2022: {weight: 0.60, adjust: 3.0}
+      us_generic_2022: {weight: 0.30, adjust: "texas_lean"}
+      tx_abbott_approval_2022: {weight: 0.10, net_to_margin: -0.5}
+    midterm_prior: {swing_toward_out_party: 4.0, sd: 4.0, weight_when_polls_full: 0.25}
+    out_party_is_dem: false   # Biden was president: out-party is R, so the prior swing favors R

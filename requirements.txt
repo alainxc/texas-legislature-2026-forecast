@@ -1,0 +1,11 @@
+numpy
+pandas
+pyyaml
+requests
+beautifulsoup4
+lxml
+html5lib
+xlrd
+openpyxl
+pyshp
+pdfplumber

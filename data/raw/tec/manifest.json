@@ -1,0 +1,63 @@
+[
+  {
+    "file": "download/TEC_CF_CSV.zip",
+    "url": "https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip",
+    "retrieved_at": "2026-11-01T21:08",
+    "size_bytes": 1084895166,
+    "description": "TEC bulk Campaign Finance CSV Database (all filers, all years). Linked from https://www.ethics.state.tx.us/search/cf/. Only filers.csv and cover.csv are read."
+  },
+  {
+    "file": "docs/CFS-ReadMe.txt",
+    "url": "https://www.ethics.state.tx.us/data/search/cf/CFS-ReadMe.txt",
+    "retrieved_at": "2026-11-01T21:08",
+    "description": "TEC CSV record layout / code documentation"
+  },
+  {
+    "file": "docs/CFS-Codes.txt",
+    "url": "https://www.ethics.state.tx.us/data/search/cf/CFS-Codes.txt",
+    "retrieved_at": "2026-11-01T21:08",
+    "description": "TEC CSV record layout / code documentation"
+  },
+  {
+    "file": "docs/CampaignFinanceCSVFileFormat.pdf",
+    "url": "https://www.ethics.state.tx.us/data/search/cf/CampaignFinanceCSVFileFormat.pdf",
+    "retrieved_at": "2026-11-01T21:08",
+    "description": "TEC CSV record layout / code documentation"
+  },
+  {
+    "file": "docs/search_cf_page.html",
+    "url": "https://www.ethics.state.tx.us/search/cf/",
+    "retrieved_at": "2026-11-01T21:08",
+    "description": "TEC campaign finance search page that links the bulk CSV zip"
+  },
+  {
+    "file": "download/CTA_Office_Sought.xlsx",
+    "url": "https://www.ethics.state.tx.us/data/search/cf/CTA_Office_Sought.xlsx",
+    "retrieved_at": "2026-11-01T21:10",
+    "description": "TEC list of candidates/officeholders with treasurer appointment and CTA office sought (reference only; no party field)."
+  },
+  {
+    "file": "filers_legislative_raw.csv",
+    "url": "https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip",
+    "retrieved_at": "2026-11-01T21:08",
+    "description": "Raw rows of filers.csv (from the bulk zip) whose CTA/contest/held office is STATEREP or STATESEN; selected columns."
+  },
+  {
+    "file": "cover_legislative_raw.csv",
+    "url": "https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip",
+    "retrieved_at": "2026-11-01T21:08",
+    "description": "Raw rows of cover.csv (cover-sheet totals) for the legislative filers above, all years; selected columns."
+  },
+  {
+    "file": "candidate_finance_2026.csv",
+    "url": "https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip",
+    "retrieved_at": "2026-11-01T21:08",
+    "description": "Per-filer aggregate for Texas House/Senate filers: 2025-2026 contribution/expenditure totals from cover sheets (period start >= 2025-01-01, superseded reports and invalid dates excluded, deduped by report type+period), latest cash on hand (contribsMaintainedAmount)."
+  },
+  {
+    "file": "run_stats.json",
+    "url": "https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip",
+    "retrieved_at": "2026-11-01T21:08",
+    "description": "Summary statistics of the fetch_tec.py run (coverage, counts)."
+  }
+]
