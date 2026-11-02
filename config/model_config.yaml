@@ -110,7 +110,8 @@ backtest:
 
 sensitivity:
   n_sims: 10000
-  sources: [district_polls, ratings_State Navigate, ratings_CNalysis, ratings_Ballotpedia, ratings_other, finance, midterm_prior, statewide_polls]
+  # CNalysis publishes through State Navigate and Ballotpedia has no Texas battleground list, so they are not separate rows.
+  sources: [district_polls, ratings_State Navigate, ratings_other, finance, midterm_prior, statewide_polls]
 
 backtest_years:
   # Each backtest uses only inputs that existed before that election.

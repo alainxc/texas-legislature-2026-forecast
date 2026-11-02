@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T21:27",
+ "generated_at": "2026-11-01T21:29",
  "as_of": "2026-11-01",
  "election_date": "2026-11-03",
  "environment": {
@@ -4596,59 +4596,45 @@
  "sensitivity": [
   {
    "source": "district_polls",
-   "H_dem_seats_delta": 0.03,
-   "H_p_dem_control_delta": 0.0024,
+   "H_dem_seats_delta": 0.0,
+   "H_p_dem_control_delta": 0.0,
    "S_dem_seats_delta": 0.0,
-   "S_p_dem_control_delta": 0.0003
-  },
-  {
-   "source": "ratings_State Navigate",
-   "H_dem_seats_delta": 0.4,
-   "H_p_dem_control_delta": 0.0118,
-   "S_dem_seats_delta": 0.04,
-   "S_p_dem_control_delta": 0.0005
-  },
-  {
-   "source": "ratings_CNalysis",
-   "H_dem_seats_delta": 0.03,
-   "H_p_dem_control_delta": 0.0024,
-   "S_dem_seats_delta": 0.0,
-   "S_p_dem_control_delta": 0.0003
-  },
-  {
-   "source": "ratings_Ballotpedia",
-   "H_dem_seats_delta": 0.03,
-   "H_p_dem_control_delta": 0.0024,
-   "S_dem_seats_delta": 0.0,
-   "S_p_dem_control_delta": 0.0003
-  },
-  {
-   "source": "ratings_other",
-   "H_dem_seats_delta": 0.1,
-   "H_p_dem_control_delta": 0.0054,
-   "S_dem_seats_delta": 0.03,
-   "S_p_dem_control_delta": 0.0003
-  },
-  {
-   "source": "finance",
-   "H_dem_seats_delta": -2.13,
-   "H_p_dem_control_delta": -0.0823,
-   "S_dem_seats_delta": -0.09,
    "S_p_dem_control_delta": 0.0
   },
   {
-   "source": "midterm_prior",
-   "H_dem_seats_delta": -1.46,
-   "H_p_dem_control_delta": -0.0393,
+   "source": "ratings_State Navigate",
+   "H_dem_seats_delta": 0.37,
+   "H_p_dem_control_delta": 0.0094,
+   "S_dem_seats_delta": 0.04,
+   "S_p_dem_control_delta": 0.0002
+  },
+  {
+   "source": "ratings_other",
+   "H_dem_seats_delta": 0.07,
+   "H_p_dem_control_delta": 0.003,
+   "S_dem_seats_delta": 0.03,
+   "S_p_dem_control_delta": 0.0
+  },
+  {
+   "source": "finance",
+   "H_dem_seats_delta": -2.16,
+   "H_p_dem_control_delta": -0.0847,
    "S_dem_seats_delta": -0.09,
-   "S_p_dem_control_delta": 0.0001
+   "S_p_dem_control_delta": -0.0003
+  },
+  {
+   "source": "midterm_prior",
+   "H_dem_seats_delta": -1.49,
+   "H_p_dem_control_delta": -0.0417,
+   "S_dem_seats_delta": -0.09,
+   "S_p_dem_control_delta": -0.0002
   },
   {
    "source": "statewide_polls",
-   "H_dem_seats_delta": 3.45,
-   "H_p_dem_control_delta": 0.0449,
+   "H_dem_seats_delta": 3.42,
+   "H_p_dem_control_delta": 0.0425,
    "S_dem_seats_delta": 0.22,
-   "S_p_dem_control_delta": 0.0008
+   "S_p_dem_control_delta": 0.0005
   }
  ],
  "data_status": [],
@@ -4842,8 +4828,6 @@
    "sources": [
     "district_polls",
     "ratings_State Navigate",
-    "ratings_CNalysis",
-    "ratings_Ballotpedia",
     "ratings_other",
     "finance",
     "midterm_prior",

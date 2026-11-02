@@ -446,7 +446,9 @@ def main():
     env, seats, results = run(cfg, data, as_of)
     # sensitivity
     sens = []
-    base_stats = {ch: (results[ch]["summary"]["dem_seats_mean"], results[ch]["summary"]["p_dem_control"]) for ch in results}
+    # paired comparison: the reference variant uses the same seed and run count as each "source removed" variant
+    _, _, r0 = run(cfg, data, as_of, n_sims=cfg["sensitivity"]["n_sims"], disabled=(), seed=7)
+    base_stats = {ch: (r0[ch]["summary"]["dem_seats_mean"], r0[ch]["summary"]["p_dem_control"]) for ch in r0}
     for src in cfg["sensitivity"]["sources"]:
         _, _, r2 = run(cfg, data, as_of, n_sims=cfg["sensitivity"]["n_sims"], disabled=(src,), seed=7)
         row = dict(source=src)
