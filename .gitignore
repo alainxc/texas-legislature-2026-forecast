@@ -4,3 +4,4 @@ data/raw/tec/download/
 data/raw/tec/cover_legislative_raw.csv
 *.pyc
 .DS_Store
+.gh_login/
