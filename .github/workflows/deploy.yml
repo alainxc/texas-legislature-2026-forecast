@@ -7,20 +7,24 @@ permissions:
   contents: read
   pages: write
   id-token: write
-concurrency: { group: pages, cancel-in-progress: true }
+concurrency:
+  group: pages
+  cancel-in-progress: true
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: { name: github-pages, url: ${{ steps.deployment.outputs.page_url }} }
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
-      - name: Pick the most recently committed site-*.zip in the repo root
-        id: pick
+        with:
+          fetch-depth: 0
+      - name: Pick the most recently committed zip in the repo root
         run: |
           set -e
           latest=""; latest_ts=0
-          for z in site-*.zip *.zip; do
+          for z in *.zip; do
             [ -f "$z" ] || continue
             ts=$(git log -1 --format=%ct -- "$z" 2>/dev/null || echo 0)
             if [ "$ts" -gt "$latest_ts" ]; then latest_ts=$ts; latest=$z; fi
@@ -32,6 +36,7 @@ jobs:
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
-        with: { path: _site }
+        with:
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
